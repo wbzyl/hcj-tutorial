@@ -1,0 +1,73 @@
+GIT
+  remote: git://github.com/sinatra/sinatra.git
+  revision: a44e2ad817ca31aa1c9384a8c1f17e30bd754556
+  specs:
+    sinatra (1.2.0.a)
+      rack (~> 1.1)
+      tilt (~> 1.2)
+
+GIT
+  remote: git://github.com/wbzyl/rack-codehighlighter.git
+  revision: ec441d44b66821adf3762c712f3b4c9ac4ec37a0
+  branch: pre-caption
+  specs:
+    rack-codehighlighter (0.4.7.2)
+      nokogiri (>= 1.4.1)
+      rack (>= 1.0.0)
+
+PATH
+  remote: .
+  specs:
+    hcj-tutorial (0.0.1)
+      emk-sinatra-url-for
+      erubis
+      rdiscount
+      sinatra-filler
+      sinatra-static-assets
+      spox-ultraviolet
+
+GEM
+  remote: http://rubygems.org/
+  specs:
+    abstract (1.0.0)
+    daemons (1.1.0)
+    emk-sinatra-url-for (0.2.1)
+      sinatra (>= 0.9.1.1)
+    erubis (2.6.6)
+      abstract (>= 1.0.0)
+    eventmachine (0.12.10)
+    nokogiri (1.4.4)
+    rack (1.2.1)
+    rdiscount (1.6.5)
+    sinatra-filler (0.0.3)
+      sinatra (>= 1.1)
+      sinatra-static-assets (>= 0.5.0)
+    sinatra-static-assets (0.5.0)
+      emk-sinatra-url-for (>= 0.2.1)
+      rack (>= 1.0.0)
+      sinatra (>= 0.9.1)
+    spox-plist (3.0.1)
+    spox-textpow (0.10.3)
+      spox-plist
+    spox-ultraviolet (0.10.5)
+      spox-textpow
+    thin (1.2.7)
+      daemons (>= 1.0.9)
+      eventmachine (>= 0.12.6)
+      rack (>= 1.0.0)
+    tilt (1.2.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  emk-sinatra-url-for
+  erubis
+  hcj-tutorial!
+  rack-codehighlighter!
+  rdiscount
+  sinatra!
+  sinatra-filler
+  sinatra-static-assets
+  spox-ultraviolet
+  thin

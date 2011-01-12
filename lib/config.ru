@@ -3,7 +3,7 @@ require 'bundler'
 
 Bundler.require
 
-require 'nosql'
+require 'hcj'
 
 require 'uv'
 require 'rack/codehighlighter'

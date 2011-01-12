@@ -15,8 +15,7 @@ Gem::Specification.new do |s|
 
   s.rubyforge_project = "hcj-tutorial"
 
-# s.add_runtime_dependency 'sinatra'
-  s.add_runtime_dependency 'sinatra', '>~1.2.0'
+  # s.add_runtime_dependency 'sinatra', :git => 'git://github.com/sinatra/sinatra.git'
   s.add_runtime_dependency 'rdiscount'
   s.add_runtime_dependency 'erubis'
 
@@ -26,7 +25,7 @@ Gem::Specification.new do |s|
 
   s.add_runtime_dependency 'spox-ultraviolet'
 
-  # I need the code from the 1.9.2 branch  
+  # I need code from pre-caption branch
   # s.add_runtime_dependency 'rack-codehighlighter'
 
   s.files         = `git ls-files`.split("\n")
