@@ -13,6 +13,7 @@
 ## HTML5
 
 1. {%= link_to "Idzie nowe…", "/idzie-nowe" %}
+1. {%= link_to "Szablony…", "/szablony" %}
 
 ## CSS 3
 
