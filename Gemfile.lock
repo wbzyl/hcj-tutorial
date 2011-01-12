@@ -24,7 +24,7 @@ PATH
       rdiscount
       sinatra-filler
       sinatra-static-assets
-      spox-ultraviolet
+      ultraviolet
 
 GEM
   remote: http://rubygems.org/
@@ -37,6 +37,8 @@ GEM
       abstract (>= 1.0.0)
     eventmachine (0.12.10)
     nokogiri (1.4.4)
+    oniguruma (1.1.0)
+    plist (3.1.0)
     rack (1.2.1)
     rdiscount (1.6.5)
     sinatra-filler (0.0.3)
@@ -46,16 +48,16 @@ GEM
       emk-sinatra-url-for (>= 0.2.1)
       rack (>= 1.0.0)
       sinatra (>= 0.9.1)
-    spox-plist (3.0.1)
-    spox-textpow (0.10.3)
-      spox-plist
-    spox-ultraviolet (0.10.5)
-      spox-textpow
+    textpow (0.10.1)
+      oniguruma (>= 1.1.0)
+      plist (>= 3.0.0)
     thin (1.2.7)
       daemons (>= 1.0.9)
       eventmachine (>= 0.12.6)
       rack (>= 1.0.0)
     tilt (1.2.1)
+    ultraviolet (0.10.2)
+      textpow (>= 0.10.0)
 
 PLATFORMS
   ruby
@@ -69,5 +71,5 @@ DEPENDENCIES
   sinatra!
   sinatra-filler
   sinatra-static-assets
-  spox-ultraviolet
   thin
+  ultraviolet
