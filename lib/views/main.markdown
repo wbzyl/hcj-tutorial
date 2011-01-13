@@ -10,19 +10,37 @@
  <p class="author">— Sir Arthur Conan Doyle</p>
 </blockquote>
 
+
 ## HTML5
 
 1. {%= link_to "Idzie nowe…", "/idzie-nowe" %}
 1. {%= link_to "Szablony…", "/szablony" %}
 
+TODO: blog, atrybuty *-data*, formularze, 
+audio & video ([Audio.js](http://kolber.github.com/audiojs/)),
+mobile ui (+ nieco js?)
+
+
 ## CSS 3
 
 1. {%= link_to "Zaczynamy", "/" %}
+1. Raz, dwa, trzy jQuery
+
+TODO: tabele, układy wielołamowe, fonty webowe, *rounded corners*,
+*shadows*
 
 
 ## Javascript + jQuery
 
 1. {%= link_to "Zaczynamy", "/" %}
+
+TODO: canvas, drag & drop
+
+
+## Cała reszta
+
+Local storage (gra halma), aplikacje offline (railscasts.com), 
+websockets, geolokacja, preserving history (zob. github.com)
 
 
 ## Laboratoria

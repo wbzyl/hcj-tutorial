@@ -42,3 +42,15 @@ Jeszcze jeden przykład:
     <meta charset="utf-8" />
     <title>Minimalny dokument HTML 5</title>
     <p>ąćęłńóśźż ĄĆĘŁŃÓŚŹŻ</p>
+
+
+## Szablon tabeli
+
+Wszystkie 9 elementów + spans.
+
+
+## Szablon bloga
+
+Na początek cytat: „Sections are really logical separations, whereas
+articles describe real content.”
+
