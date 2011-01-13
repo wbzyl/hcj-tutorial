@@ -34,7 +34,8 @@ TODO: tabele, układy wielołamowe, fonty webowe, *rounded corners*,
 
 1. {%= link_to "Zaczynamy", "/" %}
 
-TODO: canvas, drag & drop
+TODO: canvas, svg ([Raphaël—JavaScript Library](http://raphaeljs.com/)),
+drag & drop
 
 
 ## Cała reszta

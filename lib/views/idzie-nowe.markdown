@@ -7,6 +7,8 @@ Czy już jest pora na nowe technologie…
 * [Web Design – HTML5 & CSS3 Checklist](http://www.findmebyip.com/litmus/)
 * [When can I use…](http://a.deveria.com/caniuse/)
 * [HTML5 Readiness](http://html5readiness.com/)
+* [What is a Polyfill?](http://remysharp.com/2010/10/08/what-is-a-polyfill/)
+
 
 ## HTML5
 
