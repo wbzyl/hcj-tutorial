@@ -25,6 +25,8 @@ Czy już jest pora na nowe technologie…
 * [Color Scheme Designer](http://colorschemedesigner.com/)
 * [Check My Colours - Analyse the color contrast of your web
   pages](http://www.checkmycolours.com/)
+* [Ultimate CSS Gradient Generator](http://www.colorzilla.com/gradient-editor/)
+
 
 Różności:
 
