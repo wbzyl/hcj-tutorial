@@ -46,7 +46,59 @@ Jeszcze jeden przykład:
 
 ## Szablon tabeli
 
-Wszystkie 9 elementów + spans.
+Tabelę budujemy z elementów:
+
+* table, tr, td, caption, thead, tbody, tfoot, colgroup, col
+
+oraz atrybutów:
+
+* colspan i rowspan.
+
+Po wpisaniu *verbatim*:
+
+          A test table with merged cells
+    /-----------------------------------------\
+    |          |      Average      |   Red    |
+    |          |-------------------|  eyes    |
+    |          |  height |  weight |          |
+    |-----------------------------------------|
+    |  Males   | 1.9     | 0.003   |   40%    |
+    |-----------------------------------------|
+    | Females  | 1.7     | 0.002   |   43%    |
+    \-----------------------------------------/
+
+Złożona z wykorzystaniem stylów HCJ:
+
+<table summary="This table gives some statistics about fruit
+                flies: average height and weight, and percentage
+                with red eyes (for both males and females).">
+<caption>A test table with merged cells</caption>
+<tr><th rowspan="2"><th colspan="2">Average<th rowspan="2">Red<br>eyes
+<tr><th>height      <th>weight
+<tr><th>males       <td>1.9<td>0.003<td>40%
+<tr><th>females     <td>1.7<td>0.002<td>43%
+</table>
+
+A tak po wstawieniu do takiego dokumentu *html5*:
+
+    :::html
+    <!doctype html>
+    <meta charset="utf-8" />
+    <title>Przykładowa tabela</title>
+    <style>
+      body  { font-size:  18px; }
+      table { background: #DDD; }
+      /* dodatkowy kod CSS */
+    </style>
+    tutaj wstawimy tabelę
+
+([źródło](http://www.w3.org/TR/html401/struct/tables.html#h-11.1))
+
+Powyższa tabela korzysta z następujących elementów: *wymienić z jakich*.
+Tak można wpisać tę tabelę:
+{%= link_to "simple.html", "/html/tables/simple.html" %}.
+A tak jest ona renderownaa przy domyślnych ustawieniach przeglądarki:
+{%= link_to "simple.html", "/doc/html/tables/simple.html" %}
 
 
 ## Szablon bloga
