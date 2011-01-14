@@ -16,7 +16,7 @@
 1. {%= link_to "Idzie nowe…", "/idzie-nowe" %}
 1. {%= link_to "Szablony…", "/szablony" %}
 
-TODO: blog, atrybuty *-data*, formularze, 
+TODO: blog, atrybuty *-data*, formularze,
 audio & video ([Audio.js](http://kolber.github.com/audiojs/)),
 mobile ui (+ nieco js?)
 
@@ -40,13 +40,13 @@ drag & drop
 
 ## Cała reszta
 
-Local storage (gra halma), aplikacje offline (railscasts.com), 
+Local storage (gra halma), aplikacje offline (railscasts.com),
 websockets, geolokacja, preserving history (zob. github.com)
 
 
 ## Laboratoria
 
-*  {%= link_to "Zadania", "/zadania" %}
+*  {%= link_to "HTML zadania", "/zadania-html" %}
 
 
 # Podręczne linki
@@ -56,6 +56,7 @@ websockets, geolokacja, preserving history (zob. github.com)
 * [CSS3.info](http://www.css3.info/)
 * [jQuery](http://jquery.com/), [JS Bin](http://jsbin.com/)
 * [Code Conventions for the JavaScript Programming Language](http://javascript.crockford.com/code.html)
+* [Mozilla Developer Network](https://developer.mozilla.org/en-US/)
 
 Ściągi:
 
