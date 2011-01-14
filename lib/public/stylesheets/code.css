@@ -1,13 +1,32 @@
 body {
+  height: 800px;
   font-size: 16px;
-  margin: 1em 0 1em 2em;
+  border-left: 30px solid red;
 }
 
 pre {
-  font: bold 100%/1.5 "Anonymous Pro", Monaco, monospace;  
+  padding: 0 0 0 30px;
+  font: bold 100%/1.5 "DejaVu Sans Mono", "Anonymous Pro", monospace;
 }
 
 h2 em {
-  color: red;
   font-weight: bold;
+  color: red;
+}
+
+#code {
+  width: 1111px;
+}
+
+#code h1 {
+  width: 880px;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 120%;
+  text-align: right;
+  padding: 10px 60px 12px 0;
+  margin-left: -30px;
+  color: #888;
+  border-left: 30px solid green;
+  background-color: yellow;
 }

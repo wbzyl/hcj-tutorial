@@ -38,17 +38,16 @@ module WB
     end
 
     # kod programu:
-    # get 'html5/idzie-nowe/blog.html'      -> public/doc/idzie-nowe/blog.html
-    # get 'css3/tabele/after-content.css'   -> public/doc/css3/tabele/after-content.css
-    # get 'jquery/canvas/halma.js'          -> public/doc/jquery/canvas/halma.js
+    # get 'html5/idzie-nowe/blog.html'      -> x/html/idzie-nowe/blog.html
+    # get 'css3/tabele/after-content.css'   -> x/css3/tabele/after-content.css
+    # get 'jquery/canvas/halma.js'          -> x/js/canvas/halma.js
+    # get 'jquery/canvas/halma.js'          -> x/jquery/canvas/halma.js
     #
     #   etc.
     #
     #   reszta: plain_text
     #
     get %r{^([-_\w\/]+)\/([-_\w]+)\.((\w{1,4})(\.\w{1,4})?)$} do
-
-      $stder.puts ""
 
       translate = { # to ultraviolet syntax names: uv -l syntax
         'html' => 'html',
@@ -69,15 +68,17 @@ module WB
       extname = params[:captures][2]
       filename = name + "." + extname
 
-      @title = filename
-      @filename = File.expand_path(File.join(File.dirname(__FILE__), 'doc', dirname, filename))
+      @title =  'WB@HCJ' + dirname.split('/').join(' » ')
+
+      @filename = File.expand_path(File.join(File.dirname(__FILE__), 'x', dirname, filename))
 
       lang = translate[extname] || 'plain_text'
 
       if File.exists?(@filename) && File.readable?(@filename)
-        content = "<pre class='file'><code>:::#{lang}\n#{escape_html(File.read @filename)}</code></pre>"
+        content = "<h1>#{filename}</h1>"
+        content += "<pre><code>:::#{lang}\n#{escape_html(File.read @filename)}</code></pre>"
       else
-        content = "<h2 class='file'>oops! couldn't find <em>#{@filename}</em></h2>"
+        content = "<h2>oops! couldn't find <em>#{filename}</em></h2>"
       end
 
       erb content, :layout => :code
