@@ -17,9 +17,9 @@
 1. {%= link_to "Szablony…", "/szablony" %}
 1. {%= link_to "Offline", "/offline" %}
 1. {%= link_to "Mobile", "/mobile" %}
+1. {%= link_to "Audio & wideo", "/audio-video" %}
 
-TODO: blog, atrybuty *-data*, audio & video ([Audio.js](http://kolber.github.com/audiojs/)),
-aplikacje offline (http://railscasts.com),
+TODO: atrybuty *-data*
 
 
 ## CSS 3
@@ -37,13 +37,13 @@ TODO: tabele, układy wielołamowe, *rounded corners*, *shadows*
 1. {%= link_to "Local & session storage", "/storage" %}
 1. {%= link_to "Web workers", "/web-workers" %}
 
-TODO: canvas, svg ([Raphaël—JavaScript Library](http://raphaeljs.com/)),
-drag & drop, local storage (gra halma)
+TODO: canvas, svg ([Raphaël—JavaScript Library](http://raphaeljs.com/)), drag & drop,
+events: [keys](http://jsbin.com/azaha4).
 
 
 ## Cała reszta
 
-Websockets, geolokacja, preserving history (zob. https://github.com/)
+TODO: Websockets, geolokacja, preserving history (zob. https://github.com/)
 
 
 ## Laboratoria

@@ -18,6 +18,7 @@ Kompletny(?) i poprawny szablon dokumentu HTML5:
         <!--[if lt IE 9]>
         <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
         <![endif]-->
+        <script src="http://code.jquery.com/jquery-1.4.4.min.js"></script>
         <style>
         article, aside, details, figcaption, figure, footer, header,
         hgroup, menu, nav, section { display: block; }
@@ -31,27 +32,31 @@ Kompletny(?) i poprawny szablon dokumentu HTML5:
 Przykład pobrałem ze strony
 [HTML5 Doctor](http://html5doctor.com/html-5-boilerplates/).
 
+Bibliotekę jQuery pobieramy
+z [Content Delivery Network](http://docs.jquery.com/Downloading_jQuery#CDN_Hosted_jQuery)
+(w skrócie *CDN*).
+
 Pytanie: *boilerplate* – jak to przetłumaczyć?
 
 
-## Minimalny dokument HTML5
+## Minimalny poprawny dokument HTML5
 
-Jeszcze jeden przykład:
+Jeszcze jedna ciekawostka:
 
     :::html
     <!doctype html>
     <meta charset=utf-8>
-    <title>Minimalny poprawny dokument HTML5</title>
+    <title>Minimalny dokument HTML5</title>
     <p>ąćęłńóśźż ĄĆĘŁŃÓŚŹŻ</p>
 
 
 ## Szablon tabeli
 
-Tabelę budujemy z elementów:
+Tabelę budujemy z następujących elementów:
 
 * table, tr, td, caption, thead, tbody, tfoot, colgroup, col
 
-oraz atrybutów:
+Korzystamy z atrybutów:
 
 * colspan i rowspan.
 
@@ -74,7 +79,7 @@ Złożona z wykorzystaniem stylów HCJ:
                 flies: average height and weight, and percentage
                 with red eyes (for both males and females).">
 <caption>A test table with merged cells</caption>
-<tr><th rowspan="2"><th colspan="2">Average<th rowspan="2">Red<br>eyes
+<tr><th rowspan=2><th colspan=2>Average<th rowspan=2>Red<br>eyes
 <tr><th>height      <th>weight
 <tr><th>males       <td>1.9<td>0.003<td>40%
 <tr><th>females     <td>1.7<td>0.002<td>43%
@@ -102,7 +107,7 @@ A tak jest ona renderownaa przy domyślnych ustawieniach przeglądarki:
 {%= link_to "simple.html", "/doc/html/tables/simple.html" %}
 
 
-# Szablon bloga
+# Tworzymy szablon bloga
 
 Jakich użyjemy znaczników z listy [HTML5 Elements](http://simon.html5.org/html5-elements)?
 

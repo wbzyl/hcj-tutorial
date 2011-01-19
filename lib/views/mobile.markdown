@@ -1,1 +1,1 @@
-#### {% title "Skel" %}
+#### {% title "Mobile apps" %}
