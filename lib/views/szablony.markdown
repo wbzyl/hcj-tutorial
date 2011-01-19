@@ -2,11 +2,12 @@
 
 Kilka szablonów…
 
+
 ## Szablon HTML5
 
 Walidator [HTML5](http://validator.whatwg.org/).
 
-Kompletny(?) szablon dokumentu HTML 5:
+Kompletny(?) i poprawny szablon dokumentu HTML5:
 
     :::html
     <!doctype html>
@@ -40,7 +41,7 @@ Jeszcze jeden przykład:
     :::html
     <!doctype html>
     <meta charset=utf-8>
-    <title>Minimalny dokument HTML 5</title>
+    <title>Minimalny poprawny dokument HTML5</title>
     <p>ąćęłńóśźż ĄĆĘŁŃÓŚŹŻ</p>
 
 
@@ -83,7 +84,7 @@ A tak po wstawieniu do takiego dokumentu *html5*:
 
     :::html
     <!doctype html>
-    <meta charset="utf-8" />
+    <meta charset=utf-8>
     <title>Przykładowa tabela</title>
     <style>
       body  { font-size:  18px; }
@@ -101,8 +102,9 @@ A tak jest ona renderownaa przy domyślnych ustawieniach przeglądarki:
 {%= link_to "simple.html", "/doc/html/tables/simple.html" %}
 
 
-## Szablon bloga
+# Szablon bloga
 
-Na początek cytat: „Sections are really logical separations, whereas
-articles describe real content.”
+Jakich użyjemy znaczników z listy [HTML5 Elements](http://simon.html5.org/html5-elements)?
 
+Cytat ułatwiajacy nieco przygotowanie szablonu:
+„Sections are really logical separations, whereas articles describe real content.”

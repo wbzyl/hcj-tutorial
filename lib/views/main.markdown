@@ -15,33 +15,35 @@
 
 1. {%= link_to "Idzie nowe…", "/idzie-nowe" %}
 1. {%= link_to "Szablony…", "/szablony" %}
+1. {%= link_to "Offline", "/offline" %}
+1. {%= link_to "Mobile", "/mobile" %}
 
-TODO: blog, atrybuty *-data*, formularze,
-audio & video ([Audio.js](http://kolber.github.com/audiojs/)),
-mobile ui (+ nieco js?)
+TODO: blog, atrybuty *-data*, audio & video ([Audio.js](http://kolber.github.com/audiojs/)),
+aplikacje offline (http://railscasts.com),
 
 
 ## CSS 3
 
-1. {%= link_to "Zaczynamy", "/" %}
-1. Raz, dwa, trzy jQuery
+1. {%= link_to "Zaczynamy", "/css" %}
+1. {%= link_to "Webowe fonty", "/fonty-webowe" %}
+1. {%= link_to "Formularze", "/formularze" %}
 
-TODO: tabele, układy wielołamowe, fonty webowe, *rounded corners*,
-*shadows*
+TODO: tabele, układy wielołamowe, *rounded corners*, *shadows*
 
 
 ## Javascript + jQuery
 
-1. {%= link_to "Zaczynamy", "/" %}
+1. {%= link_to "Raz, dwa, trzy, jQuery…", "/jquery" %}
+1. {%= link_to "Local & session storage", "/storage" %}
+1. {%= link_to "Web workers", "/web-workers" %}
 
 TODO: canvas, svg ([Raphaël—JavaScript Library](http://raphaeljs.com/)),
-drag & drop
+drag & drop, local storage (gra halma)
 
 
 ## Cała reszta
 
-Local storage (gra halma), aplikacje offline (railscasts.com),
-websockets, geolokacja, preserving history (zob. github.com)
+Websockets, geolokacja, preserving history (zob. https://github.com/)
 
 
 ## Laboratoria

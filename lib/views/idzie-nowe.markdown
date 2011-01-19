@@ -12,6 +12,7 @@ Czy już jest pora na nowe technologie…
 
 ## HTML5
 
+* Simon Pieters. [HTML5 Elements and Attributes](http://simon.html5.org/html5-elements)
 * Marcin Wichary, Ernest Delgado, Alex Russell.
   [HTML5 presentation](http://apirocks.com/html5/html5.html#slide1)
 * Remy Sharp. [HTML 5 Demos and Examples](http://html5demos.com/)
