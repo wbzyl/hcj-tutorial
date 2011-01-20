@@ -1,0 +1,43 @@
+<!doctype html>
+
+<html lang="pl">
+<head>
+<script class="jsbin" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+  <meta charset=utf-8>
+  <title>untitled</title>
+
+  <script>
+  $(window).load(function() {
+
+    var edit = $('#edit');
+
+    $(edit).blur(function() {
+      localStorage.setItem('todoData', this.innerHTML);
+    });
+
+    // when the page loads
+    if ( localStorage.getItem('todoData') ) {
+      edit.html(localStorage.getItem('todoData'));
+    }
+
+    // to reset
+    // localStorage.clear();
+
+  });
+  </script>
+
+</head>
+<body>
+
+  <header>
+    <h1> My Simple To-Do List </h1>
+  </header>
+
+  <section>
+    <ul id=edit contenteditable=true>
+      <li></li>
+    </ul>
+  </section>
+  <em>Add some items, and refresh the page. It'll remember what you typed.</em>
+</body>
+</html>

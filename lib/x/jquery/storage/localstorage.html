@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang=pl>
+<head>
+  <meta charset=utf-8>
+  <title>HTML5 Web Storage / localStorage</title></head>
+
+  <script src="http://code.jquery.com/jquery-1.4.4.min.js"></script>
+  <style>
+    article, aside, details, figcaption, figure, footer, header,
+    hgroup, menu, nav, section { display: block; }
+
+  h1 { font-size:26pt; }
+  .text {
+    width:100%; height:272px;
+    overflow:scroll; background: #FFE;
+    font-family: monospace;
+    font-size:14pt;
+  }
+  body { padding: 10px 20px; }
+  li { padding: 4px; list-style: square; }
+  .note { background: #FFA; padding: 2px 4px; }
+
+  section { width: 440px; }
+  </style>
+
+  <body>
+
+    <section>
+
+      <h3>HTML5 Web Storage / localStorage</h3>
+
+      <p class="note">Tested in Firefox 3.5</p>
+
+      <textarea id="text" class="text">
+      </textarea>
+
+      <p>Item name:
+        <input id="item_name" type="text" value="new item">
+        <input type="button" value="Save" onclick="writeLocal();">
+      </p>
+
+      <div id="items"></div>
+
+    </section>
+
+<script>
+function $(id) { return document.getElementById(id); }
+
+var host = location.hostname || '@localhost';
+
+function writeLocal() {
+  var data = $('text').value;
+  var itemName = $('item_name').value;
+  localStorage.setItem(itemName, data);
+  updateItemsList();
+}
+
+function deleteLocal(itemName) {
+  localStorage.removeItem(itemName);
+  updateItemsList();
+}
+
+function readLocal(itemName) {
+  $('item_name').value=itemName;
+  $('text').value=localStorage.getItem(itemName);
+}
+
+function updateItemsList() {
+  var items = localStorage.length
+  // list items
+  var s = '<h2>Items for '+host+'</h2><ul>';
+  for (var i=0;i<items;i++) {
+    var itemName = localStorage.key(i);
+    s+= '<li>'+
+        '<div style="float:right;">'+
+        '<input type="button" value="Load" onclick="readLocal(\''+itemName+'\');"/'+'> '+
+        '<input type="button" value="Delete" onclick="deleteLocal(\''+itemName+'\');"/'+'> '+
+        '</div>'+
+        '<strong>'+itemName+'</strong>'+
+        '</li>';
+  }
+  $('items').innerHTML = s+'</ul>';
+}
+
+window.onload = function() {
+  updateItemsList();
+/*
+  $('text').value=[
+    'Quick and dirty Web Storage sample:','',
+    '1) Write some text',
+    '2) Give it some name',
+    '3) Click Save button','',
+    'Data is stored and retrieved using Web Storage (no cookies and no server side).'].join('\n');
+*/
+}
+</script>
+
+</body>
+</html>
