@@ -6,25 +6,26 @@
   <meta charset=utf-8>
   <title>untitled</title>
 
-  <script>
-  $(window).load(function() {
+<script>
+$(window).load(function() {
 
-    var edit = $('#edit');
+  var edit = $('#edit');
 
-    $(edit).blur(function() {
-      localStorage.setItem('todoData', this.innerHTML);
-    });
-
-    // when the page loads
-    if ( localStorage.getItem('todoData') ) {
-      edit.html(localStorage.getItem('todoData'));
-    }
-
-    // to reset
-    // localStorage.clear();
-
+  // register event handler
+  $(edit).blur(function() {
+    localStorage.setItem('todoData', $(this).html());
   });
-  </script>
+
+  // when the page loads
+  if ( localStorage.getItem('todoData') ) {
+    edit.html(localStorage.getItem('todoData'));
+  }
+
+  // to reset
+  // localStorage.clear();
+
+});
+</script>
 
 </head>
 <body>
