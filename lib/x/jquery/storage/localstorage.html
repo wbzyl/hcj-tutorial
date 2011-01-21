@@ -2,27 +2,26 @@
 <html lang=pl>
 <head>
   <meta charset=utf-8>
-  <title>HTML5 Web Storage / localStorage</title></head>
+  <title>HTML5 Web Storage – localStorage</title></head>
 
   <script src="http://code.jquery.com/jquery-1.4.4.min.js"></script>
   <style>
   article, aside, details, figcaption, figure, footer, header,
       hgroup, menu, nav, section { display: block; }
 
-  .text {
-    width: 100%; height: 272px;
-    overflow:scroll; background: #FFE;
-    font-family: monospace;
+  section { width: 440px; padding: 0 20px; }
+  #text {
+    width: 100%;
+    height: 272px;
+    overflow: scroll;
+    background: #FFE;
     font-size: 14pt;
+    font-family: monospace;
   }
-  body { padding: 10px 20px; }
-  li { padding: 4px; list-style: square; }
-  .note { background: #FFA; padding: 2px 4px; }
+  .note { background: #FFC; font-style: italic; padding: 4px; }
+  #caption { color: #A00; }
 
-  section { width: 440px; }
   input[type="button"] { float: right; }
-  li { clear: right; }
-  input[type="button"] { display: block; } /* hmmm… */
   </style>
 
   <script>
@@ -35,38 +34,41 @@
     updateItemsList();
 
     $("input[value='Save']").click(function() {
-      var data = $('#text').val();
-      var itemName = $('#item_name').val();
-      localStorage.setItem(itemName, data);
+      var value = $('#text').val();
+      var key = $('#key').val();
+      localStorage.setItem(key, value);
       updateItemsList();
       $("#text").val('');
     });
 
     $("#items").bind("click", function(event) {
-       var itemName = $(event.target).closest('li').text();
-       switch ($(event.target).val()) {
-         case 'Load':
-           $('#text').val(localStorage.getItem(itemName));
+       // makeItem: <p><b>name</b><input Load..<input Delete..
+       var key = $(event.target).closest('p').children('b').text();
+       var button = $(event.target).val();
+       switch (button) {
+         case "Load":
+           $('#text').val(localStorage.getItem(key));
            break;
-         case 'Delete':
-           localStorage.removeItem(itemName);
+         case "Delete":
+           localStorage.removeItem(key);
            updateItemsList();
+           break;
        };
     });
 
-    // helper functions
+    // funkcje pomocnicze
 
     function updateItemsList() {
-      var s = '';
+      var list = [];
       for (var i = 0, len = localStorage.length; i < len; i++) {
-        s += makeItem(localStorage.key(i));
+        list.push(makeItem(localStorage.key(i)));
       }
-      $('#items').html(s);
+      $('#items').html(list.sort().join("\n"));
     };
 
     function makeItem(name) {
-       return '<li>'+'<strong>'+name+'</strong>' +
-         '<input type="button" value="Delete">'+'<input type="button" value="Load">'+'</li>';
+       return '<p><b>' + name + '</b>' +
+         '<input type="button" value="Delete"><input type="button" value="Load"></p>';
     };
 
   });
@@ -75,26 +77,20 @@
   <body>
 
     <section>
-
-      <h2>HTML5 Web Storage / localStorage</h2>
-
+      <h2>HTML5 Web Storage – localStorage</h2>
       <p class="note">Tested in Firefox 3.5+ and Google Chrome 9+</p>
 
       <!-- The placeholder attribute on <input> and <textarea> elements provides
            a hint to the user of what can be entered in the field.
            The placeholder text **must not contain** carriage returns or line-feeds. -->
-
-      <textarea id="text" class="text"
-         placeholder="Enter some text and press Save button."></textarea>
-
+      <textarea id="text" placeholder="Enter some text and press Save button."></textarea>
       <p>Item name:
-        <input id="item_name" type="text" value="" placeholder="key">
+        <input id="key" type="text" value="" placeholder="key">
         <input type="button" value="Save">
       </p>
 
       <h3 id="caption">Items for this browser</h3>
-      <ul id="items"></ul>
-
+      <div id="items"></div>
     </section>
 
 </body>
