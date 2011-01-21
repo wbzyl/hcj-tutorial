@@ -27,9 +27,12 @@
   </style>
 
   <script>
-  $(window).load(function() {
+  $(document).ready(function() {
     var host = location.hostname || '@home';
     $('#items').before('<h2>Items for '+host+'</h2>');
+  });
+
+  $(window).load(function() {
     updateItemsList();
 
     $("input[value='Save']").click(function() {
@@ -37,6 +40,7 @@
       var itemName = $('#item_name').val();
       localStorage.setItem(itemName, data);
       updateItemsList();
+      $("#text").val('');
     });
 
     $("#items").bind("click", function(event) {
