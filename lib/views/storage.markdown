@@ -17,3 +17,9 @@ Przykład z *QUOTA_EXCEEDED_ERR*:
 MDN: [DOM Storage](https://developer.mozilla.org/en/dom/storage) – dużo przykładów.
 
 [JavaScript Web Storage Tutorial: Creating an Address Book Application](http://www.diveintojavascript.com/tutorials/web-storage-tutorial-creating-an-address-book-application) – długie (laboratorium?)
+
+## Przykłady
+
+Cytowany powyżej przykład, ale przepisany na jQuery:
+{%= link_to "HTML5 Web Storage / localStorage", "/doc/jquery/storage/localstorage.html" %}.
+Źródło: {%= link_to "localstorage.html", "/jquery/storage/localstorage.html" %}.
