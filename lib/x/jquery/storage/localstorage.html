@@ -6,8 +6,8 @@
 
   <script src="http://code.jquery.com/jquery-1.4.4.min.js"></script>
   <style>
-    article, aside, details, figcaption, figure, footer, header,
-    hgroup, menu, nav, section { display: block; }
+  article, aside, details, figcaption, figure, footer, header,
+      hgroup, menu, nav, section { display: block; }
 
   h1 { font-size:26pt; }
   .text {
@@ -21,79 +21,77 @@
   .note { background: #FFA; padding: 2px 4px; }
 
   section { width: 440px; }
+  input[type="button"] { float: right; }
+  input[type="button"] { display: block; } /* hmmm… */
+  li { clear: right; }
   </style>
+
+  <script>
+  $(window).load(function() {
+    var host = location.hostname || '@home';
+    $('#items').before('<h2>Items for '+host+'</h2>');
+    updateItemsList();
+
+    $("input[value='Save']").click(function() {
+      var data = $('#text').val();
+      var itemName = $('#item_name').val();
+      localStorage.setItem(itemName, data);
+      updateItemsList();
+    });
+
+    $("#items").bind("click", function(event) {
+       var itemName = $(event.target).closest('li').text();
+       switch ($(event.target).val()) {
+         case 'Load':
+           $('#text').val(localStorage.getItem(itemName));
+           break;
+         case 'Delete':
+           localStorage.removeItem(itemName);
+           updateItemsList();
+       };
+    });
+
+    // helper functions
+
+    function updateItemsList() {
+      var s = '';
+      for (var i = 0, len = localStorage.length; i < len; i++) {
+        s += makeItem(localStorage.key(i));
+      }
+      $('#items').html(s);
+    };
+
+    function makeItem(name) {
+       return '<li>'+'<strong>'+name+'</strong>' +
+         '<input type="button" value="Delete">'+'<input type="button" value="Load">'+'</li>';
+    };
+
+  });
+  </script>
 
   <body>
 
     <section>
 
-      <h3>HTML5 Web Storage / localStorage</h3>
+      <h2>HTML5 Web Storage / localStorage</h2>
 
-      <p class="note">Tested in Firefox 3.5</p>
+      <p class="note">Tested in Firefox 3.5+ and Google Chrome 9+</p>
 
-      <textarea id="text" class="text">
-      </textarea>
+      <!-- The placeholder attribute on <input> and <textarea> elements provides
+           a hint to the user of what can be entered in the field.
+           The placeholder text **must not contain** carriage returns or line-feeds. -->
+
+      <textarea id="text" class="text"
+         placeholder="Enter some text and press Save button."></textarea>
 
       <p>Item name:
-        <input id="item_name" type="text" value="new item">
-        <input type="button" value="Save" onclick="writeLocal();">
+        <input id="item_name" type="text" value="" placeholder="key">
+        <input type="button" value="Save">
       </p>
 
-      <div id="items"></div>
+      <ul id="items"></ul>
 
     </section>
-
-<script>
-function $(id) { return document.getElementById(id); }
-
-var host = location.hostname || '@localhost';
-
-function writeLocal() {
-  var data = $('text').value;
-  var itemName = $('item_name').value;
-  localStorage.setItem(itemName, data);
-  updateItemsList();
-}
-
-function deleteLocal(itemName) {
-  localStorage.removeItem(itemName);
-  updateItemsList();
-}
-
-function readLocal(itemName) {
-  $('item_name').value=itemName;
-  $('text').value=localStorage.getItem(itemName);
-}
-
-function updateItemsList() {
-  var items = localStorage.length
-  // list items
-  var s = '<h2>Items for '+host+'</h2><ul>';
-  for (var i=0;i<items;i++) {
-    var itemName = localStorage.key(i);
-    s+= '<li>'+
-        '<div style="float:right;">'+
-        '<input type="button" value="Load" onclick="readLocal(\''+itemName+'\');"/'+'> '+
-        '<input type="button" value="Delete" onclick="deleteLocal(\''+itemName+'\');"/'+'> '+
-        '</div>'+
-        '<strong>'+itemName+'</strong>'+
-        '</li>';
-  }
-  $('items').innerHTML = s+'</ul>';
-}
-
-window.onload = function() {
-  updateItemsList();
-/*
-  $('text').value=[
-    'Quick and dirty Web Storage sample:','',
-    '1) Write some text',
-    '2) Give it some name',
-    '3) Click Save button','',
-    'Data is stored and retrieved using Web Storage (no cookies and no server side).'].join('\n');
-*/
-}
-</script>
 
 </body>
 </html>
