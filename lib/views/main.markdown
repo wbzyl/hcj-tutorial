@@ -35,8 +35,8 @@ TODO: tabele, układy wielołamowe, *rounded corners*, *shadows*
 
 1. {%= link_to "Raz, dwa, trzy, jQuery…", "/jquery" %}
 1. {%= link_to "Wtyczki do jQuery – Google Maps", "/maps" %}
-1. {%= link_to "Przesyłanie wiadomości między domenami", "/cross-domain-messaging" %}
 1. {%= link_to "Local & session storage", "/storage" %}
+1. {%= link_to "Przesyłanie wiadomości między domenami", "/cross-domain-messaging" %}
 1. {%= link_to "Web workers", "/web-workers" %}
 
 TODO: canvas, svg ([Raphaël—JavaScript Library](http://raphaeljs.com/)), drag & drop,
