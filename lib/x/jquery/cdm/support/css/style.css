@@ -1,0 +1,31 @@
+#form {
+  width: 440px;
+  padding: 0 20px;
+  float: left;
+  font-size: 12pt;
+}
+
+#contacts iframe {
+  border: none;
+  width: 480px;
+  height: 800px;
+}
+
+/* from local storage */
+
+article, aside, details, figcaption, figure, footer, header,
+    hgroup, menu, nav, section { display: block; }
+
+#text {
+  width: 100%;
+  height: 300px;
+  overflow: scroll;
+  background: #FFE;
+  font-family: monospace;
+}
+.note { background: #FFC; font-style: italic; padding: 4px; }
+#caption { color: #A00; }
+
+input[type="button"] { float: right; }
+
+#key { width: 256px; }
