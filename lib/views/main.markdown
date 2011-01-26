@@ -70,3 +70,5 @@ Różne rzeczy:
 
 * M. Pilgrim, [Dive Into HTML5](http://diveintohtml5.org/)
 * T. Fuchs, A. Hoy. [DOM Monster](http://mir.aculo.us/dom-monster/)
+* [Ultimate CSS Gradient Generator](http://www.colorzilla.com/gradient-editor/)
+* [TeX Samples](http://www.mathjax.org/demos/tex-samples/)

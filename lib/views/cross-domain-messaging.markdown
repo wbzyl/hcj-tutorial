@@ -54,7 +54,7 @@ funkcję przesyłającą wiadomość:
     });
 
 A tak sprawdzamy adres ip komputera do którego prześlemy zawartość
-pliku hobbits.html:
+pliku *hobbits.html*:
 
     /sbin/ifconfig
       ...
