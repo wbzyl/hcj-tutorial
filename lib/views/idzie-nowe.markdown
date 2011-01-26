@@ -1,5 +1,13 @@
 #### {% title "Idzie nowe…" %}
 
+<blockquote>
+ {%= image_tag '/images/christie-agatha.jpg', :alt => "[Agatha Christie, Lady Mallowan]" %}
+ <p>
+   Nic się nie kończy, póki nie kończy się jak należy.
+ </p>
+ <p class="author">Agatha Christie</p>
+</blockquote>
+
 Czy już jest pora na nowe technologie…
 
 * [What can it do? What browser am I using, how modern is my web
