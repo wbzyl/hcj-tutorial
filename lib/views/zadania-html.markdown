@@ -19,21 +19,28 @@
 1. Jeszcze raz dwa poprzednie zadania ale w HTML5.
 
 
-## 1. Plan zajęć
+## 1. jBlog
+
+Zmodyfikować layout jbloga. Można skorzystać z rozwiązań
+opisanych na blogu Richard Huanga,
+[Migrate Custom Blog to Jekyll and Disqus](http://www.huangzhimin.com/2011/01/20/migrate-custom-blog-to-jekyll-and-disqus/).
+
+
+## 2. Plan zajęć
 
 Przygotować **poziomą** tabelę z planem zajęć, tzn. dni tygodnia,
 czyli sobotę i niedzielę, należy umieścić w pierwszej kolumnie tabeli.
 Użyć ustalonego (*fixed*) **table-layout**.
 
 
-## 2. Tabelki
+## 3. Tabelki
 
 **Uwaga:** W rozwiązaniach poniższych zadań należy użyć, tam gdzie
 to wszystkich elementów:
 table, tr, td, caption, thead, tbody, tfoot, colgroup, col.
 Należy też skorzystać z atrybutów: colspan i rowspan.
 
-Wystylizować każdą z tabelek dwa razy: na czarno-biało,
+Wystylizować każdą z tabelek dwa razy: raz na czarno-biało,
 drugi raz — na kolorowo.
 
 * Kurczaki {%= image_tag '/images/tabele/chicken.png', :alt => "[chicken]" %}
