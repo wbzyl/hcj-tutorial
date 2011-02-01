@@ -61,6 +61,7 @@ TODO: Websockets, geolokacja, preserving history (zob. https://github.com/)
 * [jQuery](http://jquery.com/), [JS Bin](http://jsbin.com/)
 * [Code Conventions for the JavaScript Programming Language](http://javascript.crockford.com/code.html)
 * [Mozilla Developer Network](https://developer.mozilla.org/en-US/)
+* Peter-Paul Koch. [JavaScript](http://www.quirksmode.org/js/contents.html)
 
 Ściągi:
 
