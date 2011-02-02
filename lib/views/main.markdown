@@ -55,6 +55,7 @@ TODO: Websockets, geolokacja, preserving history (zob. https://github.com/)
 
 # Podręczne linki
 
+* [HTML5Rocks](http://www.html5rocks.com/) – the HTML5 Playground, Studio, and Presentation slides
 * [HTML5](http://html5.org/) – najważniejsze linki
 * [HTML5 Draft](http://www.whatwg.org/specs/web-apps/current-work/multipage/)
 * [CSS3.info](http://www.css3.info/)
