@@ -55,12 +55,14 @@ TODO: Websockets, geolokacja, preserving history (zob. https://github.com/)
 
 # Podręczne linki
 
+* [HTML5Rocks](http://www.html5rocks.com/) – the HTML5 Playground, Studio, and Presentation slides
 * [HTML5](http://html5.org/) – najważniejsze linki
 * [HTML5 Draft](http://www.whatwg.org/specs/web-apps/current-work/multipage/)
 * [CSS3.info](http://www.css3.info/)
 * [jQuery](http://jquery.com/), [JS Bin](http://jsbin.com/)
 * [Code Conventions for the JavaScript Programming Language](http://javascript.crockford.com/code.html)
 * [Mozilla Developer Network](https://developer.mozilla.org/en-US/)
+* Peter-Paul Koch. [JavaScript](http://www.quirksmode.org/js/contents.html)
 
 Ściągi:
 
@@ -70,3 +72,5 @@ Różne rzeczy:
 
 * M. Pilgrim, [Dive Into HTML5](http://diveintohtml5.org/)
 * T. Fuchs, A. Hoy. [DOM Monster](http://mir.aculo.us/dom-monster/)
+* [Ultimate CSS Gradient Generator](http://www.colorzilla.com/gradient-editor/)
+* [TeX Samples](http://www.mathjax.org/demos/tex-samples/)

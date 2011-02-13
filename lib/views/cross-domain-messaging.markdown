@@ -2,7 +2,8 @@
 
 O co chodzi w przykładzie? No o co chodzi!
 
-[HTML5 Web Messaging](http://dev.w3.org/html5/postmsg/).
+* [HTML5 Web Messaging](http://dev.w3.org/html5/postmsg/)
+* [MDC»DOM»window.postMessage](https://developer.mozilla.org/en/DOM/window.postMessage)
 
 TODO: omówić przykład jquery/cdm.
 

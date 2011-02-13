@@ -40,7 +40,7 @@ GEM
     oniguruma (1.1.0)
     plist (3.1.0)
     rack (1.2.1)
-    rdiscount (1.6.5)
+    rdiscount (1.6.8)
     sinatra-filler (0.0.3)
       sinatra (>= 1.1)
       sinatra-static-assets (>= 0.5.0)
@@ -63,13 +63,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  emk-sinatra-url-for
-  erubis
   hcj-tutorial!
   rack-codehighlighter!
-  rdiscount
   sinatra!
-  sinatra-filler
-  sinatra-static-assets
   thin
-  ultraviolet
