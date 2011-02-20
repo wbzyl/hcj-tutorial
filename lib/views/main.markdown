@@ -59,7 +59,8 @@ TODO: Websockets, geolokacja, preserving history (zob. https://github.com/)
 * [HTML5](http://html5.org/) – najważniejsze linki
 * [HTML5 Draft](http://www.whatwg.org/specs/web-apps/current-work/multipage/)
 * [CSS3.info](http://www.css3.info/)
-* [jQuery](http://jquery.com/), [JS Bin](http://jsbin.com/)
+* [jQuery](http://jquery.com/), [JS Bin](http://jsbin.com/). Wtyczki do jQuery:
+  * [Orbit: A Slick jQuery Image Slider Plugin](http://www.zurb.com/playground/orbit-jquery-image-slider)
 * [Code Conventions for the JavaScript Programming Language](http://javascript.crockford.com/code.html)
 * [Mozilla Developer Network](https://developer.mozilla.org/en-US/)
 * Peter-Paul Koch. [JavaScript](http://www.quirksmode.org/js/contents.html)
