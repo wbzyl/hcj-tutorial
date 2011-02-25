@@ -19,16 +19,12 @@
 1. {%= link_to "Mobile", "/mobile" %}
 1. {%= link_to "Audio & wideo", "/audio-video" %}
 
-TODO: atrybuty *-data*
-
 
 ## CSS 3
 
 1. {%= link_to "Zaczynamy", "/css" %}
 1. {%= link_to "Webowe fonty", "/fonty-webowe" %}
 1. {%= link_to "Formularze", "/formularze" %}
-
-TODO: tabele, układy wielołamowe, *rounded corners*, *shadows*
 
 
 ## Javascript + jQuery
@@ -39,14 +35,17 @@ TODO: tabele, układy wielołamowe, *rounded corners*, *shadows*
 1. {%= link_to "Przesyłanie wiadomości między domenami", "/cross-domain-messaging" %}
 1. {%= link_to "Web workers", "/web-workers" %}
 
-TODO: canvas, svg ([Raphaël—JavaScript Library](http://raphaeljs.com/)), drag & drop,
-events: [keys](http://jsbin.com/azaha4).
-
+<!--
 
 ## Cała reszta
 
+TODO: atrybuty *-data*
+TODO: tabele, układy wielołamowe, *rounded corners*, *shadows*
+TODO: canvas, svg ([Raphaël—JavaScript Library](http://raphaeljs.com/)), drag & drop,
+events: [keys](http://jsbin.com/azaha4).
 TODO: Websockets, geolokacja, preserving history (zob. https://github.com/)
 
+-->
 
 ## Laboratoria
 
