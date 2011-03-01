@@ -67,6 +67,7 @@ TODO: Websockets, geolokacja, preserving history (zob. https://github.com/)
 Ściągi:
 
 * [CSS3 Cheat Sheet](http://www.smashingmagazine.com/2009/07/13/css-3-cheat-sheet-pdf/)
+* [HSL Color Picker](http://hslpicker.com/), Brandon Mathis
 
 Różne rzeczy:
 
