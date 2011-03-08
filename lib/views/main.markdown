@@ -63,6 +63,7 @@ TODO: Websockets, geolokacja, preserving history (zob. https://github.com/)
 * [Code Conventions for the JavaScript Programming Language](http://javascript.crockford.com/code.html)
 * [Mozilla Developer Network](https://developer.mozilla.org/en-US/)
 * Peter-Paul Koch. [JavaScript](http://www.quirksmode.org/js/contents.html)
+* [Modernizr](http://www.modernizr.com/) i [Yenopejs](http://yepnopejs.com/)
 
 Ściągi:
 
@@ -75,3 +76,4 @@ Różne rzeczy:
 * T. Fuchs, A. Hoy. [DOM Monster](http://mir.aculo.us/dom-monster/)
 * [Ultimate CSS Gradient Generator](http://www.colorzilla.com/gradient-editor/)
 * [TeX Samples](http://www.mathjax.org/demos/tex-samples/)
+* [Find Icons](http://findicons.com/search/html#ajax)
