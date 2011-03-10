@@ -1,13 +1,11 @@
 #### {% title "Szablony" %}
 
-Kilka szablonów…
+Kilka szablonów, oraz link do [walidatora HTML5](http://validator.whatwg.org/).
 
 
 ## Szablon HTML5
 
-Walidator [HTML5](http://validator.whatwg.org/).
-
-Kompletny(?) i poprawny szablon dokumentu HTML5:
+Kompletny i poprawny szablon dokumentu HTML5:
 
     :::html
     <!doctype html>
@@ -102,3 +100,6 @@ Jakich użyjemy znaczników z listy [HTML5 Elements](http://simon.html5.org/html
 
 Cytat ułatwiajacy nieco przygotowanie szablonu:
 „Sections are really logical separations, whereas articles describe real content.”
+
+
+{%= image_tag "/images/blog.png", :alt => "[Blog: HTML4 i HTML5]" %}
