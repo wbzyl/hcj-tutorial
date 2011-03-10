@@ -101,5 +101,12 @@ Jakich użyjemy znaczników z listy [HTML5 Elements](http://simon.html5.org/html
 Cytat ułatwiajacy nieco przygotowanie szablonu:
 „Sections are really logical separations, whereas articles describe real content.”
 
-
 {%= image_tag "/images/blog.png", :alt => "[Blog: HTML4 i HTML5]" %}
+
+Przykładowe implementacje:
+
+* {%= link_to "wersja html4", "/doc/html/blog/html4.html" %}
+  ({%= link_to "html4", "/html/blog/html4.html" %}, {%= link_to "css", "/html/blog/blog4.css" %})
+* {%= link_to "wersja html5", "/doc/html/blog/html5.html" %}
+  ({%= link_to "html5", "/html/blog/html5.html" %}, {%= link_to "css", "/html/blog/blog5.css" %})
+
