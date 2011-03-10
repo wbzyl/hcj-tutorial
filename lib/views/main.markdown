@@ -14,7 +14,7 @@
 ## HTML5
 
 1. {%= link_to "Idzie nowe…", "/idzie-nowe" %}
-1. {%= link_to "Szablony…", "/szablony" %}
+1. {%= link_to "Szablony – HTML5, tabela, blog", "/szablony" %}
 1. {%= link_to "Offline", "/offline" %}
 1. {%= link_to "Mobile", "/mobile" %}
 1. {%= link_to "Audio & wideo", "/audio-video" %}
@@ -67,6 +67,7 @@ TODO: Websockets, geolokacja, preserving history (zob. https://github.com/)
 
 Ściągi:
 
+* [CSS Reference](https://developer.mozilla.org/en/CSS_Reference) – z linkami do przykładów (z MDN)
 * [CSS3 Cheat Sheet](http://www.smashingmagazine.com/2009/07/13/css-3-cheat-sheet-pdf/)
 * [HSL Color Picker](http://hslpicker.com/), Brandon Mathis
 

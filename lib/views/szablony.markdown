@@ -73,7 +73,7 @@ Po wpisaniu *verbatim*:
     | Females  | 1.7     | 0.002   |   43%    |
     \-----------------------------------------/
 
-Złożona z wykorzystaniem stylów HCJ:
+Złożona z wykorzystaniem CSS użytego na tej stronie:
 
 <table summary="This table gives some statistics about fruit
                 flies: average height and weight, and percentage
@@ -85,23 +85,12 @@ Złożona z wykorzystaniem stylów HCJ:
 <tr><th>females     <td>1.7<td>0.002<td>43%
 </table>
 
-A tak po wstawieniu do takiego dokumentu *html5*:
-
-    :::html
-    <!doctype html>
-    <meta charset=utf-8>
-    <title>Przykładowa tabela</title>
-    <style>
-      body  { font-size:  18px; }
-      table { background: #DDD; }
-      /* dodatkowy kod CSS */
-    </style>
-    tutaj wstawimy tabelę
-
 ([źródło](http://www.w3.org/TR/html401/struct/tables.html#h-11.1))
 
-Powyższa tabela korzysta z następujących elementów: *wymienić z jakich*.
-Tak można wpisać tę tabelę:
+Powyższa tabela korzysta z następujących elementów:
+*table*, *caption*, *tr*, *th* i *atrybutów*, *rowspan*, *colspan*.
+
+Kod dla tej tabeli:
 {%= link_to "simple.html", "/html/tables/simple.html" %}.
 A tak jest ona renderownaa przy domyślnych ustawieniach przeglądarki:
 {%= link_to "simple.html", "/doc/html/tables/simple.html" %}
