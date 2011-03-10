@@ -1,0 +1,29 @@
+article, aside, details, figcaption, figure, footer, header,
+    hgroup, menu, nav, section {
+  display: block;
+}
+
+nav {
+  float: left;
+  width: 29%;
+}
+article {
+  float: right;
+  width: 69%;
+  margin: 2px 0;
+}
+footer {
+  clear: both;
+}
+
+/* poor’s men debugging */
+
+body {
+  width: 600px;
+  margin: 0 auto;
+}
+
+header, nav, article, footer {
+  margin: 2px 0;
+  border: 1px solid black;
+}
