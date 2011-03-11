@@ -109,4 +109,3 @@ Przykładowe implementacje:
   ({%= link_to "html4", "/html/blog/html4.html" %}, {%= link_to "css", "/html/blog/blog4.css" %})
 * {%= link_to "wersja html5", "/doc/html/blog/html5.html" %}
   ({%= link_to "html5", "/html/blog/html5.html" %}, {%= link_to "css", "/html/blog/blog5.css" %})
-
