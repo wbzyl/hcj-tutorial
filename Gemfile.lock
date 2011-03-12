@@ -1,12 +1,4 @@
 GIT
-  remote: git://github.com/sinatra/sinatra.git
-  revision: a44e2ad817ca31aa1c9384a8c1f17e30bd754556
-  specs:
-    sinatra (1.2.0.a)
-      rack (~> 1.1)
-      tilt (~> 1.2)
-
-GIT
   remote: git://github.com/wbzyl/rack-codehighlighter.git
   revision: ec441d44b66821adf3762c712f3b4c9ac4ec37a0
   branch: pre-caption
@@ -22,6 +14,7 @@ PATH
       emk-sinatra-url-for
       erubis
       rdiscount
+      sinatra
       sinatra-filler
       sinatra-static-assets
       ultraviolet
@@ -41,6 +34,9 @@ GEM
     plist (3.1.0)
     rack (1.2.1)
     rdiscount (1.6.8)
+    sinatra (1.2.0)
+      rack (~> 1.1)
+      tilt (>= 1.2.2, < 2.0)
     sinatra-filler (0.0.3)
       sinatra (>= 1.1)
       sinatra-static-assets (>= 0.5.0)
@@ -51,11 +47,11 @@ GEM
     textpow (0.10.1)
       oniguruma (>= 1.1.0)
       plist (>= 3.0.0)
-    thin (1.2.7)
+    thin (1.2.8)
       daemons (>= 1.0.9)
       eventmachine (>= 0.12.6)
       rack (>= 1.0.0)
-    tilt (1.2.1)
+    tilt (1.2.2)
     ultraviolet (0.10.2)
       textpow (>= 0.10.0)
 
@@ -63,7 +59,13 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  emk-sinatra-url-for
+  erubis
   hcj-tutorial!
   rack-codehighlighter!
-  sinatra!
+  rdiscount
+  sinatra
+  sinatra-filler
+  sinatra-static-assets
   thin
+  ultraviolet
