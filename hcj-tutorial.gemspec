@@ -15,7 +15,7 @@ Gem::Specification.new do |s|
 
   s.rubyforge_project = "hcj-tutorial"
 
-  # s.add_runtime_dependency 'sinatra', :git => 'git://github.com/sinatra/sinatra.git'
+  s.add_runtime_dependency 'sinatra'
   s.add_runtime_dependency 'rdiscount'
   s.add_runtime_dependency 'erubis'
 
