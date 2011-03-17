@@ -4,4 +4,3 @@ source "http://rubygems.org"
 gemspec
 
 gem 'rack-codehighlighter', :git => 'git://github.com/wbzyl/rack-codehighlighter.git', :branch => 'pre-caption'
-gem 'thin'
