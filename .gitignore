@@ -6,3 +6,5 @@ pkg
 .\#*
 \#*
 lib/tmp/**/*
+Gemfile.lock
+
