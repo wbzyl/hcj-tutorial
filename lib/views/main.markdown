@@ -79,4 +79,4 @@ Różne rzeczy:
 * [TeX Samples](http://www.mathjax.org/demos/tex-samples/)
 * [Find Icons](http://findicons.com/search/html#ajax)
 * [Julia meets HTML5](http://googleresearch.blogspot.com/2011/01/julia-meets-html-5.html) –
-  a fractal renderer in HTML5
+  a fractal renderer in HTML5 (canvas, web workers)
