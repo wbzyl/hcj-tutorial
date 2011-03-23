@@ -54,6 +54,11 @@ TODO: Websockets, geolokacja, preserving history (zob. https://github.com/)
 
 # Podręczne linki
 
+* [Initializr](http://initializr.com/) – an HTML5 templates generator
+* [HTML5 ★ Boilerplate](http://html5boilerplate.com/) – a rock-solid default for HTML5 awesome
+* [Modernizr](http://www.modernizr.com/) – adds classes to the *html* element
+  which allow you to target specific browser functionality in your stylesheet
+* [Yenopejs](http://yepnopejs.com/) – an asynchronous conditional resource loader
 * [HTML5Rocks](http://www.html5rocks.com/) – the HTML5 Playground, Studio, and Presentation slides
 * [HTML5](http://html5.org/) – najważniejsze linki
 * [HTML5 Draft](http://www.whatwg.org/specs/web-apps/current-work/multipage/)
@@ -63,7 +68,6 @@ TODO: Websockets, geolokacja, preserving history (zob. https://github.com/)
 * [Code Conventions for the JavaScript Programming Language](http://javascript.crockford.com/code.html)
 * [Mozilla Developer Network](https://developer.mozilla.org/en-US/)
 * Peter-Paul Koch. [JavaScript](http://www.quirksmode.org/js/contents.html)
-* [Modernizr](http://www.modernizr.com/) i [Yenopejs](http://yepnopejs.com/)
 
 Ściągi:
 
