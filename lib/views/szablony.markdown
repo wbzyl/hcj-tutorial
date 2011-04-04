@@ -94,6 +94,24 @@ A tak jest ona renderownaa przy domyślnych ustawieniach przeglądarki:
 {%= link_to "simple.html", "/doc/html/tables/simple.html" %}
 
 
+<blockquote>
+ <p>
+   Pewien programista przeczytał na blogu lokalnego zoo,
+   że codziennie można oglądać jagnię pasące się
+   w klatce z lwem. Tak to go zafacynowało, że natychmiast
+   wszedł na stronę zoo, aby to zobaczyć.
+   I rzeczywiście, jagnię i lew spały obok siebie.
+ </p>
+ <p>
+   Podejrzewając jakąś sztuczkę napisał emaila do dyrektora
+   zoo z prośbą o wyjaśnienie. Oto odpowiedź dyrektora:
+   „To nie jest żadna sztuczka. Dzieje się to już od
+   kilku miesięcy. Ale <b>mogę powiedzieć panu w zaufaniu</b>,
+   że jagnię musimy bardzo często zastępować nowym.”
+ </p>
+ <p class="author">[stara anegdotka]</p>
+</blockquote>
+
 # Tworzymy szablon bloga
 
 Jakich użyjemy znaczników z listy [HTML5 Elements](http://simon.html5.org/html5-elements)?
@@ -109,3 +127,15 @@ Przykładowe implementacje:
   ({%= link_to "html4", "/html/blog/html4.html" %}, {%= link_to "css", "/html/blog/blog4.css" %})
 * {%= link_to "wersja html5", "/doc/html/blog/html5.html" %}
   ({%= link_to "html5", "/html/blog/html5.html" %}, {%= link_to "css", "/html/blog/blog5.css" %})
+
+Należy jeszcze dorobić w implementacji „dociągnięcie” elementów *sidebar* i *nav*
+do elementu *footer* (tak jak jest to narysowane na obrazkach powyżej).
+Jak to zrobić jest opisane w artykule Dana Cederholma,
+[Faux Columns](http://www.alistapart.com/articles/fauxcolumns/).
+
+Skąd się bierze problem zostało wyjaśnione:
+
+* Noah Stokes. [CSS Floats 101](http://www.alistapart.com/articles/css-floats-101/)
+* Peter-Paul Koch. [Clearing floats](http://www.quirksmode.org/css/clearing.html)
+* [Clearance](http://www.mezzoblue.com/archives/2005/03/03/clearance/)
+* Eric A. Meyer. [Containing Floats](http://complexspiral.com/publications/containing-floats/)
