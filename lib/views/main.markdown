@@ -63,7 +63,7 @@ TODO: Websockets, geolokacja, preserving history (zob. https://github.com/)
 * [HTML5](http://html5.org/) – najważniejsze linki
 * [HTML5 Draft](http://www.whatwg.org/specs/web-apps/current-work/multipage/)
 * [CSS3.info](http://www.css3.info/)
-* [jQuery](http://jquery.com/), [JS Bin](http://jsbin.com/). Wtyczki do jQuery:
+* [jQuery](http://jquery.com/). Wtyczki do jQuery:
   * [Orbit: A Slick jQuery Image Slider Plugin](http://www.zurb.com/playground/orbit-jquery-image-slider)
 * [Code Conventions for the JavaScript Programming Language](http://javascript.crockford.com/code.html)
 * [Mozilla Developer Network](https://developer.mozilla.org/en-US/)
@@ -73,7 +73,12 @@ TODO: Websockets, geolokacja, preserving history (zob. https://github.com/)
 
 * [CSS Reference](https://developer.mozilla.org/en/CSS_Reference) – z linkami do przykładów (z MDN)
 * [CSS3 Cheat Sheet](http://www.smashingmagazine.com/2009/07/13/css-3-cheat-sheet-pdf/)
-* [HSL Color Picker](http://hslpicker.com/), Brandon Mathis
+
+Learn by doing:
+
+* Remy Sharp, [JS Bin](http://jsbin.com/)
+* John Resig, [Secrets of the JavaScript Ninja](http://ejohn.org/apps/learn/)
+* Brandon Mathis, [HSL Color Picker](http://hslpicker.com/)
 
 Różne rzeczy:
 
