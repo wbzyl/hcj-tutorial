@@ -52,6 +52,20 @@ TODO: Websockets, geolokacja, preserving history (zob. https://github.com/)
 *  {%= link_to "HTML zadania", "/zadania-html" %}
 
 
+<blockquote>
+ {%= image_tag "/images/andy_lester.jpg", :alt => "[Andy Lester]" %}
+ <p>About projects:
+    (1) What’s it do;
+    (2) What’s it look like;
+    (3) Do I want to use this or not?
+ </p>
+ <p>
+  Therefore, your project should have a project site. It needs a URL.
+  It needs page to have these three things on it.
+ </p>
+ <p class="author">— Andy Lester (guy who wrote <a href="http://betterthangrep.com/">ack</a>)</p>
+</blockquote>
+
 # Podręczne linki
 
 * [Initializr](http://initializr.com/) – an HTML5 templates generator
