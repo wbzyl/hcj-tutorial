@@ -23,7 +23,7 @@
 ## CSS 3
 
 1. {%= link_to "Zaczynamy", "/css" %}
-1. {%= link_to "Webowe fonty", "/fonty-webowe" %}
+1. {%= link_to "Fonty webowe", "/fonty-webowe" %}
 1. {%= link_to "Formularze", "/formularze" %}
 
 
