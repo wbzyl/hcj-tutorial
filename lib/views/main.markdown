@@ -92,12 +92,12 @@ Learn by doing:
 
 * Remy Sharp, [JS Bin](http://jsbin.com/)
 * John Resig, [Secrets of the JavaScript Ninja](http://ejohn.org/apps/learn/)
-* Brandon Mathis, [HSL Color Picker](http://hslpicker.com/)
 
 Różne rzeczy:
 
 * M. Pilgrim, [Dive Into HTML5](http://diveintohtml5.org/)
 * T. Fuchs, A. Hoy. [DOM Monster](http://mir.aculo.us/dom-monster/)
+* Brandon Mathis, [HSL Color Picker](http://hslpicker.com/)
 * [Ultimate CSS Gradient Generator](http://www.colorzilla.com/gradient-editor/)
 * [TeX Samples](http://www.mathjax.org/demos/tex-samples/)
 * [Find Icons](http://findicons.com/search/html#ajax)
