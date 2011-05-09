@@ -1,6 +1,14 @@
 #### {% title "Szablony" %}
 
-Kilka szablonów, oraz link do [walidatora HTML5](http://validator.whatwg.org/).
+<blockquote>
+ {%= image_tag "/images/jeff_keedy_1995.jpg", :alt => "[Jeff Keedy]" %}
+ <p>
+  Styl z gatunku „to się mi podoba” znaczy „jestem idiotą”.
+ </p>
+ <p class="author">— Jeff Keedy</p>
+</blockquote>
+
+Czyli kilka szablonów, oraz link do [walidatora HTML5](http://validator.whatwg.org/).
 
 
 ## Szablon HTML5
@@ -10,18 +18,22 @@ Kompletny i poprawny szablon dokumentu HTML5:
     :::html
     <!doctype html>
     <html lang=pl>
-      <head>
-        <meta charset=utf-8>
-        <title>HTML 5 complete</title>
-        <!--[if lt IE 9]>
-        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-        <![endif]-->
-        <script src="http://code.jquery.com/jquery-1.4.4.min.js"></script>
-        <style>
-        article, aside, details, figcaption, figure, footer, header,
+    <head>
+      <meta charset=utf-8>
+      <title>HTML 5 complete</title>
+      <!--[if lt IE 9]>
+      <script
+       src="http://html5shiv.googlecode.com/svn/trunk/html5.js">
+      </script>
+      <![endif]-->
+      <script src="http://code.jquery.com/jquery-1.4.4.min.js">
+      </script>
+      <style>
+      article, aside, details, figcaption,
+        figure, footer, header,
         hgroup, menu, nav, section { display: block; }
-        </style>
-      </head>
+      </style>
+    </head>
     <body>
       <p>ąćęłńóśźż ĄĆĘŁŃÓŚŹŻ</p>
     </body>
