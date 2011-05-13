@@ -30,7 +30,7 @@
 ## Javascript + jQuery
 
 1. {%= link_to "Raz, dwa, trzy, jQuery…", "/jquery" %}
-1. {%= link_to "Wtyczki do jQuery – Google Maps", "/maps" %}
+1. {%= link_to "Wtyczki do jQuery – Google Maps", "/plugins" %}
 1. {%= link_to "Local & session storage", "/storage" %}
 1. {%= link_to "Przesyłanie wiadomości między domenami", "/cross-domain-messaging" %}
 1. {%= link_to "Web workers", "/web-workers" %}
@@ -73,7 +73,7 @@ TODO: Websockets, geolokacja, preserving history (zob. https://github.com/)
 * [Modernizr](http://www.modernizr.com/) – adds classes to the *html* element
   which allow you to target specific browser functionality in your stylesheet
 * [Yenopejs](http://yepnopejs.com/) – an asynchronous conditional resource loader
-* [HTML5Rocks](http://www.html5rocks.com/) – the HTML5 Playground, Studio, and Presentation slides; 
+* [HTML5Rocks](http://www.html5rocks.com/) – the HTML5 Playground, Studio, and Presentation slides;
   zob. też [Resources](http://www.html5rocks.com/resources.html5)
 * [HTML5](http://html5.org/) – najważniejsze linki
 * [HTML5 Draft](http://www.whatwg.org/specs/web-apps/current-work/multipage/)
