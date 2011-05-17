@@ -102,8 +102,14 @@ Powyższa tabela korzysta z następujących elementów:
 
 Kod dla tej tabeli:
 {%= link_to "simple.html", "/html/tables/simple.html" %}.
-A tak jest ona renderownaa przy domyślnych ustawieniach przeglądarki:
-{%= link_to "simple.html", "/doc/html/tables/simple.html" %}
+A tak jest ona renderowna przy domyślnych ustawieniach przeglądarki:
+{%= link_to "simple.html", "/doc/html/tables/simple.html" %}.
+
+Przykład tabeli z zagnieżdżonym znacznikiem *style*:
+{%= link_to "Today's Sudoku", "/html/tables/scoped.html" %}.
+A tak jest ona renderowna przy domyślnych ustawieniach przeglądarki:
+{%= link_to "scoped.html", "/doc/html/tables/scoped.html" %}
+([źródło przykładu](http://www.w3.org/TR/html5/tabular-data.html#tabular-data)).
 
 
 <blockquote>
