@@ -84,17 +84,29 @@ TODO: Websockets, geolokacja, preserving history (zob. https://github.com/)
 * [Mozilla Developer Network](https://developer.mozilla.org/en-US/)
 * Peter-Paul Koch. [JavaScript](http://www.quirksmode.org/js/contents.html)
 
-Ściągi:
+
+### Samouczki online
+
+* Marijn Haverbeke, [Eloquent JavaScript](http://eloquentjavascript.net/) –
+  a modern introduction to programming
+* [JavaScript Garden](http://bonsaiden.github.com/JavaScript-Garden/) –
+  a collection of documentation about the most quirky parts of the
+  JavaScript programming language
+
+
+### Ściągi
 
 * [CSS Reference](https://developer.mozilla.org/en/CSS_Reference) – z linkami do przykładów (z MDN)
 * [CSS3 Cheat Sheet](http://www.smashingmagazine.com/2009/07/13/css-3-cheat-sheet-pdf/)
 
-Learn by doing:
+
+### Learn by doing
 
 * Remy Sharp, [JS Bin](http://jsbin.com/)
 * John Resig, [Secrets of the JavaScript Ninja](http://ejohn.org/apps/learn/)
 
-Różne rzeczy:
+
+## Różne rzeczy:
 
 * M. Pilgrim, [Dive Into HTML5](http://diveintohtml5.org/)
 * T. Fuchs, A. Hoy. [DOM Monster](http://mir.aculo.us/dom-monster/)
