@@ -10,9 +10,12 @@ Idzie nowe… Dlaczego?
 * [JavaScript Lint](http://www.javascriptlint.com/)
 
 
-## Instalacja
+## Instalacja modułu CoffeeScript
 
-Należy zainstalować: nodejs + npm + moduł.
+Najpierw musimy zainstalować NodeJS i NPM.
+[JTZ?](http://sinatra.inf.ug.edu.pl/nosql/srodowisko)
+
+Moduł CoffeeScript instalujemy korzystając z NPM:
 
     npm install -g coffee-script
       /home/wbzyl/.node/bin/coffee -> /home/wbzyl/.node/lib/node_modules/coffee-script/bin/coffee
@@ -22,13 +25,15 @@ Należy zainstalować: nodejs + npm + moduł.
 
 ## Edytor
 
-Jak skonfigurować edytor Emacs: ruby + coffescript:
+Jak skonfigurować edytor:
 
 * [text editor plugins](https://github.com/jashkenas/coffee-script/wiki/Text-editor-plugins)
-* [Cloud9](http://cloud9ide.com/)
 * [emacs mode](https://github.com/defunkt/coffee-mode)
 * [How To Write A Emacs Major Mode For Syntax Coloring](http://xahlee.org/emacs/elisp_syntax_coloring.html)
 
+Dla projektów napisanych w NodeJS:
+
+* [Cloud9](http://cloud9ide.com/)
 
 ## Zaczynamy
 
@@ -36,3 +41,4 @@ Jak skonfigurować edytor Emacs: ruby + coffescript:
 
 
 ### Hello world!
+
