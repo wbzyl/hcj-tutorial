@@ -42,3 +42,19 @@ Dla projektów napisanych w NodeJS:
 
 ### Hello world!
 
+Program:
+
+    :::plain_text hello.coffee
+    console.log 'Witaj świecie!'
+
+Kompilacja + uruchamianie:
+
+    coffee hello.coffee
+
+Kompilacja:
+
+    coffee -c hello.coffee
+
+Uruchamianie:
+
+    node hello.js
