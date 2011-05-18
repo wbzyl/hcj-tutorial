@@ -30,7 +30,8 @@
 ## Javascript + jQuery
 
 1. {%= link_to "Raz, dwa, trzy, jQuery…", "/jquery" %}
-1. {%= link_to "Korzystamy z wtyczkek", "/plugins" %}
+1. {%= link_to "Korzystamy z wtyczek", "/plugins" %}
+1. {%= link_to "CoffeScript", "/coffescript" %}
 1. {%= link_to "Local & session storage", "/storage" %}
 1. {%= link_to "Przesyłanie wiadomości między domenami", "/cross-domain-messaging" %}
 1. {%= link_to "Web workers", "/web-workers" %}
