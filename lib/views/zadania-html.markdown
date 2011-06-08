@@ -49,3 +49,16 @@ drugi raz — na kolorowo.
 * Worksheet {%= image_tag '/images/tabele/worksheet.png', :alt => "[worksheet]", :class =>"display" %}
 * AT&T {%= image_tag '/images/tabele/att.png', :alt => "[att]" %}
 * Chart {%= image_tag '/images/tabele/chart.png', :alt => "[chart]" %}
+
+
+## 4. Galeria zdjęć
+
+1\. Tylko w CSS:
+
+* [CSSPlay](http://www.cssplay.co.uk/)
+
+2\. CSS + Javascript:
+
+* [Smooth Div Scroll](http://www.smoothdivscroll.com/)
+* [jQuery.popeye 2.0](http://dev.herr-schuessler.de/jquery/popeye/)
+* [Galleria](http://galleria.aino.se/)
