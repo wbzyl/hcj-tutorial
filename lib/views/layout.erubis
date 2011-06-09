@@ -1,50 +1,47 @@
 <!doctype html>
-<html>
-<head>
+<!--[if lt IE 7 ]> <html lang="en" class="no-js ie6"> <![endif]--><!--[if IE 7 ]>    <html lang="en" class="no-js ie7"> <![endif]--><!--[if IE 8 ]>    <html lang="en" class="no-js ie8"> <![endif]--><!--[if IE 9 ]>    <html lang="en" class="no-js ie9"> <![endif]--><!--[if (gt IE 9)|!(IE)]><!--> <html lang="en" class="no-js"> <!--<![endif]--><head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-<meta http-equiv="content-type" content="text/html; charset=utf-8">
-<link rel="shortcut icon" href="/nosql/favicon.ico">
+    <title>{%= filler_for?(:title) ? "WB@HCJ//" + output_filler_for(:title) : "WB@HCJ" %}</title>
 
-{%= stylesheet_link_tag "/stylesheets/screen.css", "/stylesheets/uv.css", "/stylesheets/application.css" %}
-{%= stylesheet_link_tag "/stylesheets/print.css", :media => "print" %}
-<!--[if IE]>
-{%= stylesheet_link_tag "/stylesheets/ie.css" %}
-<![endif]-->
+    <meta name="description" content="HTML5,CSS3,Javascript,jQuery">
+    <meta name="author" content="Włodek Bzyl">
 
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
-{%= javascript_script_tag "/javascripts/application.js" %}
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-{%= output_filler_for(:head) -%}
+    <link rel="shortcut icon" href="/nosql/favicon.ico">
 
-<title>{%= filler_for?(:title) ? "WB@HCJ//" + output_filler_for(:title) : "WB @ HTML5, CSS3 i jQuery" %}</title>
+    {%= stylesheet_link_tag "/stylesheets/screen.css", "/stylesheets/uv.css", "/stylesheets/application.css" %}
 
-</head>
+    {%= output_filler_for(:head) -%}
 
+    <!--[if lt IE 9]>
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]--></head>
 <body>
 
 <header>
-  <div class="left">4058798D95374049BB27AA4560A607ED</div>
-  <div class="right"><a href="/hcj/">WB@HCJ</a></div>
+  <div class="left">D31AAE36D58CB3C21981974AA335E32AF90C</div>
+  <div class="right">
+    {%= link_to "WB@HCJ", "/" %}
+  </div>
 </header>
 
 <article>
-{% if filler_for?(:title) && show_title? %}
-<h1>{%= output_filler_for(:title) %}</h1>
-{% end %}
-{%= yield %}
+  {% if filler_for?(:title) && show_title? %}
+  <h1>{%= output_filler_for(:title) %}</h1>
+  {% end %}
+  {%= yield %}
 </article>
 
-<script type="text/javascript">
-var _gaq = _gaq || [];
-_gaq.push(['_setAccount', 'UA-20399167-1']);
-_gaq.push(['_trackPageview']);
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+<script>!window.jQuery && document.write(unescape('%3Cscript src="/javascripts/libs/jquery-1.5.1.min.js"%3E%3C/script%3E'))</script>
 
-(function() {
-  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-})();
-</script>
-
-</body>
+<script>
+  var _gaq=[['_setAccount','UA-20399167-1'],['_trackPageview']];
+  (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.async=1;
+  g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+  s.parentNode.insertBefore(g,s)}(document,'script'));
+</script></body>
 </html>

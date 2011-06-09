@@ -8,8 +8,7 @@ require 'hcj'
 require 'uv'
 require 'rack/codehighlighter'
 
-use Rack::ShowExceptions
-use Rack::Lint
+#use Rack::ShowExceptions
 
 use Rack::Codehighlighter, :ultraviolet, :markdown => true, :element => "pre>code"
 

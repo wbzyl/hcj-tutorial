@@ -90,7 +90,5 @@ module WB
       'Application Error'
     end
 
-    # each Sinatra::Base subclass has its own private middleware stack:
-    # use Rack::Lint
   end
 end

@@ -20,15 +20,6 @@ Gem::Specification.new do |s|
   s.add_runtime_dependency 'rdiscount'
   s.add_runtime_dependency 'erubis'
 
-  s.add_runtime_dependency 'sinatra-static-assets'
-  s.add_runtime_dependency 'emk-sinatra-url-for'
-  s.add_runtime_dependency 'sinatra-filler'
-
-  # ruby 1.9.2
-  # s.add_runtime_dependency 'spox-ultraviolet'
-  # ruby ree
-  s.add_runtime_dependency 'ultraviolet'
-
   # I need code from pre-caption branch
   # s.add_runtime_dependency 'rack-codehighlighter'
 
