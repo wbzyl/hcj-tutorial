@@ -5,11 +5,11 @@ Bundler.require
 
 require 'hcj'
 
-require 'uv'
+require 'coderay'
 require 'rack/codehighlighter'
 
 #use Rack::ShowExceptions
 
-use Rack::Codehighlighter, :ultraviolet, :markdown => true, :element => "pre>code"
+use Rack::Codehighlighter, :coderay, :markdown => true, :element => "pre>code"
 
-run WB::HCJ.new
+run WB::HCJ

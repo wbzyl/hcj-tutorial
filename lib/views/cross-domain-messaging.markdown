@@ -34,7 +34,7 @@ Na komputerze **192.168.0.1** umieszczamy *index.html*:
 oraz plik *application.js* z kodem odbierajacym wiadomość wysłaną
 z *sigma.ug.edu.pl*::
 
-    :::jquery_javascript js/application.js
+    :::javascript js/application.js
     $(document).ready(function() {
       $(window).bind("message", function(event) {
         $("#key").val(event.originalEvent.data);
@@ -45,7 +45,7 @@ A na komputerze **sigma.ug.edu.pl** plik *hobbits.html* z kontaktami,
 który zawiera kod javascript przypisujący do zdarzenia *onclick*
 funkcję przesyłającą wiadomość:
 
-    :::jquery_javascript sigma.ug.edu.pl
+    :::javascript sigma.ug.edu.pl
     $(function(){
       $("#contacts li").click(function(event) {
         var email = $(this).find(".email").text();
@@ -68,7 +68,7 @@ Ale jeśli adres IP wpiszemy „gwiazdkę*, to wiadomość będzie przesłana za
 Security: ale wtedy powinniśmy sprawdzić z jakiego komputera pochodzi
 message:
 
-    :::jquery_javascript
+    :::javascript
     $(document).ready(function() {
       $(window).bind("message", function(event) {
         if (event.originalEvent.origin == 'http://sigma.ug.edu.pl') {

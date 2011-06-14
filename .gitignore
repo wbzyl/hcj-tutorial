@@ -1,10 +1,10 @@
 .bundle
-.rvmrc
+vendor/cache
+lib/tmp/**/*
 log
 pkg
+.rvmrc
 *~
 .\#*
 \#*
-lib/tmp/**/*
 Gemfile.lock
-

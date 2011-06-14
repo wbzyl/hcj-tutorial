@@ -1,5 +1,5 @@
-module HCJ 
+module HCJ
   module Tutorial
-    VERSION = "0.0.1"
+    VERSION = "1.0.0"
   end
 end

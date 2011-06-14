@@ -44,7 +44,7 @@ Dla projektów napisanych w NodeJS:
 
 Program:
 
-    :::plain_text hello.coffee
+    :::plain hello.coffee
     console.log 'Witaj świecie!'
 
 Kompilacja + uruchamianie:

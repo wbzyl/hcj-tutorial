@@ -20,8 +20,7 @@ Gem::Specification.new do |s|
   s.add_runtime_dependency 'rdiscount'
   s.add_runtime_dependency 'erubis'
 
-  # I need code from pre-caption branch
-  # s.add_runtime_dependency 'rack-codehighlighter'
+  #s.add_runtime_dependency 'coderay'
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
