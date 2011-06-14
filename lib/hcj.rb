@@ -51,14 +51,12 @@ module WB
 
       translate = { # to ultraviolet syntax names: uv -l syntax
         'html' => 'html',
-        'html.erb' => 'html_rails',
-        'text.erb' => 'html_rails',
-        'rb' => 'ruby_experimental',
-        'ru' => 'ruby_experimental',
-        'css' => 'css_experimental',
-        'js' => 'jquery_javascript',
+        'html.erb' => 'rhtml',
+        'text.erb' => 'rhtml',
+        'ru' => 'ruby',
+        'js' => 'javascript',
         'yml' => 'yaml',
-        'sh' => 'shell-unix-generic'
+        'sh' => 'bash'
       }
 
       content_type 'text/html', :charset => 'utf-8'
