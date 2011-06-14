@@ -12,7 +12,7 @@
 
     <link rel="shortcut icon" href="/nosql/favicon.ico">
 
-    {%= stylesheet_link_tag "/stylesheets/screen.css", "/stylesheets/uv.css", "/stylesheets/application.css" %}
+    {%= stylesheet_link_tag "/stylesheets/screen.css", "/stylesheets/coderay.css", "/stylesheets/application.css" %}
 
     {%= output_filler_for(:head) -%}
 
