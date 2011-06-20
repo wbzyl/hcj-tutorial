@@ -7,6 +7,8 @@ Zaczynamy od lektury:
 * [audio.js](http://kolber.github.com/audiojs/) –
   a drop-in javascript library that allows HTML5’s
   *audio* tag to be used anywhere
+* [HTML5 <audio> boombox](https://audiofile.cc/boombox) –
+  use HTML5 *audio* and jQuery to create a digital boombox
 
 Jak to działa w Firefoksie?
 
