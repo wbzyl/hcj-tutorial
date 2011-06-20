@@ -81,6 +81,7 @@ TODO: Websockets, geolokacja, preserving history (zob. https://github.com/)
 * [CSS3.info](http://www.css3.info/)
 * [jQuery](http://jquery.com/). Wtyczki do jQuery:
   * [Orbit: A Slick jQuery Image Slider Plugin](http://www.zurb.com/playground/orbit-jquery-image-slider)
+  * [jQuery Masonry](http://masonry.desandro.com/) – a dynamic layout plugin
 * [Code Conventions for the JavaScript Programming Language](http://javascript.crockford.com/code.html)
 * [Mozilla Developer Network](https://developer.mozilla.org/en-US/)
 * Peter-Paul Koch. [JavaScript](http://www.quirksmode.org/js/contents.html)
