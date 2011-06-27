@@ -119,3 +119,5 @@ TODO: Websockets, geolokacja, preserving history (zob. https://github.com/)
 * [Find Icons](http://findicons.com/search/html#ajax)
 * [Julia meets HTML5](http://googleresearch.blogspot.com/2011/01/julia-meets-html-5.html) –
   a fractal renderer in HTML5 (canvas, web workers)
+* [d3.js](http://mbostock.github.com/d3/); krótkie wprowadzenie
+  [d3.js is Not a Graphing Library, Let's Design a Line Graph](http://dealloc.me/2011/06/24/d3-is-not-a-graphing-library.html)
