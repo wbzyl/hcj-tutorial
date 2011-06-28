@@ -121,3 +121,4 @@ TODO: Websockets, geolokacja, preserving history (zob. https://github.com/)
   a fractal renderer in HTML5 (canvas, web workers)
 * [d3.js](http://mbostock.github.com/d3/); krótkie wprowadzenie
   [d3.js is Not a Graphing Library, Let's Design a Line Graph](http://dealloc.me/2011/06/24/d3-is-not-a-graphing-library.html)
+* [Paper.js](http://paperjs.org/about/) – the swiss army knife of vector graphics scripting
