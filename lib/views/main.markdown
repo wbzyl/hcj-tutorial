@@ -122,3 +122,4 @@ TODO: Websockets, geolokacja, preserving history (zob. https://github.com/)
 * [d3.js](http://mbostock.github.com/d3/); krótkie wprowadzenie
   [d3.js is Not a Graphing Library, Let's Design a Line Graph](http://dealloc.me/2011/06/24/d3-is-not-a-graphing-library.html)
 * [Paper.js](http://paperjs.org/about/) – the swiss army knife of vector graphics scripting
+* [JavaScript language advanced Tips & Tricks](http://code.google.com/p/jslibs/wiki/JavascriptTips)
