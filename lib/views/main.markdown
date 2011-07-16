@@ -89,6 +89,8 @@ TODO: Websockets, geolokacja, preserving history (zob. https://github.com/)
 
 ### Samouczki online
 
+* [Google: HTML, CSS, and Javascript from the Ground Up](http://code.google.com/edu/submissions/html-css-javascript/) –
+  screencasty
 * Marijn Haverbeke, [Eloquent JavaScript](http://eloquentjavascript.net/) –
   a modern introduction to programming
 * [JavaScript Garden](http://bonsaiden.github.com/JavaScript-Garden/) –
