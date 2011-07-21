@@ -96,6 +96,7 @@ TODO: Websockets, geolokacja, preserving history (zob. https://github.com/)
 * [JavaScript Garden](http://bonsaiden.github.com/JavaScript-Garden/) –
   a collection of documentation about the most quirky parts of the
   JavaScript programming language
+* [A re-introduction to JavaScript](https://developer.mozilla.org/en/A_re-introduction_to_JavaScript)
 
 
 ### Ściągi
