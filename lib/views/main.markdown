@@ -111,6 +111,15 @@ TODO: Websockets, geolokacja, preserving history (zob. https://github.com/)
 * John Resig, [Secrets of the JavaScript Ninja](http://ejohn.org/apps/learn/)
 
 
+<blockquote>
+<p>RFC2235:
+  <a href="http://www.faqs.org/rfcs/rfc2235.html">Hobbes’ Internet Timeline</a>
+</p>
+<p>RFC2334:
+  <a href="http://www.faqs.org/rfcs/rfc2324.html">Hyper Text Coffee Pot Control Protocol (HTCPCP/1.0)</a>
+</p>
+</blockquote>
+
 ## Różne rzeczy:
 
 * M. Pilgrim, [Dive Into HTML5](http://diveintohtml5.org/)
