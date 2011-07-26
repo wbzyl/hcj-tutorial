@@ -1,4 +1,4 @@
-#### {% title "Coffescript" %}
+#### {% title "CoffeScript" %}
 
 Idzie nowe… Dlaczego?
 
@@ -12,18 +12,12 @@ Idzie nowe… Dlaczego?
 
 ## Instalacja modułu CoffeeScript
 
-Najpierw musimy zainstalować NodeJS i NPM.
-[JTZ?](http://sinatra.inf.ug.edu.pl/nosql/srodowisko)
-
-Moduł CoffeeScript instalujemy korzystając z NPM:
-
-    npm install -g coffee-script
-      /home/wbzyl/.node/bin/coffee -> /home/wbzyl/.node/lib/node_modules/coffee-script/bin/coffee
-      /home/wbzyl/.node/bin/cake -> /home/wbzyl/.node/lib/node_modules/coffee-script/bin/cake
-      coffee-script@1.1.1 /home/wbzyl/.node/lib/node_modules/coffee-script
+Standardowa instalacja: instalujemy NodeJS i NPM,
+następnie instalujemy moduł *coffee-script*.
+[Jak to zrobić?](http://sinatra.inf.ug.edu.pl/nosql/srodowisko)
 
 
-## Edytor
+## Konfigurujemy edytor
 
 Jak skonfigurować edytor:
 
@@ -31,30 +25,33 @@ Jak skonfigurować edytor:
 * [emacs mode](https://github.com/defunkt/coffee-mode)
 * [How To Write A Emacs Major Mode For Syntax Coloring](http://xahlee.org/emacs/elisp_syntax_coloring.html)
 
-Dla projektów napisanych w NodeJS:
+Możemy też skorzystać z edytora online:
 
 * [Cloud9](http://cloud9ide.com/)
 
+
 ## Zaczynamy
+
+Sporo przykładów jest na stronie CoffeeScript:
 
 * [CoffeScript home](http://jashkenas.github.com/coffee-script/)
 
 
-### Hello world!
+## Hello world!
 
-Program:
+Jak zwykle zaczynamy od programu „hello world”:
 
     :::plain hello.coffee
     console.log 'Witaj świecie!'
 
-Kompilacja + uruchamianie:
+Kompilujemy i uruchamiamy program:
 
     coffee hello.coffee
 
-Kompilacja:
+Tylko kompilacja:
 
     coffee -c hello.coffee
 
-Uruchamianie:
+Uruchamianie skompilowanego kodu:
 
     node hello.js
