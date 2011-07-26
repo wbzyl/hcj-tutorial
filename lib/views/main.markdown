@@ -138,3 +138,7 @@ TODO: Websockets, geolokacja, preserving history (zob. https://github.com/)
 * Paul Rouget,
   [Tilt](http://hacks.mozilla.org/2011/07/tilt-visualize-your-web-page-in-3d/):
   Visualize your Web page in 3D – a Firefox extension
+* [Contrast rebellion](http://contrastrebellion.com/) –
+  Low-contrast fonts and unreadable texts? To hell with them!
+* Richard Clark.
+  [Avoiding common HTML5 mistakes](http://html5doctor.com/avoiding-common-html5-mistakes/)
