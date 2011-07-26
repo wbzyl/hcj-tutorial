@@ -142,3 +142,4 @@ TODO: Websockets, geolokacja, preserving history (zob. https://github.com/)
   Low-contrast fonts and unreadable texts? To hell with them!
 * Richard Clark.
   [Avoiding common HTML5 mistakes](http://html5doctor.com/avoiding-common-html5-mistakes/)
+* [Easily Confused HTML5 Element Flowchart Enlightenment!](http://html5doctor.com/wp-content/uploads/HTML5Doctor-sectioning-flowchart.pdf)
