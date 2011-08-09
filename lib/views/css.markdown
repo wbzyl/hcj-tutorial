@@ -1,5 +1,14 @@
-#### {% title "Oswajamy CSS" %}
+#### {% title "Oswajamy CSS3" %}
 
 <blockquote>
  {%= image_tag "/images/ie300.png", :alt => "[IE]" %}
 </blockquote>
+
+Podstawy:
+
+* [Compose to a Vertical Rhythm](http://24ways.org/2006/compose-to-a-vertical-rhythm)
+* [Pull Quotes with HTML5 and CSS](http://miekd.com/articles/pull-quotes-with-html5-and-css/)
+
+Triki:
+
+* [Incremental leading](http://www.markboulton.co.uk/journal/comments/incremental-leading)
