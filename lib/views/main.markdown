@@ -29,7 +29,7 @@
 
 ## Javascript + jQuery
 
-1. {%= link_to "JavaScript", "/javascript" %}
+1. {%= link_to "Zaczynamy", "/javascript" %}
 1. {%= link_to "Raz, dwa, trzy, jQuery…", "/jquery" %}
 1. {%= link_to "Korzystamy z wtyczek", "/plugins" %}
 1. {%= link_to "CoffeScript", "/coffescript" %}
