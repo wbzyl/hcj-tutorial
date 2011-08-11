@@ -29,6 +29,7 @@
 
 ## Javascript + jQuery
 
+1. {%= link_to "JavaScript", "/javascript" %}
 1. {%= link_to "Raz, dwa, trzy, jQuery…", "/jquery" %}
 1. {%= link_to "Korzystamy z wtyczek", "/plugins" %}
 1. {%= link_to "CoffeScript", "/coffescript" %}
@@ -87,28 +88,10 @@ TODO: Websockets, geolokacja, preserving history (zob. https://github.com/)
 * Peter-Paul Koch. [JavaScript](http://www.quirksmode.org/js/contents.html)
 
 
-### Samouczki online
-
-* [Google: HTML, CSS, and Javascript from the Ground Up](http://code.google.com/edu/submissions/html-css-javascript/) –
-  screencasty
-* Marijn Haverbeke, [Eloquent JavaScript](http://eloquentjavascript.net/) –
-  a modern introduction to programming
-* [JavaScript Garden](http://bonsaiden.github.com/JavaScript-Garden/) –
-  a collection of documentation about the most quirky parts of the
-  JavaScript programming language
-* [A re-introduction to JavaScript](https://developer.mozilla.org/en/A_re-introduction_to_JavaScript)
-
-
 ### Ściągi
 
 * [CSS Reference](https://developer.mozilla.org/en/CSS_Reference) – z linkami do przykładów (z MDN)
 * [CSS3 Cheat Sheet](http://www.smashingmagazine.com/2009/07/13/css-3-cheat-sheet-pdf/)
-
-
-### Learn by doing
-
-* Remy Sharp, [JS Bin](http://jsbin.com/)
-* John Resig, [Secrets of the JavaScript Ninja](http://ejohn.org/apps/learn/)
 
 
 <blockquote>
