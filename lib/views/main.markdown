@@ -94,6 +94,7 @@ TODO: Websockets, geolokacja, preserving history (zob. https://github.com/)
 
 * [CSS Reference](https://developer.mozilla.org/en/CSS_Reference) – z linkami do przykładów (z MDN)
 * [CSS3 Cheat Sheet](http://www.smashingmagazine.com/2009/07/13/css-3-cheat-sheet-pdf/)
+* [HTML5 Canvas Cheat Sheet](http://simon.html5.org/dump/html5-canvas-cheat-sheet.html)
 
 
 <blockquote>
