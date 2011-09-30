@@ -86,12 +86,15 @@ TODO: Websockets, geolokacja, preserving history (zob. https://github.com/)
 * [Code Conventions for the JavaScript Programming Language](http://javascript.crockford.com/code.html)
 * [Mozilla Developer Network](https://developer.mozilla.org/en-US/)
 * Peter-Paul Koch. [JavaScript](http://www.quirksmode.org/js/contents.html)
+* Tali Garsiel.
+  [How Browsers Work: Behind the Scenes of Modern Web Browsers](http://www.html5rocks.com/en/tutorials/internals/howbrowserswork/)
 
 
 ### Ściągi
 
 * [CSS Reference](https://developer.mozilla.org/en/CSS_Reference) – z linkami do przykładów (z MDN)
 * [CSS3 Cheat Sheet](http://www.smashingmagazine.com/2009/07/13/css-3-cheat-sheet-pdf/)
+* [HTML5 Canvas Cheat Sheet](http://simon.html5.org/dump/html5-canvas-cheat-sheet.html)
 
 
 <blockquote>
