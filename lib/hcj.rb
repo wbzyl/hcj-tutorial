@@ -24,7 +24,7 @@ module WB
     # the middleware stack can be used internally as well. I'm using it for
     # sessions, logging, and methodoverride. This lets us move stuff out of
     # Sinatra if it's better handled by a middleware component.
-    set :logging, true  # use Rack::CommonLogger
+    # set :logging, true  # use Rack::CommonLogger
     settings.logging = true  # use Rack::CommonLogger
 
     set :erb, :pattern => '\{% %\}', :trim => true
