@@ -5,7 +5,7 @@ require "version"
 
 Gem::Specification.new do |s|
   s.name        = "hcj-tutorial"
-  s.version     = HCJ::Tutorial::VERSION
+  s.version     = "1.0.0"
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Włodek Bzyl"]
   s.email       = ["matwb@ug.edu.pl"]

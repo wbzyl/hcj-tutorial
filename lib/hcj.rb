@@ -13,26 +13,32 @@ module WB
     register Sinatra::StaticAssets
 
     # disable overriding public and views dirs
-    set :app_file, __FILE__
-    set :static, true
 
-    set :erubis, :pattern => '\{% %\}', :trim => true
-    set :markdown, :layout => false
+    # deprecated
+    # set :app_file, __FILE__
+    # set :static, true
+
+    settings.app_file = __FILE__
+    settings.static = true
 
     # the middleware stack can be used internally as well. I'm using it for
     # sessions, logging, and methodoverride. This lets us move stuff out of
     # Sinatra if it's better handled by a middleware component.
     set :logging, true  # use Rack::CommonLogger
+    settings.logging = true  # use Rack::CommonLogger
+
+    set :erb, :pattern => '\{% %\}', :trim => true
+    set :markdown, :layout => false
 
     # helper methods
     helpers Sinatra::Filler
 
     get '/' do
-      erubis(markdown(:main))
+      erb(markdown(:main))
     end
 
     get '/:section' do
-      erubis(markdown(:"#{params[:section]}"))
+      erb(markdown(:"#{params[:section]}"))
     end
 
     # kod programu:
