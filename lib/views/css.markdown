@@ -13,3 +13,7 @@ Triki:
 
 * [Incremental leading](http://www.markboulton.co.uk/journal/comments/incremental-leading)
 * [The Shapes of CSS](http://css-tricks.com/examples/ShapesOfCSS/)
+
+Przykłady:
+
+* [Famous Logos in CSS](http://www.ecsspert.com/adobe.php) – No images. No JS. Just CSS
