@@ -1,4 +1,4 @@
-#### {% title "Idzie nowe…" %}
+#### {% title "Idzie nowe  ♥♥♥" %}
 
 <blockquote>
  {%= image_tag '/images/christie-agatha.jpg', :alt => "[Agatha Christie, Lady Mallowan]" %}
@@ -8,19 +8,30 @@
  <p class="author">Agatha Christie</p>
 </blockquote>
 
-Czy już jest pora na nowe technologie…
+Idzie nowe, także lepsze:
 
-* [What can it do? What browser am I using, how modern is my web
-  browser…](http://www.findmebyip.com/)
+* [What can it do? What browser am I using, how modern is my web browser…](http://www.findmebyip.com/)
 * [Web Design – HTML5 & CSS3 Checklist](http://www.findmebyip.com/litmus/)
 * [When can I use…](http://a.deveria.com/caniuse/)
 * [HTML5 Readiness](http://html5readiness.com/)
 * [What is a Polyfill?](http://remysharp.com/2010/10/08/what-is-a-polyfill/)
 
+Już nadeszło?
 
-## HTML5
 
-* Simon Pieters. [HTML5 Elements and Attributes](http://simon.html5.org/html5-elements)
+## HTML5 ♡♡♡
+
+Zaczynamy:
+
+* Simon Pieters. [HTML5 Elements and Attributes](http://simon.html5.org/html5-elements):
+  - [HTML5 Live DOM Viewer](http://livedom.validator.nu/)
+  - [Shape Catcher](http://shapecatcher.com/) – unicode character recognition
+  - [Mothereffing CSS escapes](http://mothereffingcssescapes.com/) –
+  how to escape any character in CSS
+  - [Mothereffing unquoted attribute value validator](http://mothereffingunquotedattributes.com/)
+
+Prezentacje, demo…
+
 * Marcin Wichary, Ernest Delgado, Alex Russell.
   [HTML5 presentation](http://apirocks.com/html5/html5.html#slide1)
 * Remy Sharp. [HTML 5 Demos and Examples](http://html5demos.com/)
@@ -28,7 +39,7 @@ Czy już jest pora na nowe technologie…
   to](http://www.geektechnica.com/2009/06/5-amazing-html5-features-to-look-forward-to/)
 
 
-## CSS 3
+## CSS 3 ☃☃☃
 
 * [CSS3 Previews – CSS3. Info](http://www.css3.info/preview/)
 * [Color Scheme Designer](http://colorschemedesigner.com/)
@@ -48,7 +59,7 @@ Inne:
   CSS-based design
 
 
-## Javascript & jQuery
+## Javascript & jQuery ✰✰✰
 
 * [jQuery Masonry](http://desandro.com/resources/jquery-masonry/) —
   Masonry is a layout plugin for jQuery. Think of it as the flip side of
