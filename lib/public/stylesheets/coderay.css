@@ -4,6 +4,8 @@
 }
 .CodeRay pre { margin: 0px }
 
+.CodeRay .error { padding: 0; }
+
 div.CodeRay { }
 
 span.CodeRay { white-space: pre; border: 0px; padding: 2px }

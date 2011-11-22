@@ -16,22 +16,15 @@ Czyli kilka szablonów, oraz link do [walidatora HTML5](http://validator.whatwg.
 Kompletny i poprawny szablon dokumentu HTML5:
 
     :::html
-    <!doctype html>
+    <!doctype html public "♥♥♥">
     <html lang=pl>
     <head>
       <meta charset=utf-8>
-      <title>HTML 5 complete</title>
-      <!--[if lt IE 9]>
-      <script
-       src="http://html5shiv.googlecode.com/svn/trunk/html5.js">
-      </script>
-      <![endif]-->
-      <script src="http://code.jquery.com/jquery-1.4.4.min.js">
+      <title>Szablon strony HTML5</title>
+      <script src="http://code.jquery.com/jquery.min.js">
       </script>
       <style>
-      article, aside, details, figcaption,
-        figure, footer, header,
-        hgroup, menu, nav, section { display: block; }
+        background: #E2DF9A;
       </style>
     </head>
     <body>
@@ -39,12 +32,11 @@ Kompletny i poprawny szablon dokumentu HTML5:
     </body>
     </html>
 
-Przykład pobrałem ze strony
+Więcej przykładów –
 [HTML5 Doctor](http://html5doctor.com/html-5-boilerplates/).
 
-Bibliotekę jQuery pobieramy
-z [Content Delivery Network](http://docs.jquery.com/Downloading_jQuery#CDN_Hosted_jQuery)
-(w skrócie *CDN*).
+Bibliotekę jQuery pobieramy z [jQuery CDN](http://code.jquery.com/),
+czyli z *jQuery Content Delivery Network*.
 
 Pytanie: *boilerplate* – jak to przetłumaczyć?
 
@@ -55,6 +47,7 @@ Jeszcze jedna ciekawostka:
 
     :::html
     <!doctype html>
+    <html lang=pl>
     <meta charset=utf-8>
     <title>Minimalny dokument HTML5</title>
     <p>ąćęłńóśźż ĄĆĘŁŃÓŚŹŻ</p>
