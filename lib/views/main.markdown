@@ -106,6 +106,11 @@ TODO: Websockets, geolokacja, preserving history (zob. https://github.com/)
 </p>
 </blockquote>
 
+## Rozszerzenia do przeglądarek
+
+* [Firefox – tons of tools for web developers!](http://hacks.mozilla.org/2011/11/firefox-tons-of-tools-for-web-developers/)
+
+
 ## Różne rzeczy:
 
 * M. Pilgrim, [Dive Into HTML5](http://diveintohtml5.org/)
