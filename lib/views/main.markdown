@@ -92,6 +92,7 @@ TODO: Websockets, geolokacja, preserving history (zob. https://github.com/)
 
 ### Ściągi
 
+* [DocHub](http://dochub.io/) – instant documentation search
 * [InstaCSS](https://github.com/abudner/fortune) – instant CSS documentation search
 * [CSS Reference](https://developer.mozilla.org/en/CSS_Reference) – z linkami do przykładów (z MDN)
 * [HTML5 Canvas Cheat Sheet](http://simon.html5.org/dump/html5-canvas-cheat-sheet.html)
