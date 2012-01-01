@@ -34,9 +34,11 @@ Prezentacje, demo…
 
 * Marcin Wichary, Ernest Delgado, Alex Russell.
   [HTML5 presentation](http://apirocks.com/html5/html5.html#slide1)
-* Remy Sharp. [HTML 5 Demos and Examples](http://html5demos.com/)
-* [5 Amazing HTML5 Features to Look Forward
-  to](http://www.geektechnica.com/2009/06/5-amazing-html5-features-to-look-forward-to/)
+* Hakim El Hattab.
+  [Reveal.JS](http://lab.hakim.se/reveal-js) – a CSS 3D slideshow
+* Remy Sharp.
+  [HTML 5 Demos and Examples](http://html5demos.com/)
+* [5 Amazing HTML5 Features to Look Forward to](http://www.geektechnica.com/2009/06/5-amazing-html5-features-to-look-forward-to/)
 
 
 ## CSS 3 ☃☃☃
