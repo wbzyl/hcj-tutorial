@@ -21,9 +21,14 @@
 
 ## 1. jBlog
 
-Zmodyfikować layout jbloga. Można skorzystać z rozwiązań
+1\. Zmodyfikować layout jbloga. Można skorzystać z rozwiązań
 opisanych na blogu Richard Huanga,
 [Migrate Custom Blog to Jekyll and Disqus](http://www.huangzhimin.com/2011/01/20/migrate-custom-blog-to-jekyll-and-disqus/).
+
+2\. Zarejestrować się na stronie [FontStruct](http://fontstruct.com/).
+Przczytać [What is FontStruct?](http://fontstruct.com/learn_more).
+Korzystając z narzędzia *FontStructor* utworzyć własny font.
+Użyć go w tytule bloga.
 
 
 ## 2. Plan zajęć
@@ -66,6 +71,7 @@ Warto też czasami zajrzeć na jej [blog](http://lea.verou.me/).
 1\. Tylko w CSS:
 
 * [CSSPlay](http://www.cssplay.co.uk/)
+
 
 2\. CSS + Javascript:
 
