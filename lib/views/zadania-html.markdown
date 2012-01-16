@@ -51,7 +51,17 @@ drugi raz — na kolorowo.
 * Chart {%= image_tag '/images/tabele/chart.png', :alt => "[chart]" %}
 
 
-## 4. Galeria zdjęć
+## 4. CSS3 Patterns Gallery
+
+Na stronie Lea Verou, [CSS3 Patterns Gallery](http://lea.verou.me/css3patterns/) znajdziemy
+galerię z gradientami CSS3. Gradienty można edytować bezpośrednio
+na stronie. Wyedytować dowolny gradient z tej strony, dodać krótki opis
+i wszytko umieścić na swoim blogu.
+
+Warto też czasami zajrzeć na jej [blog](http://lea.verou.me/).
+
+
+## 5. Galeria zdjęć
 
 1\. Tylko w CSS:
 
