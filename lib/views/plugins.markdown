@@ -16,6 +16,11 @@ A potem przeanalizować prosty przykład:
 
 * [Build a Better Tooltip with jQuery Awesomeness](http://net.tutsplus.com/tutorials/javascript-ajax/build-a-better-tooltip-with-jquery-awesomeness/)
 
+Użyteczne wtyczki:
+
+* [jquery-textext](https://github.com/alexgorbatchev/jquery-textext) –
+  customizable text input supporting tags, autocomplete, ajax
+
 
 ## Instalujemy wtyczkę *qTip2*
 
