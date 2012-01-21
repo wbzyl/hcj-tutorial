@@ -16,6 +16,8 @@ Zaczynamy:
   the jQuery JavaScript library
 * Rebecca Murphey.
   [jQuery Fundamentals](http://jqfundamentals.com/book/index.html)
+* [12 Jquery & CSS3 resources and tutorials (+ 18)](http://www.awwwards.com/12-jquery-css3-resources-and-tutorials.html)
+
 
 NEWS:
 
