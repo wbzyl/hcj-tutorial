@@ -14,11 +14,12 @@ jak się to robi:
 
 A potem przeanalizować prosty przykład:
 
+* [Making a jQuery Countdown Timer](http://tutorialzine.com/2011/12/countdown-jquery/)
 * [Build a Better Tooltip with jQuery Awesomeness](http://net.tutsplus.com/tutorials/javascript-ajax/build-a-better-tooltip-with-jquery-awesomeness/)
 
 Użyteczne wtyczki:
 
-* [jquery-textext](https://github.com/alexgorbatchev/jquery-textext) –
+* [jQuery TexText](https://github.com/alexgorbatchev/jquery-textext) –
   customizable text input supporting tags, autocomplete, ajax
 
 
