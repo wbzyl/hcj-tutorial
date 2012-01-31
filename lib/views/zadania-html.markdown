@@ -21,9 +21,14 @@
 
 ## 1. jBlog
 
-Zmodyfikować layout jbloga. Można skorzystać z rozwiązań
+1\. Zmodyfikować layout jbloga. Można skorzystać z rozwiązań
 opisanych na blogu Richard Huanga,
 [Migrate Custom Blog to Jekyll and Disqus](http://www.huangzhimin.com/2011/01/20/migrate-custom-blog-to-jekyll-and-disqus/).
+
+2\. Zarejestrować się na stronie [FontStruct](http://fontstruct.com/).
+Przczytać [What is FontStruct?](http://fontstruct.com/learn_more).
+Korzystając z narzędzia *FontStructor* utworzyć własny font.
+Użyć go w tytule bloga.
 
 
 ## 2. Plan zajęć
@@ -51,11 +56,22 @@ drugi raz — na kolorowo.
 * Chart {%= image_tag '/images/tabele/chart.png', :alt => "[chart]" %}
 
 
-## 4. Galeria zdjęć
+## 4. CSS3 Patterns Gallery
+
+Na stronie Lea Verou, [CSS3 Patterns Gallery](http://lea.verou.me/css3patterns/) znajdziemy
+galerię z gradientami CSS3. Gradienty można edytować bezpośrednio
+na stronie. Wyedytować dowolny gradient z tej strony, dodać krótki opis
+i wszytko umieścić na swoim blogu.
+
+Warto też czasami zajrzeć na jej [blog](http://lea.verou.me/).
+
+
+## 5. Galeria zdjęć
 
 1\. Tylko w CSS:
 
 * [CSSPlay](http://www.cssplay.co.uk/)
+
 
 2\. CSS + Javascript:
 

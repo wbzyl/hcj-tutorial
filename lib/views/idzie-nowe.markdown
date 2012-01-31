@@ -14,9 +14,8 @@ Idzie nowe, także lepsze:
 * [Web Design – HTML5 & CSS3 Checklist](http://www.findmebyip.com/litmus/)
 * [When can I use…](http://a.deveria.com/caniuse/)
 * [HTML5 Readiness](http://html5readiness.com/)
+* [HTML5 Please](http://html5please.us)
 * [What is a Polyfill?](http://remysharp.com/2010/10/08/what-is-a-polyfill/)
-
-Już nadeszło?
 
 
 ## HTML5 ♡♡♡
@@ -34,9 +33,11 @@ Prezentacje, demo…
 
 * Marcin Wichary, Ernest Delgado, Alex Russell.
   [HTML5 presentation](http://apirocks.com/html5/html5.html#slide1)
-* Remy Sharp. [HTML 5 Demos and Examples](http://html5demos.com/)
-* [5 Amazing HTML5 Features to Look Forward
-  to](http://www.geektechnica.com/2009/06/5-amazing-html5-features-to-look-forward-to/)
+* Hakim El Hattab.
+  [Reveal.JS](http://lab.hakim.se/reveal-js) – a CSS 3D slideshow
+* Remy Sharp.
+  [HTML 5 Demos and Examples](http://html5demos.com/)
+* [5 Amazing HTML5 Features to Look Forward to](http://www.geektechnica.com/2009/06/5-amazing-html5-features-to-look-forward-to/)
 
 
 ## CSS 3 ☃☃☃
