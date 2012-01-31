@@ -114,8 +114,12 @@ TODO: Websockets, geolokacja, preserving history (zob. https://github.com/)
 
 ## Różne rzeczy:
 
-* M. Pilgrim, [Dive Into HTML5](http://diveintohtml5.org/)
-* T. Fuchs, A. Hoy. [DOM Monster](http://mir.aculo.us/dom-monster/)
+* Shay Howe,
+  [A Beginners Guide to HTML & CSS](http://learn.shayhowe.com/html-css/terminology-syntax-intro/)
+* M. Pilgrim,
+  [Dive Into HTML5](http://diveintohtml5.info/)
+* T. Fuchs, A. Hoy.
+  [DOM Monster](http://mir.aculo.us/dom-monster/)
 * Brandon Mathis, [HSL Color Picker](http://hslpicker.com/)
 * [Mother-effing HSLA](http://mothereffinghsl.com/)
 * [Ultimate CSS Gradient Generator](http://www.colorzilla.com/gradient-editor/)

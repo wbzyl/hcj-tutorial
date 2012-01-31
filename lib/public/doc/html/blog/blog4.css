@@ -1,1 +1,24 @@
-../../../../x/html/blog/blog4.css
+#sidebar {
+  float: left;
+  width: 29%;
+}
+.post {
+  float: right;
+  width: 69%;
+  margin: 2px 0;
+}
+#footer {
+  clear: both;
+}
+
+/* poor’s men debugging */
+
+body {
+  width: 600px;
+  margin: 0 auto;
+}
+
+#header, #sidebar, .post, #footer {
+  margin: 2px 0;
+  border: 1px solid black;
+}
