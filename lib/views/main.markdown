@@ -70,11 +70,6 @@ TODO: Websockets, geolokacja, preserving history (zob. https://github.com/)
 
 # Podręczne linki
 
-* [Initializr](http://initializr.com/) – an HTML5 templates generator
-* [HTML5 ★ Boilerplate](http://html5boilerplate.com/) – a rock-solid default for HTML5 awesome
-* [Modernizr](http://www.modernizr.com/) – adds classes to the *html* element
-  which allow you to target specific browser functionality in your stylesheet
-* [Yenopejs](http://yepnopejs.com/) – an asynchronous conditional resource loader
 * [HTML5Rocks](http://www.html5rocks.com/) – the HTML5 Playground, Studio, and Presentation slides;
   zob. też [Resources](http://www.html5rocks.com/resources.html5)
 * [HTML5](http://html5.org/) – najważniejsze linki
@@ -97,6 +92,8 @@ TODO: Websockets, geolokacja, preserving history (zob. https://github.com/)
 * [CSS Reference](https://developer.mozilla.org/en/CSS_Reference) – z linkami do przykładów (z MDN)
 * [HTML5 Canvas Cheat Sheet](http://simon.html5.org/dump/html5-canvas-cheat-sheet.html)
 * [Browser Tests of Entities▲ ▶▼◀](http://www.santagata.us/characters/CharacterEntities.html)
+* [Online JavaScript beautifier](http://jsbeautifier.org/) – beautify, unpack or deobfuscate JavaScript and HTML,
+  make JSON/JSONP readable, etc.
 
 
 <blockquote>
@@ -122,6 +119,7 @@ TODO: Websockets, geolokacja, preserving history (zob. https://github.com/)
 * T. Fuchs, A. Hoy.
   [DOM Monster](http://mir.aculo.us/dom-monster/)
 * Brandon Mathis, [HSL Color Picker](http://hslpicker.com/)
+* [HTML5 ★ Boilerplate](http://html5boilerplate.com/) – a rock-solid default for HTML5 awesome
 * [Mother-effing HSLA](http://mothereffinghsl.com/)
 * [Ultimate CSS Gradient Generator](http://www.colorzilla.com/gradient-editor/)
 * [TeX Samples](http://www.mathjax.org/demos/tex-samples/)
