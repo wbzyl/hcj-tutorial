@@ -16,6 +16,13 @@ Learn by doing:
 * Remy Sharp, [JS Bin](http://jsbin.com/)
 * John Resig, [Secrets of the JavaScript Ninja](http://ejohn.org/apps/learn/)
 
+Debugging:
+
+* Paul Irish,
+  [Become a Javascript Console Power-User](http://www.youtube.com/watch?v=4mf_yNLlgic)
+* Paul Irish,
+  [Google Chrome Developer Tools: 12 Tricks to Develop Quicker](http://www.youtube.com/watch?v=nOEw9iiopwI)
+
 Artykuły:
 
 * Y. Katz,
