@@ -14,6 +14,10 @@ Triki:
 * [Incremental leading](http://www.markboulton.co.uk/journal/comments/incremental-leading)
 * [The Shapes of CSS](http://css-tricks.com/examples/ShapesOfCSS/)
 
+Uźyteczna wtyczka jQuery:
+
+* [Brosho 'Design in the Browser' jQuery Plugin](http://usejquery.com/posts/brosho-design-in-the-browser-jquery-plugin)
+
 Przykłady:
 
 * [Famous Logos in CSS](http://www.ecsspert.com/adobe.php) – No images. No JS. Just CSS
