@@ -27,3 +27,5 @@ Artykuły:
 
 * Y. Katz,
  [Understanding JavaScript Function Invocation and “this”](http://yehudakatz.com/2011/08/11/understanding-javascript-function-invocation-and-this/)
+* Addy Osmani,
+ [Patterns For Large-Scale JavaScript Application Architecture](http://addyosmani.com/largescalejavascript/)
