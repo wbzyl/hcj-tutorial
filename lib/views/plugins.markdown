@@ -21,6 +21,7 @@ Użyteczne wtyczki:
 
 * [jQuery TexText](https://github.com/alexgorbatchev/jquery-textext) –
   customizable text input supporting tags, autocomplete, ajax
+* [jQuery HTML5 Fullscreen Slideshow](http://eikes.github.com/jquery.fullscreen.js/)
 
 
 ## Instalujemy wtyczkę *qTip2*
