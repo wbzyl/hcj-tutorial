@@ -57,7 +57,19 @@ Korzystając z narzędzia *FontStructor* utworzyć własny font.
 Użyć go w tytule bloga.
 
 
-## 4. CSS3 Patterns Gallery
+## 4. Pokazy slajdów w HTML5
+
+Korzystając z biblioteki
+[reveal.js](http://lab.hakim.se/reveal-js/)
+albo [deck.js](http://imakewebthings.github.com/deck.js/)
+w prosty sposób możemy przygotować pokaz slajdów.
+
+Wybierz jedną z tych bibliotek (albo jakąś inną)
+i przygotuj pokaz slajdów na dowolny temat
+(10–20 sladów wystarczy).
+
+
+## 5. CSS3 Patterns Gallery
 
 Na stronie Lea Verou, [CSS3 Patterns Gallery](http://lea.verou.me/css3patterns/) znajdziemy
 galerię z gradientami CSS3. Gradienty można edytować bezpośrednio
