@@ -32,7 +32,11 @@ Zaczynamy:
 Prezentacje, demo…
 
 * Marcin Wichary, Ernest Delgado, Alex Russell.
-  [HTML5 presentation](http://slides.html5rocks.com/)
+  [HTML5 presentation](http://slides.html5rocks.com/);
+  zob. też tego autora
+  [Case study: Building the Stanisław Lem Google Doodle](http://www.html5rocks.com/en/tutorials/doodles/lem/)
+  oraz Adama Zapletala, [Land Slide](https://github.com/adamzap/landslide) –
+  generate a slideshow using the slides that power the html5-slides presentation
 * Remy Sharp.
   [HTML 5 Demos and Examples](http://html5demos.com/)
 * [5 Amazing HTML5 Features to Look Forward to](http://www.geektechnica.com/2009/06/5-amazing-html5-features-to-look-forward-to/)
