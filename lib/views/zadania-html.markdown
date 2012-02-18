@@ -7,38 +7,27 @@
  <p class="author">[The Tao of Programming 2.1]</p>
 </blockquote>
 
-1. Przygotować walidującą się stronę w HTML 4.01 strict.
-   Strona powinna zawierać następujące elementy:
-   a, blockquote, img, h1, h2, h3, ol, p, ul.
+1\. Przygotować przykładową stronę w HTML5.
+Strona powinna zawierać następujące elementy:
+article, section, nav, aside, footer, figure, caption,
+a, blockquote, img, h1, h2, h3, ol, p, ul.
 
-1. Do przygotowanej strony dodać jeden z szablonów
-   ze strony
-   [Free CSS Templates](http://www.freecsstemplates.org).
-   Strona powinna zawierać menu z linkami do kilku innych stron.
+2\. Do przygotowanej strony dodać jeden z szablonów ze strony
+[Free CSS Templates](http://www.freecsstemplates.org).
 
-1. Jeszcze raz dwa poprzednie zadania ale w HTML5.
-
-
-## 1. jBlog
-
-1\. Zmodyfikować layout jbloga. Można skorzystać z rozwiązań
-opisanych na blogu Richard Huanga,
-[Migrate Custom Blog to Jekyll and Disqus](http://www.huangzhimin.com/2011/01/20/migrate-custom-blog-to-jekyll-and-disqus/).
-
-2\. Zarejestrować się na stronie [FontStruct](http://fontstruct.com/).
-Przczytać [What is FontStruct?](http://fontstruct.com/learn_more).
-Korzystając z narzędzia *FontStructor* utworzyć własny font.
-Użyć go w tytule bloga.
+3\. To samo ale korzystając z jednego z szablonów
+[Bootstrap, from Twitter](http://twitter.github.com/bootstrap/) –
+[Bootstrap examples](http://twitter.github.com/bootstrap/examples.html).
 
 
-## 2. Plan zajęć
+## 1. Plan zajęć
 
 Przygotować **poziomą** tabelę z planem zajęć, tzn. dni tygodnia,
 czyli sobotę i niedzielę, należy umieścić w pierwszej kolumnie tabeli.
 Użyć ustalonego (*fixed*) **table-layout**.
 
 
-## 3. Tabelki
+## 2. Tabelki
 
 **Uwaga:** W rozwiązaniach poniższych zadań należy użyć, tam gdzie
 to wszystkich elementów:
@@ -54,6 +43,18 @@ drugi raz — na kolorowo.
 * Worksheet {%= image_tag '/images/tabele/worksheet.png', :alt => "[worksheet]", :class =>"display" %}
 * AT&T {%= image_tag '/images/tabele/att.png', :alt => "[att]" %}
 * Chart {%= image_tag '/images/tabele/chart.png', :alt => "[chart]" %}
+
+
+## 3. jBlog (albo Jekyll + Octopress)
+
+1\. Zmodyfikować layout jbloga. Można skorzystać z rozwiązań
+opisanych na blogu Richard Huanga,
+[Migrate Custom Blog to Jekyll and Disqus](http://www.huangzhimin.com/2011/01/20/migrate-custom-blog-to-jekyll-and-disqus/).
+
+2\. Zarejestrować się na stronie [FontStruct](http://fontstruct.com/).
+Przczytać [What is FontStruct?](http://fontstruct.com/learn_more).
+Korzystając z narzędzia *FontStructor* utworzyć własny font.
+Użyć go w tytule bloga.
 
 
 ## 4. CSS3 Patterns Gallery
