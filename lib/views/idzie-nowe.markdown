@@ -32,7 +32,7 @@ Zaczynamy:
 Prezentacje, demo…
 
 * Marcin Wichary, Ernest Delgado, Alex Russell.
-  [HTML5 presentation](http://slides.html5rocks.com/);
+  [HTML5 presentation](http://slides.html5rocks.com/) (działa tylko w Chrome?);
   zob. też tego autora
   [Case study: Building the Stanisław Lem Google Doodle](http://www.html5rocks.com/en/tutorials/doodles/lem/)
   oraz Adama Zapletala, [Land Slide](https://github.com/adamzap/landslide) –
