@@ -17,7 +17,9 @@ a, blockquote, img, h1, h2, h3, ol, p, ul.
 
 3\. To samo ale korzystając z jednego z szablonów
 [Bootstrap, from Twitter](http://twitter.github.com/bootstrap/) –
-[Bootstrap examples](http://twitter.github.com/bootstrap/examples.html).
+[Bootstrap examples](http://twitter.github.com/bootstrap/examples.html);
+zob. też [StyleBootstrap.info](http://stylebootstrap.info/) –
+create unique design with Bootstrap v2.
 
 
 ## 1. Plan zajęć
