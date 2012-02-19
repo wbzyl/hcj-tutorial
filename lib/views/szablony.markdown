@@ -24,7 +24,7 @@ Kompletny i poprawny szablon dokumentu HTML5:
       <script src="http://code.jquery.com/jquery.min.js">
       </script>
       <style>
-        background: #E2DF9A;
+        body { background: #E2DF9A; }
       </style>
     </head>
     <body>
