@@ -1,14 +1,14 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
 <head>
-  <meta charset="UTF-8" />
-  <meta name="author" content="Włodek Bzyl" />
-  <title><%= @title %></title>
-  <%= stylesheet_link_tag "/stylesheets/screen.css", "/stylesheets/coderay.css", "/stylesheets/code.css" %>
+  <meta charset=utf-8>
+  <meta name="author" content="Włodek Bzyl">
+  <title>{%= @title %}</title>
+  {%= stylesheet_link_tag "/stylesheets/screen.css", "/stylesheets/coderay.css", "/stylesheets/code.css" %}
 </head>
 <body>
 <div id="code">
-<%= yield %>
+{%= yield %}
 </div>
 </body>
 </html>

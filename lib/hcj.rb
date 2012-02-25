@@ -54,11 +54,12 @@ module WB
     get %r{^([-_\w\/]+)\/([-_\w]+)\.((\w{1,4})(\.\w{1,4})?)$} do
 
       translate = { # to ultraviolet syntax names: uv -l syntax
-        'html' => 'html',
         'html.erb' => 'rhtml',
         'text.erb' => 'rhtml',
+        'html' => 'html',
+        'rb' => 'ruby',
         'ru' => 'ruby',
-        'js' => 'javascript',
+        'css' => 'css',
         'yml' => 'yaml',
         'sh' => 'bash'
       }
@@ -74,11 +75,13 @@ module WB
 
       @filename = File.expand_path(File.join(File.dirname(__FILE__), 'x', dirname, filename))
 
-      lang = translate[extname] || 'plain_text'
+      lang = translate[extname] || 'text'
 
       if File.exists?(@filename) && File.readable?(@filename)
         content = "<h1>#{filename}</h1>"
         content += "<pre><code>:::#{lang}\n#{escape_html(File.read @filename)}</code></pre>"
+        #content += "<pre><code>:::#{lang}\n#{File.read(@filename)}</code></pre>"
+        puts content
       else
         content = "<h2>oops! couldn't find <em>#{filename}</em></h2>"
       end
