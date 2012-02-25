@@ -105,6 +105,8 @@ A tak jest ona renderowna przy domyślnych ustawieniach przeglądarki:
 * do dwóch pierwszych wierszy i pierwszej kolumny tabeli
 
 Wskazówka: [Mastering Tables](http://www.htmldog.com/guides/htmladvanced/tables/).
+Warto
+<a href="http://www.htmldog.com/">tutaj <img src="http://www.htmldog.com/badge3.gif" alt="HTML and CSS tutorials, references, and articles"></a> od czasu do czasu zajrzeć.
 
 Przykład tabeli z zagnieżdżonym znacznikiem *style*:
 {%= link_to "Today's Sudoku", "/html/tables/scoped.html" %}.
