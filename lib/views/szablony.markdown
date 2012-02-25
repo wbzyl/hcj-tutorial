@@ -98,6 +98,14 @@ Kod dla tej tabeli:
 A tak jest ona renderowna przy domyślnych ustawieniach przeglądarki:
 {%= link_to "simple.html", "/doc/html/tables/simple.html" %}.
 
+**Zadanie:** Dodać ciemniejsze tło:
+
+* do dwóch pierwszych wierszy tabeli
+* do pierwszej kolumny
+* do dwóch pierwszych wierszy i pierwszej kolumny tabeli
+
+Wskazówka: [Mastering Tables](http://www.htmldog.com/guides/htmladvanced/tables/).
+
 Przykład tabeli z zagnieżdżonym znacznikiem *style*:
 {%= link_to "Today's Sudoku", "/html/tables/scoped.html" %}.
 A tak jest ona renderowna przy domyślnych ustawieniach przeglądarki:
