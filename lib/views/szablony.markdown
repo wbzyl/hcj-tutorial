@@ -150,3 +150,18 @@ Skąd się bierze problem zostało wyjaśnione:
 * Peter-Paul Koch. [Clearing floats](http://www.quirksmode.org/css/clearing.html)
 * [Clearance](http://www.mezzoblue.com/archives/2005/03/03/clearance/)
 * Eric A. Meyer. [Containing Floats](http://complexspiral.com/publications/containing-floats/)
+
+
+# Anatomia posta
+
+Post wpisujemy w elemencie *article*:
+
+{%= image_tag "/images/html5-article-outline.png", :alt => "[Anatomy of a blog post]" %}
+
+[Źródło](http://html5doctor.com/designing-a-blog-with-html5/)
+
+Jeszcze jeden przykład pokazujacy jak wpisywać posty:
+
+{%= image_tag "/images/html5-article-outline-2.png", :alt => "[Anatomy of a blog post 2]" %}
+
+[Źródło](http://www.techrepublic.com/blog/webmaster/quick-tip-example-markup-for-blog-posts-with-html5/611)
