@@ -11,6 +11,7 @@ jak się to robi:
 
 * Addy Osmani.
   [Smashing Magazine Essential jQuery Plugin Patterns](http://coding.smashingmagazine.com/2011/10/11/essential-jquery-plugin-patterns/)
+* [10 Coding Tips to Write Superior jQuery Plugins](http://www.websanova.com/tutorials/jquery/10-coding-tips-to-write-superior-jquery-plugins)
 
 A potem przeanalizować prosty przykład:
 
