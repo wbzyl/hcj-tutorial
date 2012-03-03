@@ -2,6 +2,11 @@
 
 Zaczynamy:
 
+* Andrée Hansson.
+ [The Basics of jQuery](http://andreehansson.se/the-basics-of-jquery/)
+
+Linki:
+
 * [John Resig](http://ejohn.org/category/blog/).
   [How jQuery Works](http://docs.jquery.com/Tutorials:How_jQuery_Works) –
   wprowadzenie autora jQuery
