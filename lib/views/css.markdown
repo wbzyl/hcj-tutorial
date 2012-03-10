@@ -11,6 +11,7 @@ Podstawy:
 
 Triki:
 
+* [CSS=Tricks](http://css-tricks.com)
 * [Incremental leading](http://www.markboulton.co.uk/journal/comments/incremental-leading)
 * [The Shapes of CSS](http://css-tricks.com/examples/ShapesOfCSS/)
 
@@ -21,3 +22,4 @@ Uźyteczna wtyczka jQuery:
 Przykłady:
 
 * [Famous Logos in CSS](http://www.ecsspert.com/adobe.php) – No images. No JS. Just CSS
+* [Star Ratings With Very Little CSS](http://css-tricks.com/star-ratings/)
