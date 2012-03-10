@@ -85,12 +85,20 @@ TODO: Websockets, geolokacja, preserving history (zob. https://github.com/)
   [How Browsers Work: Behind the Scenes of Modern Web Browsers](http://www.html5rocks.com/en/tutorials/internals/howbrowserswork/)
 
 
+### Zrób to sam
+
+* [Dabblet](http://dabblet.com/) – an interactive playground
+  for quickly testing snippets of CSS and HTML code
+* [Colllor](http://colllor.com/) – turn one color into an array of alternative ones
+* [JS Bin](jsbin.com/) – collaborative JavaScript debugging
+* [Scriptular](http://scriptular.com/) – javascript regular expression editor
+
+
 ### Ściągi
 
 * [DocHub](http://dochub.io/) – instant documentation search
 * [InstaCSS](https://github.com/abudner/fortune) – instant CSS documentation search
 * [CSS Reference](https://developer.mozilla.org/en/CSS_Reference) – z linkami do przykładów (z MDN)
-* [Scriptular](http://scriptular.com/) – javascript regular expression editor
 * [HTML5 Canvas Cheat Sheet](http://simon.html5.org/dump/html5-canvas-cheat-sheet.html)
 * [Browser Tests of Entities▲ ▶▼◀](http://www.santagata.us/characters/CharacterEntities.html)
 * [Online JavaScript beautifier](http://jsbeautifier.org/) – beautify, unpack or deobfuscate JavaScript and HTML,
