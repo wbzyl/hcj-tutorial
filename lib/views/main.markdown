@@ -90,20 +90,21 @@ TODO: Websockets, geolokacja, preserving history (zob. https://github.com/)
 * [Dabblet](http://dabblet.com/) – an interactive playground
   for quickly testing snippets of CSS and HTML code
 * [Colllor](http://colllor.com/) – turn one color into an array of alternative ones
-* [JS Bin](jsbin.com/) – collaborative JavaScript debugging
+* [JS Bin](http://jsbin.com/) – collaborative JavaScript debugging
 * [Scriptular](http://scriptular.com/) – javascript regular expression editor
 
 
 ### Ściągi
 
 * [DocHub](http://dochub.io/) – instant documentation search
-* [InstaCSS](https://github.com/abudner/fortune) – instant CSS documentation search
 * [CSS Reference](https://developer.mozilla.org/en/CSS_Reference) – z linkami do przykładów (z MDN)
 * [HTML5 Canvas Cheat Sheet](http://simon.html5.org/dump/html5-canvas-cheat-sheet.html)
+* [Easily Confused HTML5 Element Flowchart Enlightenment!](http://html5doctor.com/wp-content/uploads/HTML5Doctor-sectioning-flowchart.pdf) – sectioning content elements and friends (*article*, *section*, *figure*, *nav*, *aside*, *div*, …)
+* [Avoiding common HTML5 mistakes](http://html5doctor.com/avoiding-common-html5-mistakes/)
 * [Browser Tests of Entities▲ ▶▼◀](http://www.santagata.us/characters/CharacterEntities.html)
 * [Online JavaScript beautifier](http://jsbeautifier.org/) – beautify, unpack or deobfuscate JavaScript and HTML,
   make JSON/JSONP readable, etc.
-* [CSS-Tricks](http://css-tricks.com)
+
 
 
 <blockquote>
@@ -145,6 +146,4 @@ TODO: Websockets, geolokacja, preserving history (zob. https://github.com/)
   Visualize your Web page in 3D – a Firefox extension
 * [Contrast rebellion](http://contrastrebellion.com/) –
   Low-contrast fonts and unreadable texts? To hell with them!
-* Richard Clark.
-  [Avoiding common HTML5 mistakes](http://html5doctor.com/avoiding-common-html5-mistakes/)
-* [Easily Confused HTML5 Element Flowchart Enlightenment!](http://html5doctor.com/wp-content/uploads/HTML5Doctor-sectioning-flowchart.pdf)
+* [CSS-Tricks](http://css-tricks.com)
