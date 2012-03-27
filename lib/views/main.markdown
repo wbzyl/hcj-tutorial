@@ -83,6 +83,10 @@ TODO: Websockets, geolokacja, preserving history (zob. https://github.com/)
 * Peter-Paul Koch. [JavaScript](http://www.quirksmode.org/js/contents.html)
 * Tali Garsiel.
   [How Browsers Work: Behind the Scenes of Modern Web Browsers](http://www.html5rocks.com/en/tutorials/internals/howbrowserswork/)
+* Responsive Tools:
+  - Matt Kersley. [Responsive Web Design Testing Tool](http://mattkersley.com/responsive/)
+  - [resposnisve.is](http://responsive.is/)
+  - Benjamin Keen. [Responsive Design Test Bookmarklet](http://www.benjaminkeen.com/misc/bricss/)
 
 
 ### Zrób to sam
