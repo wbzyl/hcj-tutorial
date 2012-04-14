@@ -78,6 +78,8 @@ TODO: Websockets, geolokacja, preserving history (zob. https://github.com/)
 * [jQuery](http://jquery.com/). Wtyczki do jQuery:
   * [Orbit: A Slick jQuery Image Slider Plugin](http://www.zurb.com/playground/orbit-jquery-image-slider)
   * [jQuery Masonry](http://masonry.desandro.com/) – a dynamic layout plugin
+* [ZeptoJS](http://zeptojs.com/) – a minimalist JavaScript library for modern
+  browsers with a largely jQuery-compatible API
 * [Code Conventions for the JavaScript Programming Language](http://javascript.crockford.com/code.html)
 * [Mozilla Developer Network](https://developer.mozilla.org/en-US/)
 * Peter-Paul Koch. [JavaScript](http://www.quirksmode.org/js/contents.html)
@@ -87,6 +89,13 @@ TODO: Websockets, geolokacja, preserving history (zob. https://github.com/)
   - Matt Kersley. [Responsive Web Design Testing Tool](http://mattkersley.com/responsive/)
   - [resposnisve.is](http://responsive.is/)
   - Benjamin Keen. [Responsive Design Test Bookmarklet](http://www.benjaminkeen.com/misc/bricss/)
+
+
+### Użyteczne rzeczy
+
+* [GitHub Style Guides](https://github.com/styleguide/)
+* Mislav Marohnić,
+  [Semicolons in JavaScript are optional](http://mislav.uniqpath.com/2010/05/semicolons/)
 
 
 ### Zrób to sam
