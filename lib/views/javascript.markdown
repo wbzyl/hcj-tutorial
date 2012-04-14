@@ -1,9 +1,12 @@
 #### {% title "Javascript" %}
 
+Dokumentacja:
+
+* MDN,
+  [JavaScript Reference](https://developer.mozilla.org/en/JavaScript/Reference/)
+
 Samouczki online:
 
-* [Google: HTML, CSS, and Javascript from the Ground Up](http://code.google.com/edu/submissions/html-css-javascript/) –
-  screencasty
 * Marijn Haverbeke, [Eloquent JavaScript](http://eloquentjavascript.net/) –
   a modern introduction to programming
 * [JavaScript Garden](http://bonsaiden.github.com/JavaScript-Garden/) –
@@ -15,6 +18,7 @@ Learn by doing:
 
 * Remy Sharp, [JS Bin](http://jsbin.com/)
 * John Resig, [Secrets of the JavaScript Ninja](http://ejohn.org/apps/learn/)
+* [jsFiddle](http://jsfiddle.net/) – the Web is Your Playground
 
 Debugging:
 
@@ -29,3 +33,8 @@ Artykuły:
  [Understanding JavaScript Function Invocation and “this”](http://yehudakatz.com/2011/08/11/understanding-javascript-function-invocation-and-this/)
 * Addy Osmani,
  [Patterns For Large-Scale JavaScript Application Architecture](http://addyosmani.com/largescalejavascript/)
+
+Screencasty:
+
+* [Google: HTML, CSS, and Javascript from the Ground Up](http://code.google.com/edu/submissions/html-css-javascript/) –
+  screencasty
