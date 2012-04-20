@@ -37,6 +37,10 @@ Responsive Web pages, przykłady:
   a gathering of smart and entertaining people poking at the intersection of technology and culture
 
 
+*Uwaga:* W poniższym kodzie usunąłem wszystkie odległości pionowe.
+Dlaczego? Ponieważ w „responsive design” istotne są tylko „szerokości”.
+
+
 ## Media queries
 
 Jak?
@@ -72,7 +76,7 @@ Zaczynamy od XHTML:
   ({%= link_to "źródło", "responsive/xhtml-no-auto-resize.html" %})
 
 
-## Viewport: widths
+## Viewport – widths
 
 css pixels = device pixels:
 
@@ -89,23 +93,15 @@ iPad?
         }
         #navigation {
             text-align: center;
-            padding-top: 20px;
-            padding-bottom: 20px;
         }
         #navigation ul li a {
-            background-color: #dedede;
             line-height: 40px;
             font-size: 30px;
         }
         #content, #sidebar {
-            margin-top: 20px;
             padding-right: 10px;
             padding-left: 10px;
             width: 728px;
-        }
-        #sidebar {
-            padding-top: 20px;
-            margin-bottom: 20px;
         }
     }
 
@@ -117,14 +113,18 @@ Zamieniona kolejność elementów *sidebar* i *footer*.
 
 ## Fluid layout
 
-Wzór Marcotta:
+Media gueries nie wystarczają. Przy zmianach CSS, w *vieport* nie mieści się cała strona.
+Potrzebny jest jakiś mechanizm likwidujący tę skokową zmianę.
+
+Będziemy stosować technikę *fluid* oraz do przeliczania wymiarów
+wzór Marcotta:
 
     :::text
      target
     --------- = result
      context
 
-Kontekst, najbardziej zewnętrzny *div*:
+W naszym przykładzie kontekst, to najbardziej zewnętrzny *div*:
 
     :::css
     #wrapper {
@@ -139,8 +139,107 @@ zmieniamy:
     #wrapper {
         margin-right: auto;
         margin-left: auto;
-        width: 96%;
+        width: 96%; /* albo 100%, albo 90%, albo cokolwiek sensownego */
     }
+
+Przeliczenia ze wzoru Marcotta:
+
+    :::css
+    #header {
+        /* margin-right: 10px; */
+        /* margin-left: 10px; */
+        margin-right: 1.0416667%; /* 10 ÷ 960 */
+        margin-left: 1.0416667%; /* 10 ÷ 960 */
+        /* width: 940px; */
+        width: 97.9166667%; /* 940 ÷ 960 */;
+    }
+    #navigation {
+        /* margin-left: 10px; */
+        margin-left: 1.0416667%; /* 10 ÷ 960 */
+        /* padding-right: 10px; */
+        /* padding-left: 10px; */
+        padding-right: 1.0416667%; /* 10 ÷ 960 */
+        padding-left: 1.0416667%; /* 10 ÷ 960 */
+        width: 97.9166667%; /* 940 ÷ 960 */;
+    }
+    #navigation ul li {
+        display: inline-block;
+        margin-right: 2.6595745%; /* 25 ÷ 940 */
+    }
+    #navigation ul li a {
+        /* margin-right: 25px; */
+        /* przeniesione do reguły powyżej */
+        /* margin-right: 2.6595745%; /\* 25 ÷ 940 *\/ */
+    }
+    #content {
+        /* margin-right: 10px; */
+        margin-right: 1.0416667%; /* 10 ÷ 960 */
+        /* width: 700px; */
+        width: 72.9166667%; /* 700 ÷ 960 */
+    }
+    #sidebar {
+        /* margin-left: 10px; */
+        margin-left: 1.0416667%; /* 10 ÷ 960 */
+        /* width: 220px; */
+        width: 22.9166667%; /* 200 ÷ 960 */
+    }
+    #footer {
+        /* margin-right: 10px; */
+        margin-right: 1.0416667%; /* 10 ÷ 960 */
+        margin-left: 1.0416667%; /* 10 ÷ 960 */
+        /* width: 940px; */
+        width: 97.9166667%; /* 940 ÷ 960 */;
+    }
+
+Przy przejściu na szerokość mniejszą od 768px korzystamy z media query:
+
+    :::css
+    @media screen and (max-width: 768px) {
+        #header, #content, #sidebar, #footer {
+            width: 100%;
+            margin: 0px;
+        }
+    }
+
+Reszta:
 
 * {%= link_to "xhtml-fluid.html", "doc/responsive/xhtml-fluid.html" %}
   ({%= link_to "źródło", "responsive/xhtml-fluid.html" %})
+
+
+## Fluid images
+
+CSS:
+
+    :::css
+    img {
+        max-width: 100%;
+    }
+
+    @media screen and (max-width: 768px) {
+        #sidebar img {
+            max-width: 50%;
+            float: left;
+            display: block;
+        }
+    }
+
+
+* {%= link_to "xhtml-fluid-images.html", "doc/responsive/xhtml-fluid-images.html" %}
+  ({%= link_to "źródło", "responsive/xhtml-fluid-images.html" %})
+
+
+## Fluid fonts
+
+Używamy jednostek *em* a nie *px*. Obecnie, we wszystkich przeglądarkach (sprawdzić!)
+domyślny rozmiar fontu to **16px*.
+
+    :::css
+    #navigation ul li a {
+        /* font-size: 20px; */
+        font-size: 1.25em;
+
+
+## Podmienianie obrazków
+
+**TODO**
