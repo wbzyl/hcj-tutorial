@@ -41,15 +41,17 @@ Responsive Web pages, przykłady:
 Jak?
 
     :::css
-    <link rel="stylesheet" type="text/css" media="screen" href="screen-styles.css">
-    <link rel="stylesheet" media="screen and (orientation: portrait)" href="portrait-screen.css" />
-    <link rel="stylesheet" media="not screen and (orientation: portrait)" href="portrait-screen.css" />
-    <link rel="stylesheet" media="screen and (orientation: portrait) and (min-width: 800px)" href="800wide-portrait-screen.css" />
+    <link rel="stylesheet" media="screen" href="screen.css">
+    <link rel="stylesheet" media="screen and (orientation: portrait)" href="portrait-screen.css">
+    <link rel="stylesheet" media="not screen and (orientation: portrait)" href="portrait-screen.css">
+    <link rel="stylesheet" media="screen and (orientation: portrait) and (min-width: 800px)" href="800wide-portrait-screen.css">
 
 Tak?
 
     :::css
-    @media screen and (max-width: 768px) { YOUR STYLES }
+    @media screen and (min-width: 800px) {
+      ... CSS ...
+    }
 
 
 ## Fixed layout
