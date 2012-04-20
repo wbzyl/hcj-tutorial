@@ -74,7 +74,7 @@ Zaczynamy od XHTML:
 
 ## Viewport: widths
 
-Zmiana – css pixels = device pixels:
+css pixels = device pixels:
 
     :::css
     <meta name="viewport" content="initial-scale=1.0,width=device-width" />
@@ -115,3 +115,32 @@ Zamieniona kolejność elementów *sidebar* i *footer*.
   ({%= link_to "źródło", "responsive/xhtml-viewport-widths.html" %})
 
 
+## Fluid layout
+
+Wzór Marcotta:
+
+    :::text
+     target
+    --------- = result
+     context
+
+Kontekst, najbardziej zewnętrzny *div*:
+
+    :::css
+    #wrapper {
+        margin-right: auto;
+        margin-left: auto;
+        width: 960px;
+    }
+
+zmieniamy:
+
+    :::css
+    #wrapper {
+        margin-right: auto;
+        margin-left: auto;
+        width: 96%;
+    }
+
+* {%= link_to "xhtml-fluid.html", "doc/responsive/xhtml-fluid.html" %}
+  ({%= link_to "źródło", "responsive/xhtml-fluid.html" %})
