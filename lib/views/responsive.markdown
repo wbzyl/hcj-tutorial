@@ -74,94 +74,44 @@ Zaczynamy od XHTML:
 
 ## Viewport: widths
 
+Zmiana – css pixels = device pixels:
+
+    :::css
+    <meta name="viewport" content="initial-scale=1.0,width=device-width" />
+
 iPad?
 
     :::css
     @media screen and (max-width: 768px) {
-        #wrapper {
+        #wrapper, #header, #footer, #navigation {
             width: 768px;
+            margin: 0px;
         }
-        #header, #footer, #navigation {
-            width: 748px;
+        #navigation {
+            text-align: center;
+            padding-top: 20px;
+            padding-bottom: 20px;
         }
-        #content,#sidebar {
+        #navigation ul li a {
+            background-color: #dedede;
+            line-height: 40px;
+            font-size: 30px;
+        }
+        #content, #sidebar {
+            margin-top: 20px;
             padding-right: 10px;
             padding-left: 10px;
             width: 728px;
         }
+        #sidebar {
+            padding-top: 20px;
+            margin-bottom: 20px;
+        }
     }
 
-Przestawiamy kolejność elementów *sidebar* i *footer*.
+Zamieniona kolejność elementów *sidebar* i *footer*.
 
 * {%= link_to "xhtml-viewport-widths.html", "doc/responsive/xhtml-viewport-widths.html" %}
   ({%= link_to "źródło", "responsive/xhtml-viewport-widths.html" %})
 
 
-
-<!--
-
-Media queries:
-
-    :::css
-body {
-background-color: grey;
-}
-@media screen and (max-width:
-body {
-background-color: red;
-}
-}
-@media screen and (max-width:
-body {
-background-color: orange;
-}
-}
-@media screen and (max-width:
-body {
-background-color: yellow;
-}
-}
-@media screen and (max-width:
-body {
-background-color: green;
-}
-}
-
-    :::css
-a {
-display: block;
-height: 40px;
-float: left;
-font-size: 1.2em;
-padding-right: 0.8em;
-background: url(images/headerRight.png) no-repeat scroll top right;
-}
-a span {
-background: url(images/headerLeft.png) no-repeat;
-display: block;
-line-height: 40px;
-padding-left: 0.8em;
-}
-a {
-float: left;
-height: 40px;
-line-height: 40px;
-padding-left: 0.8em;
-padding-right: 0.8em;
-border-top-left-radius: 8px;
-border-top-right-radius: 8px;
-background-image: url(images/headerTiny.png);
-background-repeat: repeat-x;
-}
-
-
-<header>
-<nav>
-<ul id="nav-list">
-<li><a href="#" title="Home">Home</a></li>
-<li><a href="#" title="About">About</a></li>
-</ul>
-</nav>
-</header>
-
--->
