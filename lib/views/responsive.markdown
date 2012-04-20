@@ -25,6 +25,7 @@ Użyteczne rzeczy:
   [Modern Debugging Tips and Tricks](http://www.alistapart.com/articles/modern-debugging-tips-and-tricks/)
 * Ben Frain.
   [Website Design: Easily display the viewport size of your page (for responsive designs](http://benfrain.com/easily-display-the-viewport-size-of-your-page-for-responsive-designs/)
+* [Download the Android SDK](http://developer.android.com/sdk/index.html)
 
 Responsive Web pages, przykłady:
 
@@ -70,6 +71,30 @@ Zaczynamy od XHTML:
 * {%= link_to "xhtml-no-auto-resize.html", "doc/responsive/xhtml-no-auto-resize.html" %}
   ({%= link_to "źródło", "responsive/xhtml-no-auto-resize.html" %})
 
+
+## Viewport: widths
+
+iPad?
+
+    :::css
+    @media screen and (max-width: 768px) {
+        #wrapper {
+            width: 768px;
+        }
+        #header, #footer, #navigation {
+            width: 748px;
+        }
+        #content,#sidebar {
+            padding-right: 10px;
+            padding-left: 10px;
+            width: 728px;
+        }
+    }
+
+Przestawiamy kolejność elementów *sidebar* i *footer*.
+
+* {%= link_to "xhtml-viewport-widths.html", "doc/responsive/xhtml-viewport-widths.html" %}
+  ({%= link_to "źródło", "responsive/xhtml-viewport-widths.html" %})
 
 
 

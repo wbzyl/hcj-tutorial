@@ -1,0 +1,26 @@
+@media screen and (max-width: 768px) {
+    #wrapper, #header, #footer, #navigation {
+        width: 768px;
+        margin: 0px;
+    }
+    #navigation {
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    #navigation ul li a {
+        background-color: #dedede;
+        line-height: 40px;
+        font-size: 30px;
+    }
+    #content, #sidebar {
+        margin-top: 20px;
+        padding-right: 10px;
+        padding-left: 10px;
+        width: 728px;
+    }
+    #sidebar {
+        padding-top: 20px;
+        margin-bottom: 20px;
+    }
+}
