@@ -26,6 +26,7 @@ Użyteczne rzeczy:
 * Ben Frain.
   [Website Design: Easily display the viewport size of your page (for responsive designs](http://benfrain.com/easily-display-the-viewport-size-of-your-page-for-responsive-designs/)
 * [Download the Android SDK](http://developer.android.com/sdk/index.html)
+* [HTML5 outliner](http://gsnedders.html5.org/outliner/)
 
 Responsive Web pages, przykłady:
 
@@ -242,4 +243,7 @@ domyślny rozmiar fontu to **16px*.
 
 ## Podmienianie obrazków
 
-**TODO**
+**TODO**:
+
+* [Adaptive Images](http://adaptive-images.com/)
+* [Responsive Images: Experimenting with Context-Aware Image Sizing](http://filamentgroup.com/lab/responsive_images_experimenting_with_context_aware_image_sizing/)
