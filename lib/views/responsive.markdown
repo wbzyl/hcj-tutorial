@@ -62,6 +62,14 @@ Zaczynamy od XHTML:
   ({%= link_to "źródło", "responsive/xhtml5-template.html" %})
 
 
+## Blokowanie *auto resizing*
+
+    :::css
+    <meta name="viewport" content="initial-scale=2.0,width=device-width" />
+
+* {%= link_to "xhtml-no-auto-resize.html", "doc/responsive/xhtml-no-auto-resize.html" %}
+  ({%= link_to "źródło", "responsive/xhtml-no-auto-resize.html" %})
+
 
 
 
