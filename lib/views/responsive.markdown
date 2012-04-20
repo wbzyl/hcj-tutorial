@@ -56,6 +56,8 @@ Tak?
 
 Zaczynamy od XHTML:
 
+* {%= link_to "xhtml-template.html", "doc/responsive/xhtml-template.html" %}
+  ({%= link_to "źródło", "responsive/xhtml5-template.html" %})
 
 
 
