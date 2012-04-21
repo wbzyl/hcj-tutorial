@@ -16,6 +16,8 @@ opublikowanym na [A List Apart](http://www.alistapart.com/).
 
 * Brad Frost.
   [Creating a Mobile-First Responsive Web Design](http://www.html5rocks.com/en/mobile/responsivedesign/)
+* John Allsopp.
+  [A Dao of Web Design](http://www.alistapart.com/articles/dao/)
 * Mark Otto.
   [Building Twitter Bootstrap](http://www.alistapart.com/articles/building-twitter-bootstrap/)
 * Ethan Marcotte.
