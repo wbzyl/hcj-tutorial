@@ -4,6 +4,8 @@ Słowa „responsive” użył po raz pierwszy Ethan Marcotte w artykule
 [Responsive Web Design](http://www.alistapart.com/articles/responsive-web-design)/
 opublikowanym na [A List Apart](http://www.alistapart.com/).
 
+* Brad Frost.
+  [Creating a Mobile-First Responsive Web Design](http://www.html5rocks.com/en/mobile/responsivedesign/)
 * Mark Otto.
   [Building Twitter Bootstrap](http://www.alistapart.com/articles/building-twitter-bootstrap/)
 * Ethan Marcotte.
@@ -17,6 +19,8 @@ opublikowanym na [A List Apart](http://www.alistapart.com/).
 
 Użyteczne rzeczy:
 
+* Matt Kersley.
+  [Responsive Web Design Testing Tool](http://mattkersley.com/responsive/)
 * Dodatki:
   [Firesizer](https://addons.mozilla.org/en-US/firefox/addon/firesizer/) (*Firefox*),
   [Windows Resizer](https://chrome.google.com/webstore/detail/kkelicaakdanhinjdeammmilcgefonfh) (*Chrome*)
@@ -24,9 +28,18 @@ Użyteczne rzeczy:
 * Tiffany B. Brown.
   [Modern Debugging Tips and Tricks](http://www.alistapart.com/articles/modern-debugging-tips-and-tricks/)
 * Ben Frain.
-  [Website Design: Easily display the viewport size of your page (for responsive designs](http://benfrain.com/easily-display-the-viewport-size-of-your-page-for-responsive-designs/)
+  [Website Design: Easily display the viewport size of your page…](http://benfrain.com/easily-display-the-viewport-size-of-your-page-for-responsive-designs/)
 * [Download the Android SDK](http://developer.android.com/sdk/index.html)
 * [HTML5 outliner](http://gsnedders.html5.org/outliner/)
+* [em calculator](http://riddle.pl/emcalc/)
+
+Wtyczki jQuery:
+
+* [jQuery Masonry](http://masonry.desandro.com/) –
+  a dynamic layout plugin for jQuery
+* [Isotope](http://isotope.metafizzy.co/) – an exquisite jQuery plugin for magical layouts
+  ([github](https://github.com/desandro/isotope))
+
 
 Responsive Web pages, przykłady:
 
@@ -38,11 +51,40 @@ Responsive Web pages, przykłady:
   a gathering of smart and entertaining people poking at the intersection of technology and culture
 
 
+
 {%= image_tag "/images/this-is-the-web.jpg", :alt => "[This is the Web]" %}
 <p>[<a href="http://bradfrostweb.com/blog/web/mobile-first-responsive-web-design/">Źródło</a>]</p>
 
 *Uwaga:* W kodzie poniżej usunięto wszystkie odległości pionowe.
 Dlaczego? Ponieważ w „responsive design” istotne są tylko „szerokości”.
+
+
+## Fixed layout
+
+Zaczynamy od XHTML prostego szablonu:
+
+* {%= link_to "xhtml-template.html", "doc/responsive/xhtml-template.html" %}
+  ({%= link_to "źródło", "responsive/xhtml5-template.html" %})
+
+Ta strona na „małych urządzeniach” jest nieczytelna
+ponieważ strona ta jest *auto resized*.
+
+Po zablokowaniu *auto resizing* strona wyświetla się tak:
+
+* {%= link_to "xhtml-no-auto-resize.html", "doc/responsive/xhtml-no-auto-resize.html" %}
+  ({%= link_to "źródło", "responsive/xhtml-no-auto-resize.html" %})
+
+Jak blokujemy automatyczne przeskalowywanie? Tak:
+
+    :::css
+    <meta name="viewport" content="initial-scale=1.0,width=device-width" />
+
+albo zmieniamy wartość współczynnika *initial-scale*, na przykład:
+
+    <meta name="viewport" content="initial-scale=0.5,width=device-width" />
+    <meta name="viewport" content="initial-scale=2.0,width=device-width" />
+
+Co dają takie zmiany? Jak to zapisać?
 
 
 ## Media queries
@@ -61,23 +103,6 @@ Tak?
     @media screen and (min-width: 800px) {
       ... CSS ...
     }
-
-
-## Fixed layout
-
-Zaczynamy od XHTML:
-
-* {%= link_to "xhtml-template.html", "doc/responsive/xhtml-template.html" %}
-  ({%= link_to "źródło", "responsive/xhtml5-template.html" %})
-
-
-## Blokowanie *auto resizing*
-
-    :::css
-    <meta name="viewport" content="initial-scale=2.0,width=device-width" />
-
-* {%= link_to "xhtml-no-auto-resize.html", "doc/responsive/xhtml-no-auto-resize.html" %}
-  ({%= link_to "źródło", "responsive/xhtml-no-auto-resize.html" %})
 
 
 ## Viewport – widths
@@ -124,9 +149,7 @@ Będziemy stosować technikę *fluid* oraz do przeliczania wymiarów
 wzór Marcotta:
 
     :::text
-     target
-    --------- = result
-     context
+    target  ÷  context  =  result
 
 W naszym przykładzie kontekst, to najbardziej zewnętrzny *div*:
 
@@ -143,7 +166,7 @@ zmieniamy:
     #wrapper {
         margin-right: auto;
         margin-left: auto;
-        width: 96%; /* albo 100%, albo 90%, albo cokolwiek sensownego */
+        width: 96%; /* albo 100%, albo 90%, albo na cokolwiek sensownego */
     }
 
 Przeliczenia ze wzoru Marcotta:
