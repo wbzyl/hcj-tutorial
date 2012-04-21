@@ -38,7 +38,10 @@ Responsive Web pages, przykłady:
   a gathering of smart and entertaining people poking at the intersection of technology and culture
 
 
-*Uwaga:* W poniższym kodzie usunąłem wszystkie odległości pionowe.
+{%= image_tag "/images/this-is-the-web.png", :alt => "[This is the Web]" %}
+<p>[<a href="http://mobileweb.codeschool.com/levels/1">Źródło</a>]</p>
+
+*Uwaga:* W kodzie poniżej usunięto wszystkie odległości pionowe.
 Dlaczego? Ponieważ w „responsive design” istotne są tylko „szerokości”.
 
 
