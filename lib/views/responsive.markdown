@@ -38,8 +38,8 @@ Responsive Web pages, przykłady:
   a gathering of smart and entertaining people poking at the intersection of technology and culture
 
 
-{%= image_tag "/images/this-is-the-web.png", :alt => "[This is the Web]" %}
-<p>[<a href="http://mobileweb.codeschool.com/levels/1">Źródło</a>]</p>
+{%= image_tag "/images/this-is-the-web.jpg", :alt => "[This is the Web]" %}
+<p>[<a href="http://bradfrostweb.com/blog/web/mobile-first-responsive-web-design/">Źródło</a>]</p>
 
 *Uwaga:* W kodzie poniżej usunięto wszystkie odległości pionowe.
 Dlaczego? Ponieważ w „responsive design” istotne są tylko „szerokości”.
