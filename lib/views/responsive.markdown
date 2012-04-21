@@ -230,15 +230,38 @@ CSS:
   ({%= link_to "źródło", "responsive/xhtml-fluid-images.html" %})
 
 
-## Fluid fonts
+## Fluid typography: fonts
 
-Używamy jednostek *em* a nie *px*. Obecnie, we wszystkich przeglądarkach (sprawdzić!)
-domyślny rozmiar fontu to **16px*.
+Oznacza to że będziemy stosować jednostki *em* a nie *px*.
+
+Wszystkie przeglądarki mają ustawioną domyślną wielkość fontu na **16px**.
+Ale rachunki są łatwiejsze dla wartości **10px**:
+
+    :::css
+    body {
+      font-size: 62.5%; /* zmieniamy domyślny rozmiar fontu na 10px */
+    }
+
+Jak zostało wyliczone 62.5%:
+
+    :::text
+    target ÷ context = result
+    10px   ÷ 16px    = 0.625
+
+Teraz zamiast rachunków z 16px:
 
     :::css
     #navigation ul li a {
-        /* font-size: 20px; */
-        font-size: 1.25em;
+      /* font-size: 20px; */
+      font-size: 1.25em;  /* 20px ÷ 16px */
+    }
+
+będą prostsze rachunki z 10px:
+
+    #navigation ul li a {
+      /* font-size: 20px; */
+      font-size: 2em;  /* 20px ÷ 10px */
+    }
 
 
 ## Podmienianie obrazków
