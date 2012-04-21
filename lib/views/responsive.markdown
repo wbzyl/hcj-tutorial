@@ -1,5 +1,15 @@
 #### {% title "Responsive Web Design" %}
 
+<blockquote>
+ {%= image_tag "/images/chickenthoreau.jpg", :alt => "[Chicken & Thoreau]" %}
+ <p>Well established hierarchies are not easily uprooted;
+  Closely held beliefs are not easily released;
+  So ritual enthralls generation after generation.
+ </p>
+ <p class="author">Tao Te Ching; 38 Ritual</p>
+</blockquote>
+
+
 Słowa „responsive” użył po raz pierwszy Ethan Marcotte w artykule
 [Responsive Web Design](http://www.alistapart.com/articles/responsive-web-design)/
 opublikowanym na [A List Apart](http://www.alistapart.com/).
@@ -76,11 +86,12 @@ Po zablokowaniu *auto resizing* strona wyświetla się tak:
 
 Jak blokujemy automatyczne przeskalowywanie? Tak:
 
-    :::css
+    :::html
     <meta name="viewport" content="initial-scale=1.0,width=device-width" />
 
 albo zmieniamy wartość współczynnika *initial-scale*, na przykład:
 
+    :::html
     <meta name="viewport" content="initial-scale=0.5,width=device-width" />
     <meta name="viewport" content="initial-scale=2.0,width=device-width" />
 
@@ -109,7 +120,7 @@ Tak?
 
 css pixels = device pixels:
 
-    :::css
+    :::html
     <meta name="viewport" content="initial-scale=1.0,width=device-width" />
 
 iPad?
@@ -142,11 +153,13 @@ Zamieniona kolejność elementów *sidebar* i *footer*.
 
 ## Fluid layout
 
-Media gueries nie wystarczają. Przy zmianach CSS, w *vieport* nie mieści się cała strona.
-Potrzebny jest jakiś mechanizm likwidujący tę skokową zmianę.
+Media gueries nie wystarczają. Przy zmianach CSS, w **vieport** nie mieści się cała strona
+(pojawia się pasek do przesuwania).
 
-Będziemy stosować technikę *fluid* oraz do przeliczania wymiarów
-wzór Marcotta:
+Potrzebny jest jakiś mechanizm likwidujący taką „nieciągłość”.
+
+Zastosujemy technikę *fluid* oraz wzór Marcotta
+do przeliczania wymiarów na procenty:
 
     :::text
     target  ÷  context  =  result
@@ -284,6 +297,7 @@ Teraz zamiast rachunków z 16px:
 
 będą prostsze rachunki z 10px:
 
+    :::css
     #navigation ul li a {
       /* font-size: 20px; */
       font-size: 2em;  /* 20px ÷ 10px */
