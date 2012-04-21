@@ -13,6 +13,13 @@
 Słowa „responsive” użył po raz pierwszy Ethan Marcotte w artykule
 [Responsive Web Design](http://www.alistapart.com/articles/responsive-web-design)/
 opublikowanym na [A List Apart](http://www.alistapart.com/).
+Składniki „responsive design”:
+
+1. A flexible, grid-based layout.
+2. Flexible images and media.
+3. Media queries, a module from the CSS3 specification.
+
+Lektura:
 
 * Brad Frost.
   [Creating a Mobile-First Responsive Web Design](http://www.html5rocks.com/en/mobile/responsivedesign/)
@@ -61,7 +68,7 @@ Responsive Web pages, przykłady:
   a blog for web designers and developers
 * [dConstruct 2012](http://2012.dconstruct.org/) –
   a gathering of smart and entertaining people poking at the intersection of technology and culture
-
+* [Robot or Not?](http://responsivewebdesign.com/robot/)
 
 
 {%= image_tag "/images/this-is-the-web.jpg", :alt => "[This is the Web]" %}
