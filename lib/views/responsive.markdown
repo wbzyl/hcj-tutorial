@@ -109,6 +109,8 @@ Co dają takie zmiany? Jak to zapisać?
 
 ## Media queries
 
+* [CSS media queries](https://developer.mozilla.org/en/CSS/Media_queries) – MDN
+
 Jak?
 
     :::css
