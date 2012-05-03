@@ -21,8 +21,7 @@ Kompletny i poprawny szablon dokumentu HTML5:
     <head>
       <meta charset=utf-8>
       <title>Szablon strony HTML5</title>
-      <script src="http://code.jquery.com/jquery.min.js">
-      </script>
+      <script src="http://code.jquery.com/jquery.min.js"></script>
       <style>
         body { background: #E2DF9A; }
       </style>
