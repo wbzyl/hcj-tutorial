@@ -1,6 +1,9 @@
 #### {% title "jQuery" %}
 
-Zaczynamy:
+* [jQuery Intro](https://github.com/wbzyl/jquery-intro)
+
+
+## Zaczynamy
 
 * Andrée Hansson.
  [The Basics of jQuery](http://andreehansson.se/the-basics-of-jquery/)
@@ -25,8 +28,9 @@ Linki:
   Cufonized Fly Out Menu, Typography Effects with CSS3 and jQuery
 
 
-NEWS:
 
-* Ciekawe wideo z TED
-[Salman Khan: Wykłady wideo rewolucją w edukacji](http://www.ted.com/talks/salman_khan_let_s_use_video_to_reinvent_education.html).
+## Misc
+
+* Wideo z TED
+  [Salman Khan: Wykłady wideo rewolucją w edukacji](http://www.ted.com/talks/salman_khan_let_s_use_video_to_reinvent_education.html)
 * John Resig przechodzi do [Khan Academy](http://www.khanacademy.org/) (3.05.2011)
