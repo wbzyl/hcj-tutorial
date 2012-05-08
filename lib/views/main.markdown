@@ -145,7 +145,8 @@ TODO: Websockets, geolokacja, preserving history (zob. https://github.com/)
   [DOM Monster](http://mir.aculo.us/dom-monster/)
 * Brandon Mathis, [HSL Color Picker](http://hslpicker.com/)
 * [HTML5 ★ Boilerplate](http://html5boilerplate.com/) – a rock-solid default for HTML5 awesome
-* [Mother-effing HSLA](http://mothereffinghsl.com/)
+* [Mother-effing HSLA](http://mothereffinghsl.com/);
+  [Coding Colors Easily Using CSS3 hsl() Notation](http://www.useragentman.com/blog/2010/08/28/coding-colors-easily-using-css3-hsl-notation/)
 * [Ultimate CSS Gradient Generator](http://www.colorzilla.com/gradient-editor/)
 * [TeX Samples](http://www.mathjax.org/demos/tex-samples/)
 * [Find Icons](http://findicons.com/search/html#ajax)
