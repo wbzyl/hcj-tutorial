@@ -23,3 +23,8 @@ Przykłady:
 
 * [Famous Logos in CSS](http://www.ecsspert.com/adobe.php) – No images. No JS. Just CSS
 * [Star Ratings With Very Little CSS](http://css-tricks.com/star-ratings/)
+
+Różne rzeczy:
+
+* Dennis Hotson, Lars Yencken.
+  [Extracting Colors With Colorific](http://99designs.com/tech-blog/blog/2012/05/11/color-analysis/)
