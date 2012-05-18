@@ -69,6 +69,8 @@ Responsive Web pages, przykłady:
 * [dConstruct 2012](http://2012.dconstruct.org/) –
   a gathering of smart and entertaining people poking at the intersection of technology and culture
 * [Robot or Not?](http://responsivewebdesign.com/robot/)
+* [Responsive Data Table Roundup](http://css-tricks.com/responsive-data-table-roundup/);
+  zob. też [Responsive Tables](http://www.zurb.com/playground/responsive-tables)
 
 
 {%= image_tag "/images/this-is-the-web.jpg", :alt => "[This is the Web]" %}
