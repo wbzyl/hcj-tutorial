@@ -20,6 +20,7 @@ Zaczynamy od fajnych rzeczy:
 * [Zen Garden](http://www.csszengarden.com/)
 * [HTML5 Elements and Attributes](http://simon.html5.org/html5-elements)
 * [HTML 5 Demos and Examples](http://html5demos.com/)
+* [TheCodePlayer](http://thecodeplayer.com/)
 
 
 ## Jak to dawniej robiono
