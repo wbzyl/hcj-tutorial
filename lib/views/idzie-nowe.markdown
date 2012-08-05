@@ -8,6 +8,10 @@
  <p class="author">Agatha Christie</p>
 </blockquote>
 
+Odtworzenie pierwszych stron WWW:
+
+* [World Wide Web](http://www.w3.org/History/19921103-hypertext/hypertext/WWW/TheProject.html?)
+
 Idzie nowe, także lepsze:
 
 * [What can it do? What browser am I using, how modern is my web browser…](http://www.findmebyip.com/)
