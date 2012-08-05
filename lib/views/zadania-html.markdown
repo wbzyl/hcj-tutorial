@@ -45,6 +45,8 @@ drugi raz — na kolorowo.
 * Worksheet {%= image_tag '/images/tabele/worksheet.png', :alt => "[worksheet]", :class =>"display" %}
 * AT&T {%= image_tag '/images/tabele/att.png', :alt => "[att]" %}
 * Chart {%= image_tag '/images/tabele/chart.png', :alt => "[chart]" %}
+  Można też skorzystać z [CSS3 Family Tree](http://thecodeplayer.com/walkthrough/css3-family-tree)
+  (beztabelkowa wersja).
 
 
 ## 3. jBlog (albo Jekyll + Octopress)
