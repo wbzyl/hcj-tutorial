@@ -106,6 +106,9 @@ TODO: Websockets, geolokacja, preserving history (zob. https://github.com/)
 * [Colllor](http://colllor.com/) – turn one color into an array of alternative ones
 * [JS Bin](http://jsbin.com/) – collaborative JavaScript debugging
 * [Scriptular](http://scriptular.com/) – javascript regular expression editor
+* [Plunker](http://plnkr.co/) lets you edit, fork and preview web snippets online
+* [Livecoding](http://livecoding.io/) is an interactive sketchpad;
+  code modifications are instantly displayed — no need to refresh your browser
 
 
 ### Ściągi
