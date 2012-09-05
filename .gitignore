@@ -7,5 +7,5 @@ pkg
 *~
 .\#*
 \#*
-Gemfile.lock
 Gemfile
+Gemfile.lock
