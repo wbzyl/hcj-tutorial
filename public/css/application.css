@@ -1,14 +1,13 @@
 /*  niebieski   żółty    jasnopomarańczowy   pomarańczowy   czerwony */
 /* #467F71     #FFE87A  #FFCA53             #FF893B        #E52738   */
 /* debugging */
-/* debugging */
 h4:empty,
 p:empty {
   display: none;
 }
 header a {
   text-decoration: none;
-  color: #cdb380;
+  color: #ff9f67;
 }
 header h1 span {
   margin-left: 2em;
@@ -35,11 +34,11 @@ h3 {
   font-weight: 400;
 }
 h1 {
-  color: #031634;
+  color: #a84b3a;
 }
 h2,
 h3 {
-  color: #033649;
+  color: #233138;
 }
 html {
   font-size: 10px;
@@ -109,10 +108,10 @@ blockquote {
   position: absolute;
   margin: 0;
   right: 0;
-  background-color: #e8ddcb;
+  background-color: #fff7f5;
 }
 header {
-  background-color: #031634;
+  background-color: #a84b3a;
   border-style: solid;
   border-color: #000000;
 }
@@ -125,12 +124,12 @@ header h1 {
 article {
   background-color: #ffffff;
   border-style: solid;
-  border-color: #cdb380;
+  border-color: #ff9f67;
   padding-bottom: 1em;
 }
 pre {
   border-style: solid;
-  border-color: #e52738;
+  border-color: #4c646b;
 }
 @media screen and (max-width: 940px) {
   #wrapper,

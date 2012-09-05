@@ -114,24 +114,6 @@ A tak jest ona renderowna przy domyślnych ustawieniach przeglądarki:
 ([źródło przykładu](http://www.w3.org/TR/html5/tabular-data.html#tabular-data)).
 
 
-<blockquote>
- <p>
-   Pewien programista przeczytał na blogu lokalnego zoo,
-   że codziennie można oglądać jagnię pasące się
-   w klatce z lwem. Tak to go zafacynowało, że natychmiast
-   wszedł na stronę zoo, aby to zobaczyć.
-   I rzeczywiście, jagnię i lew spały obok siebie.
- </p>
- <p>
-   Podejrzewając jakąś sztuczkę napisał emaila do dyrektora
-   zoo z prośbą o wyjaśnienie. Oto odpowiedź dyrektora:
-   „To nie jest żadna sztuczka. Dzieje się to już od
-   kilku miesięcy. Ale <b>mogę powiedzieć panu w zaufaniu</b>,
-   że jagnię musimy bardzo często zastępować nowym.”
- </p>
- <p class="author">[stara anegdotka]</p>
-</blockquote>
-
 # Tworzymy szablon bloga
 
 Jakich użyjemy znaczników z listy [HTML5 Elements](http://simon.html5.org/html5-elements)?
@@ -160,6 +142,24 @@ Skąd się bierze problem zostało wyjaśnione:
 * [Clearance](http://www.mezzoblue.com/archives/2005/03/03/clearance/)
 * Eric A. Meyer. [Containing Floats](http://complexspiral.com/publications/containing-floats/)
 
+
+<blockquote>
+ <p>
+   Pewien programista przeczytał na blogu lokalnego zoo,
+   że codziennie można oglądać jagnię pasące się
+   w klatce z lwem. Tak to go zafacynowało, że natychmiast
+   wszedł na stronę zoo, aby to zobaczyć.
+   I rzeczywiście, jagnię i lew spały obok siebie.
+ </p>
+ <p>
+   Podejrzewając jakąś sztuczkę napisał emaila do dyrektora
+   zoo z prośbą o wyjaśnienie. Oto odpowiedź dyrektora:
+   „To nie jest żadna sztuczka. Dzieje się to już od
+   kilku miesięcy. Ale <b>mogę powiedzieć panu w zaufaniu</b>,
+   że jagnię musimy bardzo często zastępować nowym.”
+ </p>
+ <p class="author">[stara anegdotka]</p>
+</blockquote>
 
 # Anatomia posta
 
