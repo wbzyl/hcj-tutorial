@@ -71,6 +71,8 @@ TODO: Websockets, geolokacja, preserving history (zob. https://github.com/)
 
 # Podręczne linki
 
+* [StatCounter Global Stats](http://gs.statcounter.com/) –
+  Browser, OS, Search Engine including Mobile Market Share
 * [HTML5Rocks](http://www.html5rocks.com/) – the HTML5 Playground, Studio, and Presentation slides;
   zob. też [Resources](http://www.html5rocks.com/resources.html5)
 * [HTML5](http://html5.org/) – najważniejsze linki
