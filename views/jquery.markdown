@@ -1,5 +1,6 @@
 #### {% title "jQuery" %}
 
+* [A guide to the basics of jQuery](http://jqfundamentals.com/)
 * [jQuery Intro](https://github.com/wbzyl/jquery-intro)
 
 
