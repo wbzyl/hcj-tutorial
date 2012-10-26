@@ -76,6 +76,7 @@ TODO: Websockets, geolokacja, preserving history (zob. https://github.com/)
 * [HTML5Rocks](http://www.html5rocks.com/) – the HTML5 Playground, Studio, and Presentation slides;
   zob. też [Resources](http://www.html5rocks.com/resources.html5)
 * [HTML5](http://html5.org/) – najważniejsze linki
+  - [Achieve That "Holy Grail" Layout!]http://www.htmlfivecan.com/#10)
 * [HTML5 Draft](http://www.whatwg.org/specs/web-apps/current-work/multipage/)
 * [CSS3.info](http://www.css3.info/)
 * [jQuery](http://jquery.com/). Wtyczki do jQuery:
