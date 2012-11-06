@@ -169,3 +169,8 @@ TODO: Websockets, geolokacja, preserving history (zob. https://github.com/)
   Low-contrast fonts and unreadable texts? To hell with them!
 * [CSS-Tricks](http://css-tricks.com)
 * [Why Your Links Should Never Say “Click Here”](http://uxmovement.com/content/why-your-links-should-never-say-click-here/)
+
+
+## Coś do poczytania…
+
+* [Appliness](http://www.appliness.com/) – digital magazine for web application developers
