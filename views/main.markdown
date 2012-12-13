@@ -99,8 +99,7 @@ TODO: Websockets, geolokacja, preserving history (zob. https://github.com/)
 ### Użyteczne rzeczy
 
 * [GitHub Style Guides](https://github.com/styleguide/)
-* Mislav Marohnić,
-  [Semicolons in JavaScript are optional](http://mislav.uniqpath.com/2010/05/semicolons/)
+* [Lorempixel](http://lorempixel.com/) – placeholder images for every case
 
 
 ### Zrób to sam
@@ -175,3 +174,5 @@ TODO: Websockets, geolokacja, preserving history (zob. https://github.com/)
 ## Coś do poczytania…
 
 * [Appliness](http://www.appliness.com/) – digital magazine for web application developers
+* Mislav Marohnić,
+  [Semicolons in JavaScript are optional](http://mislav.uniqpath.com/2010/05/semicolons/)
