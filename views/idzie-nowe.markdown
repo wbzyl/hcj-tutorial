@@ -17,7 +17,8 @@ Zaczynamy:
 * Wasze strony
 * [HTML5 Outliner](http://gsnedders.html5.org/outliner/)
 * [Responsive web pages](http://responsivewebdesign.com/robot/) & [magiczne layouty z Isotope](http://isotope.metafizzy.co/)
-* Greg Smith. [Dive into Flexbox](http://weblog.bocoup.com/dive-into-flexbox/)
+* Greg Smith. [Dive into Flexbox](http://weblog.bocoup.com/dive-into-flexbox/) – działa w Chrome
+ i Firefox 18+
 * [CheckMyColours](http://www.checkmycolours.com/) –
   a tool for checking foreground and background color combinations of
   all DOM elements and determining if they *provide sufficient contrast
