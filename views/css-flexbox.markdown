@@ -3,6 +3,7 @@
 Can I use?
 
 * [CSS Flexbox](http://caniuse.com/flexbox)
+* Greg Smith. [Dive into Flexbox](http://weblog.bocoup.com/dive-into-flexbox/)
 
 Coś z HTML5Rocks & MDN:
 
