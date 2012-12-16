@@ -49,9 +49,19 @@ drugi raz — na kolorowo.
   (beztabelkowa wersja).
 
 
-## 3. jBlog (albo Jekyll + Octopress)
+## 3. Jak przyzwoitą zrobić stronę w półgodziny
 
-1\. Zmodyfikować layout jbloga. Można skorzystać z rozwiązań
+Przeczytać artykuł Anny Powell-Smith,
+[How to Make Your Site Look Half-Decent in Half an Hour](http://24ways.org/2012/how-to-make-your-site-look-half-decent/)
+i zastosować się do wskazówek autorki.
+
+
+## 4. jBlog (albo Jekyll + Octopress)
+
+Tom Preston–Werner:
+„[Development of Jekyll to be revived in 2013](https://github.com/mojombo/jekyll/issues/578#issuecomment-11414645)”.
+
+1\. Zmodyfikować layout jBloga. Można skorzystać z rozwiązań
 opisanych na blogu Richard Huanga,
 [Migrate Custom Blog to Jekyll and Disqus](http://www.huangzhimin.com/2011/01/20/migrate-custom-blog-to-jekyll-and-disqus/).
 
@@ -61,7 +71,7 @@ Korzystając z narzędzia *FontStructor* utworzyć własny font.
 Użyć go w tytule bloga.
 
 
-## 4. Pokazy slajdów w HTML5
+## 5. Pokazy slajdów w HTML5
 
 Korzystając z biblioteki
 [reveal.js](http://lab.hakim.se/reveal-js/)
@@ -73,7 +83,7 @@ i przygotuj pokaz slajdów na dowolny temat
 (10–20 sladów wystarczy).
 
 
-## 5. CSS3 Patterns Gallery
+## 6. CSS3 Patterns Gallery
 
 Na stronie Lea Verou, [CSS3 Patterns Gallery](http://lea.verou.me/css3patterns/) znajdziemy
 galerię z gradientami CSS3. Gradienty można edytować bezpośrednio
@@ -83,7 +93,7 @@ i wszytko umieścić na swoim blogu.
 Warto też czasami zajrzeć na jej [blog](http://lea.verou.me/).
 
 
-## 5. Galeria zdjęć
+## 7. Galeria zdjęć
 
 1\. Tylko w CSS:
 
