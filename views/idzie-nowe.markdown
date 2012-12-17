@@ -45,6 +45,8 @@ Zaczynamy:
 
 ## HTML5 ♡♡♡
 
+* [The HTML5 test](http://html5test.com/) – 
+  how well does your browser support HTML5?
 * [What can it do? What browser am I using, how modern is my web browser…](http://www.findmebyip.com/)
 * [Web Design – HTML5 & CSS3 Checklist](http://www.findmebyip.com/litmus/)
 * [When can I use…](http://a.deveria.com/caniuse/)
