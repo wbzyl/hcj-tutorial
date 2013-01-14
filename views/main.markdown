@@ -144,7 +144,8 @@ TODO: Websockets, geolokacja, preserving history (zob. https://github.com/)
 ## Różne rzeczy:
 
 * Shay Howe,
-  [A Beginners Guide to HTML & CSS](http://learn.shayhowe.com/html-css/terminology-syntax-intro/)
+  - [A Beginners Guide to HTML & CSS](http://learn.shayhowe.com/html-css/terminology-syntax-intro/)
+  - [Learn Advanced HTML & CSS with one useful guide](http://learn.shayhowe.com/advanced-html-css/)
 * M. Pilgrim,
   [Dive Into HTML5](http://diveintohtml5.info/)
 * T. Fuchs, A. Hoy.
