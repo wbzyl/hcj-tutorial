@@ -62,7 +62,7 @@ drugi raz — na kolorowo.
   (beztabelkowa wersja).
 
 
-## 3. Jak przyzwoitą zrobić stronę w półgodziny
+## 3. Strona HTML w półgodziny
 
 Przeczytać artykuł Anny Powell-Smith,
 [How to Make Your Site Look Half-Decent in Half an Hour](http://24ways.org/2012/how-to-make-your-site-look-half-decent/)
