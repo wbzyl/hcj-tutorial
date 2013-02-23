@@ -7,6 +7,19 @@
  <p class="author">[The Tao of Programming 2.1]</p>
 </blockquote>
 
+## Git – powtórka
+
+Przerobić tutorial [Be introduced to the basic concepts of Git version control](http://www.codeschool.com/courses/try-git).
+Następnie założyć na serwerze Github dwa repozytoria:
+
+* **simple-rails-app** – na kod aplikacji na zaliczenie ASI
+* **hcj-zadania** – repo z rozwiązaniami zadań z TI
+
+Dodatkowa lektura: [Pro Git](http://git-scm.com/book/pl) (polskie tłumaczenie).
+
+
+## 0. HTML – podstawy
+
 1\. Przygotować przykładową stronę w HTML5.
 Strona powinna zawierać następujące elementy:
 article, section, nav, aside, footer, figure, caption,
@@ -20,17 +33,6 @@ a, blockquote, img, h1, h2, h3, ol, p, ul.
 [Bootstrap examples](http://twitter.github.com/bootstrap/examples.html);
 zob. też [StyleBootstrap.info](http://stylebootstrap.info/) –
 create unique design with Bootstrap v2.
-
-
-## 0. Git – powtórka
-
-Przerobić tutorial [Be introduced to the basic concepts of Git version control](http://www.codeschool.com/courses/try-git).
-Następnie założyć na serwerze Github dwa repozytoria:
-
-* **simple-rails-app** – na kod aplikacji na zaliczenie ASI
-* **hcj-zadania** – repo z rozwiązaniami zadań z TI
-
-Dodatkowa lektura: [Pro Git](http://git-scm.com/book/pl) (polskie tłumaczenie).
 
 
 ## 1. Plan zajęć
