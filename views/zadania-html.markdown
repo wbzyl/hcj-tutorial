@@ -22,6 +22,17 @@ zob. też [StyleBootstrap.info](http://stylebootstrap.info/) –
 create unique design with Bootstrap v2.
 
 
+## 0. Git – powtórka
+
+Przerobić tutorial [Be introduced to the basic concepts of Git version control](http://www.codeschool.com/courses/try-git).
+Następnie założyć na serwerze Github dwa repozytoria:
+
+* **simple-rails-app** – na kod aplikacji na zaliczenie ASI
+* **hcj** – repo z rozwiązaniami zadań z TI
+
+Dodatkowa lektura: [Pro Git](http://git-scm.com/book/pl) (polskie tłumaczenie).
+
+
 ## 1. Plan zajęć
 
 Przygotować **poziomą** tabelę z planem zajęć, tzn. dni tygodnia,
