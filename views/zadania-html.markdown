@@ -28,7 +28,7 @@ Przerobić tutorial [Be introduced to the basic concepts of Git version control]
 Następnie założyć na serwerze Github dwa repozytoria:
 
 * **simple-rails-app** – na kod aplikacji na zaliczenie ASI
-* **hcj** – repo z rozwiązaniami zadań z TI
+* **hcj-zadania** – repo z rozwiązaniami zadań z TI
 
 Dodatkowa lektura: [Pro Git](http://git-scm.com/book/pl) (polskie tłumaczenie).
 
