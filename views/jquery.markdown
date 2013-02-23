@@ -2,6 +2,7 @@
 
 * [A guide to the basics of jQuery](http://jqfundamentals.com/)
 * [jQuery Intro](https://github.com/wbzyl/jquery-intro)
+* [Try jQuery](http://www.codeschool.com/courses/try-jquery) (na Code School)
 
 
 ## Zaczynamy
