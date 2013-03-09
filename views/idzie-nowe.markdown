@@ -16,6 +16,8 @@ Zaczynamy:
 
 * Wasze strony
 * [HTML5 Outliner](http://gsnedders.html5.org/outliner/)
+* [HTML5Doctor](http://html5doctor.com/) – przykładowy artykuł
+  [Avoiding common HTML5 mistakes](http://html5doctor.com/avoiding-common-html5-mistakes/)
 * [Responsive web pages](http://responsivewebdesign.com/robot/) & [magiczne layouty z Isotope](http://isotope.metafizzy.co/)
 * Greg Smith. [Dive into Flexbox](http://weblog.bocoup.com/dive-into-flexbox/) – działa w Chrome
  i Firefox 18+
@@ -27,6 +29,10 @@ Zaczynamy:
 * [HTML5 Elements and Attributes](http://simon.html5.org/html5-elements)
 * [HTML 5 Demos and Examples](http://html5demos.com/)
 * [TheCodePlayer](http://thecodeplayer.com/)
+
+<!--
+* [SitePoint References](http://reference.sitepoint.com/css) – CSS, HTML, JavaScript
+-->
 
 
 ## Jak to dawniej robiono
@@ -40,12 +46,14 @@ Zaczynamy:
 * [HTML5 Live DOM Viewer](http://livedom.validator.nu/)
 * [Dabblet](http://dabblet.com/) – an interactive playground
   for quickly testing snippets of CSS and HTML code
-* [HTML5 Snippets](http://html5snippet.net/people/758)
+* [JS Bin](http://jsbin.com/) – a webapp specifically designed
+  to help JavaScript and CSS folk test snippets of code,
+  within some context, and debug the code collaboratively
 
 
 ## HTML5 ♡♡♡
 
-* [The HTML5 test](http://html5test.com/) – 
+* [The HTML5 test](http://html5test.com/) –
   how well does your browser support HTML5?
 * [What can it do? What browser am I using, how modern is my web browser…](http://www.findmebyip.com/)
 * [Web Design – HTML5 & CSS3 Checklist](http://www.findmebyip.com/litmus/)
