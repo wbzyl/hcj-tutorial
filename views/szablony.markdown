@@ -130,15 +130,23 @@ Przykładowe implementacje:
 * {%= link_to "wersja html5", "/doc/html/blog/html5.html" %}
   ({%= link_to "html5", "/html/blog/html5.html" %}, {%= link_to "css", "/html/blog/blog5.css" %})
 
+Czy użyliśmy właściwych znaczników? Sprawdzić to,
+korzystając z tego schematu blokowego
+{%= link_to "Sectioning content elements and firends", "/images/h5d-sectioning-flowchart.png" %}.
+
 Należy jeszcze dorobić w implementacji „dociągnięcie” elementów *sidebar* i *nav*
 do elementu *footer* (tak jak jest to narysowane na obrazkach powyżej).
 Jak to zrobić jest opisane w artykule Dana Cederholma,
-[Faux Columns](http://www.alistapart.com/articles/fauxcolumns/).
+[Faux Columns](http://www.alistapart.com/articles/fauxcolumns/);
+Peter-Paul Koch przedstawił inne rozwiązanie w tym artykule
+[Clearing floats](http://www.quirksmode.org/css/clearing.html).
+Ale tak naprawdę, to rozwiązanie korzystające z *flex boxes*
+nie korzysta z żadnych trików.
+
 
 Skąd się bierze problem zostało wyjaśnione:
 
 * Noah Stokes. [CSS Floats 101](http://www.alistapart.com/articles/css-floats-101/)
-* Peter-Paul Koch. [Clearing floats](http://www.quirksmode.org/css/clearing.html)
 * [Clearance](http://www.mezzoblue.com/archives/2005/03/03/clearance/)
 * Eric A. Meyer. [Containing Floats](http://complexspiral.com/publications/containing-floats/)
 

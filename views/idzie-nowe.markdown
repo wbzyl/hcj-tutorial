@@ -15,7 +15,8 @@ Odtworzenie pierwszej strony WWW:
 Zaczynamy:
 
 * Wasze strony
-* [HTML5 Outliner](http://gsnedders.html5.org/outliner/)
+* [HTML5 Outliner](http://gsnedders.html5.org/outliner/);
+  [rozszerzenie dla Chrome](https://chrome.google.com/webstore/detail/html5-outliner/afoibpobokebhgfnknfndkgemglggomo)
 * [HTML5Doctor](http://html5doctor.com/) – przykładowy artykuł
   [Avoiding common HTML5 mistakes](http://html5doctor.com/avoiding-common-html5-mistakes/)
 * [Responsive web pages](http://responsivewebdesign.com/robot/) & [magiczne layouty z Isotope](http://isotope.metafizzy.co/)
