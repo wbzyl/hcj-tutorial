@@ -25,7 +25,8 @@
 1. {%= link_to "Zaczynamy", "/css" %}
 1. {%= link_to "Responsive Web Design", "/responsive" %}
 1. {%= link_to "Fonty webowe", "/fonty-webowe" %}
-1. {%= link_to "Formularze", "/formularze" %}
+1. {%= link_to "Flexbox model", "/css-flexbox" %}
+1. {%= link_to "Regions & Exclusions", "/css-regions-and-exclusions" %}
 
 
 ## Javascript + jQuery
@@ -76,6 +77,7 @@ TODO: Websockets, geolokacja, preserving history (zob. https://github.com/)
 * [HTML5Rocks](http://www.html5rocks.com/) – the HTML5 Playground, Studio, and Presentation slides;
   zob. też [Resources](http://www.html5rocks.com/resources.html5)
 * [HTML5](http://html5.org/) – najważniejsze linki
+  - [Achieve That "Holy Grail" Layout!](http://www.htmlfivecan.com/#10)
 * [HTML5 Draft](http://www.whatwg.org/specs/web-apps/current-work/multipage/)
 * [CSS3.info](http://www.css3.info/)
 * [jQuery](http://jquery.com/). Wtyczki do jQuery:
@@ -97,8 +99,7 @@ TODO: Websockets, geolokacja, preserving history (zob. https://github.com/)
 ### Użyteczne rzeczy
 
 * [GitHub Style Guides](https://github.com/styleguide/)
-* Mislav Marohnić,
-  [Semicolons in JavaScript are optional](http://mislav.uniqpath.com/2010/05/semicolons/)
+* [Lorempixel](http://lorempixel.com/) – placeholder images for every case
 
 
 ### Zrób to sam
@@ -143,7 +144,8 @@ TODO: Websockets, geolokacja, preserving history (zob. https://github.com/)
 ## Różne rzeczy:
 
 * Shay Howe,
-  [A Beginners Guide to HTML & CSS](http://learn.shayhowe.com/html-css/terminology-syntax-intro/)
+  - [A Beginners Guide to HTML & CSS](http://learn.shayhowe.com/html-css/terminology-syntax-intro/)
+  - [Learn Advanced HTML & CSS with one useful guide](http://learn.shayhowe.com/advanced-html-css/)
 * M. Pilgrim,
   [Dive Into HTML5](http://diveintohtml5.info/)
 * T. Fuchs, A. Hoy.
@@ -168,3 +170,10 @@ TODO: Websockets, geolokacja, preserving history (zob. https://github.com/)
   Low-contrast fonts and unreadable texts? To hell with them!
 * [CSS-Tricks](http://css-tricks.com)
 * [Why Your Links Should Never Say “Click Here”](http://uxmovement.com/content/why-your-links-should-never-say-click-here/)
+
+
+## Coś do poczytania…
+
+* [Appliness](http://www.appliness.com/) – digital magazine for web application developers
+* Mislav Marohnić,
+  [Semicolons in JavaScript are optional](http://mislav.uniqpath.com/2010/05/semicolons/)

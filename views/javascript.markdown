@@ -13,6 +13,7 @@ Samouczki online:
   a collection of documentation about the most quirky parts of the
   JavaScript programming language
 * [A re-introduction to JavaScript](https://developer.mozilla.org/en/A_re-introduction_to_JavaScript)
+* Cody Lindley, [DOM Enlightenment](http://domenlightenment.com/)
 
 Learn by doing:
 
