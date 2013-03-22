@@ -54,6 +54,7 @@ TODO: Websockets, geolokacja, preserving history (zob. https://github.com/)
 ## Laboratoria
 
 *  {%= link_to "HTML zadania", "/zadania-html" %}
+*  {%= link_to "Chrome DevTools", "/chrome-devtools" %}
 
 
 <blockquote>
