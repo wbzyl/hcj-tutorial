@@ -22,3 +22,4 @@ Improving Network Performance:
   - [PageSpeed Insights (by Google)](https://chrome.google.com/webstore/detail/pagespeed-insights-by-goo/gplegfbjlmmehdoakndmohflojccocli)
 * [Closure Compiler](https://developers.google.com/closure/compiler/):
   - [online](http://closure-compiler.appspot.com/home)
+* [Personal Blocklist (by Google)](https://chrome.google.com/webstore/detail/personal-blocklist-by-goo/nolijncfnkgaikbjbdaogikpmpbdcdef)
