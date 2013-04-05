@@ -344,5 +344,9 @@ będą prostsze rachunki z 10px:
 
 ## Podmienianie obrazków
 
-* [Adaptive Images](http://adaptive-images.com/)
+* [Adaptive Images](http://adaptive-images.com/):
+  - [github](https://github.com/MattWilcox/Adaptive-Images)
+* [Adaptive images: solving the responsive image problem](http://www.webdesignerdepot.com/2012/07/adaptive-images-solving-the-responsive-image-problem/)
+* Jake Archibald,
+  [Adaptive Images for Responsive Designs… Again](http://24ways.org/2011/adaptive-images-for-responsive-designs-again/)
 * [Responsive Images: Experimenting with Context-Aware Image Sizing](http://filamentgroup.com/lab/responsive_images_experimenting_with_context_aware_image_sizing/)
