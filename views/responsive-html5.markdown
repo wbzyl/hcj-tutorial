@@ -96,19 +96,19 @@ ponieważ strona ta jest *auto resized*.
 
 Po zablokowaniu *auto resizing* strona wyświetla się tak:
 
-* {%= link_to "xhtml-no-auto-resize.html", "doc/responsive/xhtml-no-auto-resize.html" %}
-  ({%= link_to "źródło", "responsive/xhtml-no-auto-resize.html" %})
+* {%= link_to "html5-no-auto-resize.html", "doc/responsive/html5-no-auto-resize.html" %}
+  ({%= link_to "źródło", "responsive/html5-no-auto-resize.html" %})
 
 Jak blokujemy automatyczne przeskalowywanie? Tak:
 
     :::html
-    <meta name="viewport" content="initial-scale=1.0,width=device-width" />
+    <meta name="viewport" content="initial-scale=1.0,width=device-width">
 
 albo zmieniamy wartość współczynnika *initial-scale*, na przykład:
 
     :::html
-    <meta name="viewport" content="initial-scale=0.5,width=device-width" />
-    <meta name="viewport" content="initial-scale=2.0,width=device-width" />
+    <meta name="viewport" content="initial-scale=0.5,width=device-width">
+    <meta name="viewport" content="initial-scale=2.0,width=device-width">
 
 Co dają takie zmiany? Jak to zapisać?
 
@@ -117,65 +117,82 @@ Co dają takie zmiany? Jak to zapisać?
 
 * [CSS media queries](https://developer.mozilla.org/en/CSS/Media_queries) – MDN
 
-Jak?
+Jak? Może tak:
 
     :::css
-    <link rel="stylesheet" media="screen" href="screen.css">
+    <link rel="stylesheet" media="screen"
+         href="screen.css">
     <link rel="stylesheet" media="screen and (orientation: portrait)" href="portrait-screen.css">
-    <link rel="stylesheet" media="not screen and (orientation: portrait)" href="portrait-screen.css">
-    <link rel="stylesheet" media="screen and (orientation: portrait) and (min-width: 800px)" href="800wide-portrait-screen.css">
+    <link rel="stylesheet" media="not screen and (orientation: portrait)"
+         href="portrait-screen.css">
+    <link rel="stylesheet" media="screen and (orientation: portrait) and (min-width: 800px)"
+         href="800wide-portrait-screen.css">
 
-Tak?
+albo może wszystko zapiszemy w jednym pliku:
 
     :::css
-    @media screen and (min-width: 800px) {
+    @media screen and (orientation: portrait) {
       ... CSS ...
     }
+    /*    (not (screen and (orientation: portrait))) */
+    @media not screen and (orientation: portrait) {
+      ... CSS ...
+    }
+    @media screen and (orientation: portrait) and (min-width: 800px) {
+      ... CSS ...
+    }
+
+(ostatni przykład: „the viewport is 800px wide or wider”)
 
 
 ## Viewport – widths
 
-css pixels = device pixels:
+`width=device-width` oznacza: css pixels = device pixels,
+[A pixel is not a pixel is not a pixel](http://www.quirksmode.org/blog/archives/2010/04/a_pixel_is_not.html):
 
     :::html
-    <meta name="viewport" content="initial-scale=1.0,width=device-width" />
+    <meta name="viewport" content="initial-scale=1.0,width=device-width">
 
 iPad?
 
     :::css
     @media screen and (max-width: 768px) {
-        #wrapper, #header, #footer, #navigation {
-            width: 768px;
-            margin: 0px;
-        }
-        #navigation {
-            text-align: center;
-        }
-        #navigation ul li a {
-            line-height: 40px;
-            font-size: 30px;
-        }
-        #content, #sidebar {
-            padding-right: 10px;
-            padding-left: 10px;
-            width: 728px;
-        }
+      #wrapper, #header, #footer, #navigation {
+        width: 768px;
+        margin: 0px;
+      }
+      #navigation {
+        text-align: center;
+      }
+      #navigation ul li a {
+        line-height: 40px;
+        font-size: 30px;
+      }
+      #content, #sidebar {
+        padding-right: 10px;
+        padding-left: 10px;
+        width: 728px;
+      }
     }
 
 Zamieniona kolejność elementów *sidebar* i *footer*.
 
-* {%= link_to "xhtml-viewport-widths.html", "doc/responsive/xhtml-viewport-widths.html" %}
-  ({%= link_to "źródło", "responsive/xhtml-viewport-widths.html" %})
+* {%= link_to "html5-viewport-widths.html", "doc/responsive/html5-viewport-widths.html" %}
+  ({%= link_to "źródło", "responsive/html5-viewport-widths.html" %})
 
 
 ## Fluid layout
 
-Media gueries nie wystarczają. Przy zmianach CSS, w **vieport** nie mieści się cała strona
-(pojawia się pasek do przesuwania).
+Ale same media queries to za mało…
 
-Potrzebny jest jakiś mechanizm likwidujący taką „nieciągłość”.
+Przy takich ustawieniach w CSS, gdy zmieniamy szerokość strony,
+czyli równocześnie też szerokość w **vieport**,
+cała strona nie mieści się w oknie przeglądarki
+i pojawia się pasek do przesuwania.
 
-Zastosujemy technikę *fluid* oraz wzór Marcotta
+Potrzebny jest jakiś mechanizm likwidujący tę „nieciągłość”.
+
+Zastosujemy technikę *fluid* (?tłum: *procentową*) oraz wzór Marcotta
 do przeliczania wymiarów na procenty:
 
     :::text
@@ -185,83 +202,87 @@ W naszym przykładzie kontekst, to najbardziej zewnętrzny *div*:
 
     :::css
     #wrapper {
-        margin-right: auto;
-        margin-left: auto;
-        width: 960px;
+      margin-right: auto;
+      margin-left: auto;
+      width: 960px;
     }
 
 zmieniamy:
 
     :::css
     #wrapper {
-        margin-right: auto;
-        margin-left: auto;
-        width: 96%; /* albo 100%, albo 90%, albo na cokolwiek sensownego */
+      margin-right: auto;
+      margin-left: auto;
+      width: 96%;
     }
 
-Przeliczenia ze wzoru Marcotta:
+Oczywiście mogliśmy ustawić `width` na 100%.
+Ale „na oko” wybrałem 96% co daje mały lewy i prawy margines.
+
+Przeliczenia ze wzoru Marcotta
+(z CSS poniżej usunięto wszystkie deklaracje:
 
     :::css
     #header {
-        /* margin-right: 10px; */
-        /* margin-left: 10px; */
-        margin-right: 1.0416667%; /* 10 ÷ 960 */
-        margin-left: 1.0416667%; /* 10 ÷ 960 */
-        /* width: 940px; */
-        width: 97.9166667%; /* 940 ÷ 960 */;
+      /* margin-right: 10px; */
+      /* margin-left: 10px; */
+      margin-right: 1.0416667%; /* 10 ÷ 960 */
+      margin-left: 1.0416667%; /* 10 ÷ 960 */
+      /* width: 940px; */
+      width: 97.9166667%; /* 940 ÷ 960 */;
     }
     #navigation {
-        /* margin-left: 10px; */
-        margin-left: 1.0416667%; /* 10 ÷ 960 */
-        /* padding-right: 10px; */
-        /* padding-left: 10px; */
-        padding-right: 1.0416667%; /* 10 ÷ 960 */
-        padding-left: 1.0416667%; /* 10 ÷ 960 */
-        width: 97.9166667%; /* 940 ÷ 960 */;
+      /* margin-left: 10px; */
+      margin-left: 1.0416667%; /* 10 ÷ 960 */
+      /* padding-right: 10px; */
+      /* padding-left: 10px; */
+      padding-right: 1.0416667%; /* 10 ÷ 960 */
+      padding-left: 1.0416667%; /* 10 ÷ 960 */
+      width: 97.9166667%; /* 940 ÷ 960 */;
     }
     #navigation ul li {
-        display: inline-block;
-        margin-right: 2.6595745%; /* 25 ÷ 940 */
+      display: inline-block;
+      margin-right: 2.6595745%; /* 25 ÷ 940 */
     }
     #navigation ul li a {
-        /* margin-right: 25px; */
-        /* przeniesione do reguły powyżej */
-        /* margin-right: 2.6595745%; /\* 25 ÷ 940 *\/ */
+      /* margin-right: 25px; */
+      /* przeniesione do reguły powyżej */
+      /* margin-right: 2.6595745%; /\* 25 ÷ 940 *\/ */
     }
     #content {
-        /* margin-right: 10px; */
-        margin-right: 1.0416667%; /* 10 ÷ 960 */
-        /* width: 700px; */
-        width: 72.9166667%; /* 700 ÷ 960 */
+      /* margin-right: 10px; */
+      margin-right: 1.0416667%; /* 10 ÷ 960 */
+      /* width: 700px; */
+      width: 72.9166667%; /* 700 ÷ 960 */
     }
     #sidebar {
-        /* margin-left: 10px; */
-        margin-left: 1.0416667%; /* 10 ÷ 960 */
-        /* width: 220px; */
-        width: 22.9166667%; /* 200 ÷ 960 */
+      /* margin-left: 10px; */
+      margin-left: 1.0416667%; /* 10 ÷ 960 */
+      /* width: 220px; */
+      width: 22.9166667%; /* 200 ÷ 960 */
     }
     #footer {
-        /* margin-right: 10px; */
-        margin-right: 1.0416667%; /* 10 ÷ 960 */
-        margin-left: 1.0416667%; /* 10 ÷ 960 */
-        /* width: 940px; */
-        width: 97.9166667%; /* 940 ÷ 960 */;
+      /* margin-right: 10px; */
+      margin-right: 1.0416667%; /* 10 ÷ 960 */
+      margin-left: 1.0416667%; /* 10 ÷ 960 */
+      /* width: 940px; */
+      width: 97.9166667%; /* 940 ÷ 960 */;
     }
 
 Przy przejściu na szerokość mniejszą od 768px korzystamy z media query:
 
     :::css
     @media screen and (max-width: 768px) {
-        #header, #content, #sidebar, #footer {
-            width: 100%;
-            margin: 0px;
-        }
+      #header, #content, #sidebar, #footer {
+        width: 100%;
+        margin: 0px;
+      }
     }
 
 Reszta:
 
-* {%= link_to "xhtml-fluid.html", "doc/responsive/xhtml-fluid.html" %}
-  ({%= link_to "źródło", "responsive/xhtml-fluid.html" %})
+* {%= link_to "html5-fluid.html", "doc/responsive/html5-fluid.html" %}
+  ({%= link_to "źródło", "responsive/html5-fluid.html" %})
 
 
 ## Fluid images
@@ -270,20 +291,20 @@ CSS:
 
     :::css
     img {
-        max-width: 100%;
+      max-width: 100%;
     }
 
     @media screen and (max-width: 768px) {
-        #sidebar img {
-            max-width: 50%;
-            float: left;
-            display: block;
-        }
+      #sidebar img {
+        max-width: 50%;
+        float: left;
+        display: block;
+      }
     }
 
 
-* {%= link_to "xhtml-fluid-images.html", "doc/responsive/xhtml-fluid-images.html" %}
-  ({%= link_to "źródło", "responsive/xhtml-fluid-images.html" %})
+* {%= link_to "html5-fluid-images.html", "doc/responsive/html5-fluid-images.html" %}
+  ({%= link_to "źródło", "responsive/html5-fluid-images.html" %})
 
 
 ## Fluid typography: fonts
@@ -304,7 +325,7 @@ Jak zostało wyliczone 62.5%:
     target ÷ context = result
     10px   ÷ 16px    = 0.625
 
-Teraz zamiast rachunków z 16px:
+Teraz zamiast rachunków z 16px:
 
     :::css
     #navigation ul li a {
@@ -322,8 +343,6 @@ będą prostsze rachunki z 10px:
 
 
 ## Podmienianie obrazków
-
-**TODO**:
 
 * [Adaptive Images](http://adaptive-images.com/)
 * [Responsive Images: Experimenting with Context-Aware Image Sizing](http://filamentgroup.com/lab/responsive_images_experimenting_with_context_aware_image_sizing/)
