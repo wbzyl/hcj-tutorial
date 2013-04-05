@@ -88,8 +88,8 @@ Dlaczego? Ponieważ w „responsive design” istotne są tylko „szerokości�
 
 Zaczynamy od XHTML prostego szablonu:
 
-* {%= link_to "xhtml-template.html", "doc/responsive/xhtml-template.html" %}
-  ({%= link_to "źródło", "responsive/xhtml-template.html" %})
+* {%= link_to "html5-template.html", "doc/responsive/html5-template.html" %}
+  ({%= link_to "źródło", "responsive/html5-template.html" %})
 
 Ta strona na „małych urządzeniach” jest nieczytelna
 ponieważ strona ta jest *auto resized*.
