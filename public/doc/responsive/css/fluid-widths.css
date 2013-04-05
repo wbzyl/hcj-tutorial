@@ -1,9 +1,9 @@
 @media screen and (max-width: 768px) {
-    #header, #content, #sidebar, #footer {
-        width: 100%;
-        margin: 0px;
-    }
-    #sidebar, #content, #footer {
-        margin-top: 20px;
-    }
+  #header, #content, #sidebar, #footer {
+    width: 100%;
+    margin: 0px;
+  }
+  #sidebar, #content, #footer {
+     margin-top: 20px;
+  }
 }

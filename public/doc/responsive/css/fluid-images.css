@@ -1,16 +1,16 @@
 img {
-    max-width: 100%;
+  max-width: 100%;
 }
 
 #sidebar a {
-    margin-bottom: 0.25em;
+  margin-bottom: 0.25em;
 }
 
 @media screen and (max-width: 768px) {
-    #sidebar img {
-        max-width: 50%;
-        float: left;
-        display: block;
-        margin-bottom: 0.25em;
-    }
+  #sidebar img {
+    max-width: 50%;
+    float: left;
+    display: block;
+    margin-bottom: 0.25em;
+  }
 }
