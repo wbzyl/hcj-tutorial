@@ -141,8 +141,8 @@ ponieważ jest *auto resized*.
 
 Po zablokowaniu *auto resizing* strona wyświetla się tak:
 
-* {%= link_to "html5-no-auto-resize.html", "doc/responsive/html5-no-auto-resize.html" %}
-  ({%= link_to "źródło", "responsive/html5-no-auto-resize.html" %})
+* {%= link_to "html5-no-auto-resize.html", "/doc/responsive/html5-no-auto-resize.html" %}
+  ({%= link_to "źródło", "/responsive/html5-no-auto-resize.html" %})
 
 Jak blokujemy automatyczne przeskalowywanie? Tak:
 
@@ -332,8 +332,8 @@ Przy przejściu na szerokość mniejszą od 768px korzystamy z media query:
 
 Strona i źródło strony:
 
-* {%= link_to "html5-fluid.html", "doc/responsive/html5-fluid.html" %}
-  ({%= link_to "źródło", "responsive/html5-fluid.html" %})
+* {%= link_to "html5-fluid.html", "/doc/responsive/html5-fluid.html" %}
+  ({%= link_to "źródło", "/responsive/html5-fluid.html" %})
 
 
 ## Fluid images
@@ -354,8 +354,8 @@ CSS:
     }
 
 
-* {%= link_to "html5-fluid-images.html", "doc/responsive/html5-fluid-images.html" %}
-  ({%= link_to "źródło", "responsive/html5-fluid-images.html" %})
+* {%= link_to "html5-fluid-images.html", "/doc/responsive/html5-fluid-images.html" %}
+  ({%= link_to "źródło", "/responsive/html5-fluid-images.html" %})
 
 
 ## Fluid typography: fonts
