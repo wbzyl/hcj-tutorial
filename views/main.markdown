@@ -23,7 +23,7 @@
 ## CSS 3
 
 1. {%= link_to "Zaczynamy", "/css" %}
-1. {%= link_to "Responsive Web Design", "/responsive" %}
+1. {%= link_to "Responsive Web Design", "/responsive-html5" %}
 1. {%= link_to "Fonty webowe", "/fonty-webowe" %}
 1. {%= link_to "Flexbox model", "/css-flexbox" %}
 1. {%= link_to "Regions & Exclusions", "/css-regions-and-exclusions" %}
