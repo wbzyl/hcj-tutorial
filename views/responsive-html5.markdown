@@ -88,8 +88,8 @@ Dlaczego? Ponieważ w „responsive design” istotne są tylko „szerokości�
 
 Zaczynamy od prostego szablonu:
 
-* {%= link_to "html5-template.html", "doc/responsive/html5-template.html" %}
-  ({%= link_to "źródło", "responsive/html5-template.html" %})
+* {%= link_to "html5-template.html", "/doc/responsive/html5-template.html" %}
+  ({%= link_to "źródło", "/responsive/html5-template.html" %})
 
 Nie jest to co prawda „czysty” HTML5, ale za to ma sensowny
 [outline (schemat)](http://gsnedders.html5.org/outliner/):
@@ -223,8 +223,8 @@ iPad?
 
 Zamieniona kolejność elementów *sidebar* i *footer*.
 
-* {%= link_to "html5-viewport-widths.html", "doc/responsive/html5-viewport-widths.html" %}
-  ({%= link_to "źródło", "responsive/html5-viewport-widths.html" %})
+* {%= link_to "html5-viewport-widths.html", "/doc/responsive/html5-vieport-widths.html" %}
+  ({%= link_to "źródło", "/responsive/html5-vieport-widths.html" %})
 
 
 ## Fluid layout
