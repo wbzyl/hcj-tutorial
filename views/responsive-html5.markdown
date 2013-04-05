@@ -167,7 +167,8 @@ Jak? Może tak:
     :::css
     <link rel="stylesheet" media="screen"
          href="screen.css">
-    <link rel="stylesheet" media="screen and (orientation: portrait)" href="portrait-screen.css">
+    <link rel="stylesheet" media="screen and (orientation: portrait)"
+         href="portrait-screen.css">
     <link rel="stylesheet" media="not screen and (orientation: portrait)"
          href="portrait-screen.css">
     <link rel="stylesheet" media="screen and (orientation: portrait) and (min-width: 800px)"
