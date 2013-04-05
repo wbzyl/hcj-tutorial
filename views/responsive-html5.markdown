@@ -86,15 +86,60 @@ Dlaczego? Ponieważ w „responsive design” istotne są tylko „szerokości�
 
 ## Fixed layout
 
-Zaczynamy od XHTML prostego szablonu:
+Zaczynamy od prostego szablonu:
 
 * {%= link_to "html5-template.html", "doc/responsive/html5-template.html" %}
   ({%= link_to "źródło", "responsive/html5-template.html" %})
 
-Ta strona na „małych urządzeniach” jest nieczytelna
-ponieważ strona ta jest *auto resized*.
+Nie jest to co prawda „czysty” HTML5, ale za to ma sensowny
+[outline (schemat)](http://gsnedders.html5.org/outliner/):
 
-Po zablokowaniu *auto resizing* strona wyświetla się tak:
+    :::html
+    <!doctype html>
+    <html lang="pl">
+    <head>
+      <meta charset="utf-8">
+      ...
+    </head>
+    <body>
+    <div id="wrapper">
+      <header id="header">
+        <!-- nav is a sectioning element and needs a title heading -->
+        <div id="navigation">
+          <ul>
+            <li><a href="#">Morskiego Oka</a></li>
+            ...
+          </ul>
+        </div>
+      </header>
+      <div id="content">
+        <h1>Doliny Tarzańskie</h1>
+        <p>Article content…</p>
+        <h2>Morskie Oko</h2>
+        <p>Article content…</p>
+        ...
+      </div>
+      <aside id="sidebar">
+        <h1>Sidebar heading</h1>
+        <p>Content…</p>
+      </aside>
+      <footer id="footer">
+        <p>Content… (footer is not sectioning element)</p>
+      </footer>
+    </div>
+    </body>
+    </html>
+
+Dlaczego w szablonie nie użyto elementu *article*
+i jaki problematyczny outline miałby szablon korzystający
+z elementów *article*, *section* opisano tutaj:
+
+* Roger Johansson, [HTML5 sectioning elements, headings, and document outlines](http://www.456bereastreet.com/archive/201103/html5_sectioning_elements_headings_and_document_outlines/)
+
+Strona ta na „małych urządzeniach” jest nieczytelna
+ponieważ jest *auto resized*.
+
+Po zablokowaniu *auto resizing* strona wyświetla się tak:
 
 * {%= link_to "html5-no-auto-resize.html", "doc/responsive/html5-no-auto-resize.html" %}
   ({%= link_to "źródło", "responsive/html5-no-auto-resize.html" %})
@@ -183,22 +228,27 @@ Zamieniona kolejność elementów *sidebar* i *footer*.
 
 ## Fluid layout
 
-Ale same media queries to za mało…
+Rachunki poniżej będą łatwiejsze do ogarnięcia z widokiem DOM
+szablonu strony:
 
-Przy takich ustawieniach w CSS, gdy zmieniamy szerokość strony,
-czyli równocześnie też szerokość w **vieport**,
+{%= image_tag "/images/html5-template.png", :alt => "DOM of the html5 template" %}
+
+Same media queries to za mało…
+
+Użyty CSS daje taką „nieciągłość” – przy zmianie szerokości strony
+(i równocześnie szerokości **vieport**) w momencie, kiedy
 cała strona nie mieści się w oknie przeglądarki
-i pojawia się pasek do przesuwania.
+pojawia się pasek przesuwania.
 
-Potrzebny jest jakiś mechanizm likwidujący tę „nieciągłość”.
-
-Zastosujemy technikę *fluid* (?tłum: *procentową*) oraz wzór Marcotta
-do przeliczania wymiarów na procenty:
+Zlikwidujemy pojawiania się paska przeliczając
+wymiary poziome na procenty
+(tzw. *fluid* layout, ?tłum – *procentowy*).
+W tym celu zastosujemy wzór Marcotta:
 
     :::text
     target  ÷  context  =  result
 
-W naszym przykładzie kontekst, to najbardziej zewnętrzny *div*:
+W naszym przykładzie kontekst, to najbardziej zewnętrzny *div*:
 
     :::css
     #wrapper {
@@ -207,7 +257,7 @@ W naszym przykładzie kontekst, to najbardziej zewnętrzny *div*:
       width: 960px;
     }
 
-zmieniamy:
+zmieniamy wymiar poziomy:
 
     :::css
     #wrapper {
@@ -217,10 +267,10 @@ zmieniamy:
     }
 
 Oczywiście mogliśmy ustawić `width` na 100%.
-Ale „na oko” wybrałem 96% co daje mały lewy i prawy margines.
+Ale „na oko” wybrałem 96% co daje mały ładny lewy i prawy margines.
 
-Przeliczenia ze wzoru Marcotta
-(z CSS poniżej usunięto wszystkie deklaracje:
+Dalsze przeliczenia ze wzoru Marcotta (z użytego w przykładach CSS
+usunięto wszystkie deklaracje nie związane z szerokościami elementów):
 
     :::css
     #header {
@@ -279,7 +329,7 @@ Przy przejściu na szerokość mniejszą od 768px korzystamy z media query:
       }
     }
 
-Reszta:
+Strona i źródło strony:
 
 * {%= link_to "html5-fluid.html", "doc/responsive/html5-fluid.html" %}
   ({%= link_to "źródło", "responsive/html5-fluid.html" %})
