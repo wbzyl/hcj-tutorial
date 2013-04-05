@@ -141,8 +141,8 @@ ponieważ jest *auto resized*.
 
 Po zablokowaniu *auto resizing* strona wyświetla się tak:
 
-* {%= link_to "html5-no-auto-resize.html", "/doc/responsive/html5-no-auto-resize.html" %}
-  ({%= link_to "źródło", "/responsive/html5-no-auto-resize.html" %})
+* {%= link_to "html5-no-auto-resize-template.html", "/doc/responsive/html5-no-auto-resize-template.html" %}
+  ({%= link_to "źródło", "/responsive/html5-no-auto-resize-template.html" %})
 
 Jak blokujemy automatyczne przeskalowywanie? Tak:
 
