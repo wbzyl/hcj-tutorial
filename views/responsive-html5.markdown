@@ -40,13 +40,16 @@ Lektura:
   Responsive Tables with CSS/JS [Playground](http://zurb.com/playground/responsive-tables)
 
 
+Rozszerzenia do przeglądarek:
+
+* [Firebreak](https://addons.mozilla.org/en-US/firefox/addon/firebreak/) (*Firefox*, Alt+{Left,Right}Arrow),
+* [Windows Resizer](https://chrome.google.com/webstore/detail/kkelicaakdanhinjdeammmilcgefonfh) (*Chrome*)
+
+
 Użyteczne rzeczy:
 
 * Matt Kersley.
   [Responsive Web Design Testing Tool](http://mattkersley.com/responsive/)
-* Dodatki:
-  [Firesizer](https://addons.mozilla.org/en-US/firefox/addon/firesizer/) (*Firefox*),
-  [Windows Resizer](https://chrome.google.com/webstore/detail/kkelicaakdanhinjdeammmilcgefonfh) (*Chrome*)
 * [A quick and simple image placeholder service](http://placehold.it)
 * Tiffany B. Brown.
   [Modern Debugging Tips and Tricks](http://www.alistapart.com/articles/modern-debugging-tips-and-tricks/)
