@@ -33,7 +33,7 @@ Fonty z ikonkami:
 * [Font Awesome](http://fortawesome.github.com/Font-Awesome/) –
   the iconic font designed for use with Twitter Bootstrap
 * [Elusive–Icons Webfont](http://shoestrap.org/downloads/elusive-icons-webfont/)
-  (użyć gotowych arkuszy LESS)
+  (można użyć gotowych arkuszy LESS)
 
 
 ## Say No to Faux Bolding
