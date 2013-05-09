@@ -36,7 +36,7 @@ Fonty z ikonkami:
   (użyć gotowych arkuszy LESS)
 
 
-## Say No to Faux Bold
+## Say No to Faux Bolding
 
 Zaczynamy od przykładu:
 
@@ -45,29 +45,33 @@ Zaczynamy od przykładu:
     <html lang=pl>
       <head>
         <meta charset=utf-8>
-        <title>Say Yes to Faux Bold</title>
+        <title>Say Yes to Faux Bolding</title>
         <link href='http://fonts.googleapis.com/css?family=Diplomata' rel='stylesheet'>
         <style>
           body { font-family: 'Diplomata', serif; }
         </style>
       </head>
       <body>
-        <h1>Say Yes to Faux Bold</h1>
+        <h1>Say Yes to Faux Bolding</h1>
         <p>Browsers can do terrible things to type.
       </body>
     </html>
 
 Fix:
 
+    :::css
     h1, h2, h3 { font-weight: normal; font-family: 'Diplomata', serif; }
 
-Ale takie rozwiązanie jest lepsze:
+Ale takie rozwiązanie jest lepsze
+(tzw. *duplicating @font-face rules trick*: „tells the browser to use the same
+font file (specified with the *src* declaration) for both normal and bold font-weight
+when you apply the «DiplomataSCRegular» font-family”):
 
     :::css
     @font-face {
       font-family: DiplomataSCRegular;
-      font-style:  normal; /* normal weights can also be used for bold */
-      font-weight: bold;   /* get a bold fallback font when fallback happens */
+      font-weight: bold;    /* get a bold fallback font when fallback happens */
+      font-style:  normal;
 
       src: url('diplomatasc-regular.eot');
       src: url('diplomatasc-regular.eot') format('embedded-opentype'),
@@ -75,9 +79,8 @@ Ale takie rozwiązanie jest lepsze:
            url('diplomatasc-regular.ttf') format('truetype'),
            url('diplomatasc-regular.svg#DiplomataSCRegular') format('svg');
     }
-    body { font-family: DiplomataSCRegular, serif; }
+    h1, h2, h3 { font-family: DiplomataSCRegular, serif; }
 
 Powyżej użyto, dla odmiany, fontu *DiplomataSCRegular*.
-
 
 *Uwaga:* Użyte powyżej pliki są w katalogu *css/faux-bold*.
