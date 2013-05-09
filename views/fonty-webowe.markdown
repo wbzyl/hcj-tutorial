@@ -36,7 +36,11 @@ Fonty z ikonkami:
   (można użyć gotowych arkuszy LESS)
 
 
-## Say No to Faux Bolding
+## YES or NO to Faux Bolding
+
+<blockquote>
+ {%= image_tag "/images/faux-bold-yes.png", :alt => "[YES to Faux Bold]" %}
+</blockquote>
 
 Zaczynamy od przykładu:
 
@@ -61,6 +65,10 @@ Fix:
 
     :::css
     h1, h2, h3 { font-weight: normal; font-family: 'Diplomata', serif; }
+
+<blockquote>
+ {%= image_tag "/images/faux-bold-no.png", :alt => "[NO to Faux Bold]" %}
+</blockquote>
 
 Ale takie rozwiązanie jest lepsze
 (tzw. *duplicating @font-face rules trick*: „tells the browser to use the same
