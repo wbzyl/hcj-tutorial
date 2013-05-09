@@ -41,14 +41,4 @@ Konwersja pliku w formacie Apple QuickTime movie
 gdzie czasy *from*, *to* podajemy w sekundach.
 
 Warto też zainstalować jakiś program do edycji wideo,
-na przykład:
-
-* [Avidemux](http://avidemux.sourceforge.net/)
-* [Cinelerra](http://www.heroinewarrior.com/cinelerra.php)
-
-**Fedora** Instalujemy [autoplus](http://www.dnmouse.org/autoten/):
-
-    sudo yum -y --nogpgcheck install http://dnmouse.org/autoplus-1.1-7.noarch.rpm
-
-Następnie uruchamiamy program *autoplus* i z menu
-wybieramy i instalujemy pakiet *cinelerra*.
+na przykład [Avidemux](http://avidemux.sourceforge.net/).

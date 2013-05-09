@@ -149,8 +149,6 @@ TODO: Websockets, geolokacja, preserving history (zob. https://github.com/)
   - [Learn Advanced HTML & CSS with one useful guide](http://learn.shayhowe.com/advanced-html-css/)
 * M. Pilgrim,
   [Dive Into HTML5](http://diveintohtml5.info/)
-* T. Fuchs, A. Hoy.
-  [DOM Monster](http://mir.aculo.us/dom-monster/)
 * Brandon Mathis, [HSL Color Picker](http://hslpicker.com/)
 * [HTML5 ★ Boilerplate](http://html5boilerplate.com/) – a rock-solid default for HTML5 awesome
 * [Mother-effing HSLA](http://mothereffinghsl.com/);
@@ -158,23 +156,11 @@ TODO: Websockets, geolokacja, preserving history (zob. https://github.com/)
 * [Ultimate CSS Gradient Generator](http://www.colorzilla.com/gradient-editor/)
 * [TeX Samples](http://www.mathjax.org/demos/tex-samples/)
 * [Find Icons](http://findicons.com/search/html#ajax)
-* [Julia meets HTML5](http://googleresearch.blogspot.com/2011/01/julia-meets-html-5.html) –
-  a fractal renderer in HTML5 (canvas, web workers)
 * [d3.js](http://mbostock.github.com/d3/); krótkie wprowadzenie
   [d3.js is Not a Graphing Library, Let's Design a Line Graph](http://dealloc.me/2011/06/24/d3-is-not-a-graphing-library.html)
 * [Paper.js](http://paperjs.org/about/) – the swiss army knife of vector graphics scripting
 * [JavaScript language advanced Tips & Tricks](http://code.google.com/p/jslibs/wiki/JavascriptTips)
-* Paul Rouget,
-  [Tilt](http://hacks.mozilla.org/2011/07/tilt-visualize-your-web-page-in-3d/):
-  Visualize your Web page in 3D – a Firefox extension
 * [Contrast rebellion](http://contrastrebellion.com/) –
   Low-contrast fonts and unreadable texts? To hell with them!
 * [CSS-Tricks](http://css-tricks.com)
 * [Why Your Links Should Never Say “Click Here”](http://uxmovement.com/content/why-your-links-should-never-say-click-here/)
-
-
-## Coś do poczytania…
-
-* [Appliness](http://www.appliness.com/) – digital magazine for web application developers
-* Mislav Marohnić,
-  [Semicolons in JavaScript are optional](http://mislav.uniqpath.com/2010/05/semicolons/)
