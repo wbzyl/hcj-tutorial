@@ -1,0 +1,11 @@
+@font-face {
+  font-family: 'DiplomataSCRegular';
+  font-style: normal;
+  font-weight: bold;
+
+  src: url('diplomatasc-regular.eot');
+  src: url('diplomatasc-regular.eot') format('embedded-opentype'),
+       url('diplomatasc-regular.woff') format('woff'),
+       url('diplomatasc-regular.ttf') format('truetype'),
+       url('diplomatasc-regular.svg#DiplomataSCRegular') format('svg');
+}

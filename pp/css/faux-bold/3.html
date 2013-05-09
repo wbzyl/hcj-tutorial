@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang=pl>
+  <head>
+    <meta charset=utf-8>
+    <title>Say No to Faux Bold</title>
+    <link href='http://fonts.googleapis.com/css?family=Diplomata' rel='stylesheet'>
+    <style>
+      @font-face {
+        font-family: DiplomataSCRegular;
+        font-style:  normal; /* normal weights can also be used for bold */
+        font-weight: bold;   /* get a bold fallback font when fallback happens */
+
+        src: url('diplomatasc-regular.eot');
+        src: url('diplomatasc-regular.eot') format('embedded-opentype'),
+             url('diplomatasc-regular.woff') format('woff'),
+             url('diplomatasc-regular.ttf') format('truetype'),
+             url('diplomatasc-regular.svg#DiplomataSCRegular') format('svg');
+      }
+      body { font-family: 'DiplomataSCRegular', serif; }
+      h1 { font-size: 300%; }
+    </style>
+  </head>
+  <body>
+    <h1>Say No to Faux Bold</h1>
+
+    <p>Browsers can do terrible things to type.
+
+    <h2>Diplomata only comes in one face</h2>
+
+    <p>So the @font-face rule you get is set up as font-weight: normal.
+    <p>Since headings usually have font-weight: bold applied to them,
+      the browser smears the glyphs in an attempt to make its own bold.
+  </body>
+</html>
+
