@@ -1,5 +1,23 @@
 #### {% title "Javascript" %}
 
+<blockquote>
+ {%= image_tag "/images/coding-horror.jpg", :alt => "[Coding Horror]" %}
+ <p>
+  <a href="http://theonion.github.io/fartscroll.js/">Possibly the greatest code in the history of computing</a>.
+  <a href="https://news.ycombinator.com/item?id=5680029">Web 3.0 is here!</a>
+  (link do dyskusji na <i>Hacker News</i>).
+ </p>
+ <p class="author">— <a href="http://www.codinghorror.com/blog/">Sir Jeff Atwood</a></p>
+</blockquote>
+
+Podstawy:
+
+* Marijn Haverbeke, [Eloquent JavaScript](http://eloquentjavascript.net/) –
+  a modern introduction to programming
+  ([polskie tłumaczenie](http://www.bt4.pl/kursy/javascript/wszystko-jasne/))
+* John Resig, [Secrets of the JavaScript Ninja](http://ejohn.org/apps/learn/) –
+  funkcje w JavaScript (zaawansowane)
+
 Dokumentacja:
 
 * MDN,
@@ -7,18 +25,15 @@ Dokumentacja:
 
 Samouczki online:
 
-* Marijn Haverbeke, [Eloquent JavaScript](http://eloquentjavascript.net/) –
-  a modern introduction to programming
+* [A re-introduction to JavaScript](https://developer.mozilla.org/en/A_re-introduction_to_JavaScript)
+* Cody Lindley, [DOM Enlightenment](http://domenlightenment.com/)
 * [JavaScript Garden](http://bonsaiden.github.com/JavaScript-Garden/) –
   a collection of documentation about the most quirky parts of the
   JavaScript programming language
-* [A re-introduction to JavaScript](https://developer.mozilla.org/en/A_re-introduction_to_JavaScript)
-* Cody Lindley, [DOM Enlightenment](http://domenlightenment.com/)
 
 Learn by doing:
 
 * Remy Sharp, [JS Bin](http://jsbin.com/)
-* John Resig, [Secrets of the JavaScript Ninja](http://ejohn.org/apps/learn/)
 * [jsFiddle](http://jsfiddle.net/) – the Web is Your Playground
 
 Debugging:
@@ -37,8 +52,3 @@ Artykuły:
 * Peter Olson.
  [How to write a simple interpreter in JavaScript](http://www.codeproject.com/Articles/345888/How-to-write-a-simple-interpreter-in-JavaScript)
  (operator precedence parsing; Douglas Crockford's [Top Down Operator Precedence article](http://javascript.crockford.com/tdop/tdop.html))
-
-Screencasty:
-
-* [Google: HTML, CSS, and Javascript from the Ground Up](http://code.google.com/edu/submissions/html-css-javascript/) –
-  screencasty
