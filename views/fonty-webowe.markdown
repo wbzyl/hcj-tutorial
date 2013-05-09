@@ -83,4 +83,5 @@ when you apply the «DiplomataSCRegular» font-family”):
 
 Powyżej użyto, dla odmiany, fontu *DiplomataSCRegular*.
 
-*Uwaga:* Użyte powyżej pliki są w katalogu *css/faux-bold*.
+*Uwaga:* W katalogu *css/faux-bold* są pliki HTML ilustrujące to
+zagadnienie.
