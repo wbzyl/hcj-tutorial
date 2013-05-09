@@ -1,6 +1,10 @@
 #### {% title "Fonty Webowe" %}
 
-**„Real sites are made with webfonts”**
+<blockquote>
+ {%= image_tag "/images/font-face.jpg", :alt => "[@font-face]" %}
+ <p>„Real sites are made with webfonts.”</p>
+</blockquote>
+
 
 * [Fonts](http://www.fonts.com/) – po zalogowaniu
   przejrzeć kilka klasycznych rodzin fontów;
