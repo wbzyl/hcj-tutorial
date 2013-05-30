@@ -1,5 +1,13 @@
 #### {% title "jQuery" %}
 
+<blockquote>
+ <p>
+  To ease the strain on our keyboards Mozilla recently introduced
+  a handy forEach method for arrays: <i>array.forEach(print);</i>
+ </p>
+ <p class="author"><a href="https://developer.mozilla.org/en-US/">[MDC]</a></p>
+</blockquote>
+
 * [A guide to the basics of jQuery](http://jqfundamentals.com/)
 * [jQuery Intro](https://github.com/wbzyl/jquery-intro)
 * [Try jQuery](http://www.codeschool.com/courses/try-jquery) (na Code School)
