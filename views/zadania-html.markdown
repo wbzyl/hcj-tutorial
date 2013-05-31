@@ -34,6 +34,12 @@ a, blockquote, img, h1, h2, h3, ol, p, ul.
 zob. też [StyleBootstrap.info](http://stylebootstrap.info/) –
 create unique design with Bootstrap v2.
 
+Użyteczne dodatki do przeglądarki Firefox:
+
+* FireBug, FireQuery, FireBreak, FireFtp
+* JSONView
+* AddBlock Plus, Download Helper, Pocket
+
 
 ## 1. Plan zajęć
 
