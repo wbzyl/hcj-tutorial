@@ -88,6 +88,8 @@ Prezentacje, demo…
 ## CSS 3 ☃☃☃
 
 * [CSS3 Previews – CSS3. Info](http://www.css3.info/preview/)
+* [Colourco](http://colourco.de/) –
+  an online designer tool, which allows you to easily and intuitively combine colours
 * [Color Scheme Designer](http://colorschemedesigner.com/)
 * [Check My Colours - Analyse the color contrast of your web
   pages](http://www.checkmycolours.com/)
