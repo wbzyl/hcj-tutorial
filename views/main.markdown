@@ -101,6 +101,7 @@ TODO: Websockets, geolokacja, preserving history (zob. https://github.com/)
 
 * [GitHub Style Guides](https://github.com/styleguide/)
 * [Lorempixel](http://lorempixel.com/) – placeholder images for every case
+* [Learn X in Y minutes](http://learnxinyminutes.com/)
 
 
 ### Zrób to sam
