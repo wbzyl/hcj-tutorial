@@ -72,19 +72,19 @@ sectioning content elements and friends (*article*, *section*, *figure*, *nav*, 
   - Matt Kersley. [Responsive Web Design Testing Tool](http://mattkersley.com/responsive/)
   - [Responsive.is](http://responsive.is/) – display and present responsive web designs
   - Benjamin Keen. [Responsive Design Test Bookmarklet](http://www.benjaminkeen.com/misc/bricss/)
-* [HTML5Rocks](http://www.html5rocks.com/) – the HTML5 Playground, Studio, and Presentation slides;
-  zob. też [Resources](http://www.html5rocks.com/resources.html5)
-* [jQuery](http://jquery.com/). Wtyczki do jQuery:
-  * [jQuery Masonry](http://masonry.desandro.com/) – a dynamic layout plugin
 
 
 ### Użyteczne rzeczy
 
-* [GitHub Style Guides](https://github.com/styleguide/)
+* [HTML5 ★ Boilerplate](http://html5boilerplate.com/) – a rock-solid default for HTML5 awesom
+* [HTML5Rocks](http://www.html5rocks.com/) – the HTML5 Playground, Studio, and Presentation slides;
+  zob. też [Resources](http://www.html5rocks.com/resources.html5)
+* [HTML5Doctor](http://html5doctor.com/) – przykładowy artykuł
+  [Avoiding common HTML5 mistakes](http://html5doctor.com/avoiding-common-html5-mistakes/)
 * [Code Conventions for the JavaScript Programming Language](http://javascript.crockford.com/code.html)
+* [GitHub Style Guides](https://github.com/styleguide/)
 * [Mozilla Developer Network](https://developer.mozilla.org/en-US/)
 * [Lorempixel](http://lorempixel.com/) – placeholder images for every case
-* [HTML5 ★ Boilerplate](http://html5boilerplate.com/) – a rock-solid default for HTML5 awesome
 
 
 ### Zrób to sam
