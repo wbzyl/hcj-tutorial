@@ -16,41 +16,20 @@ Odtworzenie pierwszej strony WWW:
 Zaczynamy:
 
 * Wasze strony
+* Marcin Wichary, Ernest Delgado, Alex Russell.
+  [HTML5 presentation](http://slides.html5rocks.com/)
 * [HTML5 Outliner](http://gsnedders.html5.org/outliner/);
   [rozszerzenie dla Chrome](https://chrome.google.com/webstore/detail/html5-outliner/afoibpobokebhgfnknfndkgemglggomo)
-* [HTML5Doctor](http://html5doctor.com/) – przykładowy artykuł
-  [Avoiding common HTML5 mistakes](http://html5doctor.com/avoiding-common-html5-mistakes/)
 * [Responsive web pages](http://responsivewebdesign.com/robot/) & [magiczne layouty z Isotope](http://isotope.metafizzy.co/)
-* Greg Smith. [Dive into Flexbox](http://weblog.bocoup.com/dive-into-flexbox/) – działa w Chrome
- i Firefox 18+
 * [CheckMyColours](http://www.checkmycolours.com/) –
   a tool for checking foreground and background color combinations of
   all DOM elements and determining if they *provide sufficient contrast
   when viewed by someone having color deficits*
 * [Zen Garden](http://www.csszengarden.com/)
+* [HTML5 Live DOM Viewer](http://livedom.validator.nu/)
 * [HTML5 Elements and Attributes](http://simon.html5.org/html5-elements)
 * [HTML 5 Demos and Examples](http://html5demos.com/)
 * [TheCodePlayer](http://thecodeplayer.com/)
-
-<!--
-* [SitePoint References](http://reference.sitepoint.com/css) – CSS, HTML, JavaScript
--->
-
-
-## Jak to dawniej robiono
-
-* [The Ugly Showcase of Military, Intelligence And Defense
-  Websites](http://www.smashingmagazine.com/2010/06/23/showcase-of-ugly-military-intelligence-and-defense-websites/)
-
-
-## Zrób to sam
-
-* [HTML5 Live DOM Viewer](http://livedom.validator.nu/)
-* [Dabblet](http://dabblet.com/) – an interactive playground
-  for quickly testing snippets of CSS and HTML code
-* [JS Bin](http://jsbin.com/) – a webapp specifically designed
-  to help JavaScript and CSS folk test snippets of code,
-  within some context, and debug the code collaboratively
 
 
 ## HTML5 ♡♡♡
@@ -73,18 +52,10 @@ Zaczynamy:
   how to escape any character in CSS
   - [Mothereffing unquoted attribute value validator](http://mothereffingunquotedattributes.com/)
 
-Prezentacje, demo…
+## Jak to dawniej robiono
 
-* Marcin Wichary, Ernest Delgado, Alex Russell.
-  [HTML5 presentation](http://slides.html5rocks.com/) (działa tylko w Chrome?);
-  zob. też tego autora
-  [Case study: Building the Stanisław Lem Google Doodle](http://www.html5rocks.com/en/tutorials/doodles/lem/)
-  oraz Adama Zapletala, [Land Slide](https://github.com/adamzap/landslide) –
-  generate a slideshow using the slides that power the html5-slides presentation
-* Remy Sharp.
-  [HTML 5 Demos and Examples](http://html5demos.com/)
-* [5 Amazing HTML5 Features to Look Forward to](http://www.geektechnica.com/2009/06/5-amazing-html5-features-to-look-forward-to/)
-
+* [The Ugly Showcase of Military, Intelligence And Defense
+  Websites](http://www.smashingmagazine.com/2010/06/23/showcase-of-ugly-military-intelligence-and-defense-websites/)
 
 ## CSS 3 ☃☃☃
 
@@ -110,18 +81,15 @@ Inne:
 
 ## Javascript & jQuery ✰✰✰
 
-* [jQuery Masonry](http://desandro.com/resources/jquery-masonry/) —
+* [jQuery Masonry](http://masonry.desandro.com/) —
   Masonry is a layout plugin for jQuery. Think of it as the flip side of
   CSS floats. Whereas floating arranges elements horizontally then
   vertically, Masonry arranges elements vertically then horizontally
   according to a grid. The result minimizes vertical gaps between
   elements of varying height, just like a mason fitting stones in a
   wall
-* [flot](http://code.google.com/p/flot/) —
-  Attractive Javascript plotting for jQuery
-
-Inne:
-
+* [Isotope](http://isotope.metafizzy.co/) –
+  An exquisite jQuery plugin for magical layouts
 * [ContentFlow](http://www.jacksasylum.eu/ContentFlow/) —
   ContentFlow is a flexible Coverflow/ImageFlow like flow written
   in javascript, which can handle any kind of content. It supports all
