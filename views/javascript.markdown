@@ -15,6 +15,8 @@ Podstawy:
 * Marijn Haverbeke, [Eloquent JavaScript](http://eloquentjavascript.net/) –
   a modern introduction to programming
   ([polskie tłumaczenie](http://www.bt4.pl/kursy/javascript/wszystko-jasne/))
+* Debugging Javascript – *console.log*, *breakpoints*
+* {%= link_to "Test Suite example", "testing/index.html" %}
 * John Resig, [Secrets of the JavaScript Ninja](http://ejohn.org/apps/learn/) –
   funkcje w JavaScript (zaawansowane)
 * Aidan Feldman, [Advanced JavaScript](http://advanced-js.github.io/deck/)
