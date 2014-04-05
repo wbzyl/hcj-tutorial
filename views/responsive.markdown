@@ -170,7 +170,8 @@ Zamieniona kolejność elementów *sidebar* i *footer*.
 
 ## Fluid layout
 
-Media gueries nie wystarczają. Przy zmianach CSS, w **vieport** nie mieści się cała strona
+Media gueries nie wystarczają.
+Przy zmianach CSS, w **viewport** nie mieści się cała strona
 (pojawia się pasek do przesuwania).
 
 Potrzebny jest jakiś mechanizm likwidujący taką „nieciągłość”.
