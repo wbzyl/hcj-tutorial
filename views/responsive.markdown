@@ -91,7 +91,7 @@ Zaczynamy od XHTML prostego szablonu:
 * {%= link_to "xhtml-template.html", "doc/responsive/xhtml-template.html" %}
   ({%= link_to "źródło", "responsive/xhtml-template.html" %})
 
-Szerokości elementów na stronie są takie (*main.css*):
+Szerokości elementów na tej stronie są takie (*main.css*):
 
     :::css
     #wrapper { width: 960px;    margin: 0 auto; }

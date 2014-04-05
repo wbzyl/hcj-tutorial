@@ -133,6 +133,15 @@ Nie jest to co prawda „czysty” HTML5, ale za to ma sensowny
     </body>
     </html>
 
+Szerokości elementów na tej stronie są takie (*main.css*):
+
+    :::css
+    #wrapper { width: 960px;    margin: 0 auto; }
+    #header  { width: 940px; }
+    #sidebar { width: 220px; }
+    #content { width: 700px; }
+    #footer  { width: 940px; }
+
 Dlaczego w szablonie nie użyto elementu *article*
 i jaki problematyczny outline miałby szablon korzystający
 z elementów *article*, *section* opisano tutaj:
@@ -226,8 +235,8 @@ iPad?
 
 Zamieniona kolejność elementów *sidebar* i *footer*.
 
-* {%= link_to "html5-viewport-widths.html", "/doc/responsive/html5-vieport-widths.html" %}
-  ({%= link_to "źródło", "/responsive/html5-vieport-widths.html" %})
+* {%= link_to "html5-viewport-widths.html", "/doc/responsive/html5-viewport-widths.html" %}
+  ({%= link_to "źródło", "/responsive/html5-viewport-widths.html" %})
 
 
 ## Fluid layout
@@ -240,7 +249,7 @@ szablonu strony:
 Same media queries to za mało…
 
 Użyty CSS daje taką „nieciągłość” – przy zmianie szerokości strony
-(i równocześnie szerokości **vieport**) w momencie, kiedy
+(i równocześnie szerokości **viewport**) w momencie, kiedy
 cała strona nie mieści się w oknie przeglądarki
 pojawia się pasek przesuwania.
 
