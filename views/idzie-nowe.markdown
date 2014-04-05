@@ -36,9 +36,10 @@ Zaczynamy:
 
 * [The HTML5 test](http://html5test.com/) –
   how well does your browser support HTML5?
+* [HTML5 Live DOM Viewer](http://software.hixie.ch/utilities/js/live-dom-viewer/) by Hixie
 * [What can it do? What browser am I using, how modern is my web browser…](http://www.findmebyip.com/)
 * [Web Design – HTML5 & CSS3 Checklist](http://www.findmebyip.com/litmus/)
-* [When can I use…](http://a.deveria.com/caniuse/) **nie działa?**
+* [When can I use…](http://caniuse.com/)
 * [HTML5 Readiness](http://html5readiness.com/)
 * [HTML5 Please](http://html5please.us)
 * [What is a Polyfill?](http://remysharp.com/2010/10/08/what-is-a-polyfill/)
@@ -46,7 +47,6 @@ Zaczynamy:
 Zaczynamy:
 
 * Simon Pieters. [HTML5 Elements and Attributes](http://simon.html5.org/html5-elements):
-  - [HTML5 Live DOM Viewer](http://livedom.validator.nu/)
   - [Shape Catcher](http://shapecatcher.com/) – unicode character recognition
   - [Mothereffing CSS escapes](http://mothereffingcssescapes.com/) –
   how to escape any character in CSS
