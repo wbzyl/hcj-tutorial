@@ -17,6 +17,7 @@ Podstawy:
   ([polskie tłumaczenie](http://www.bt4.pl/kursy/javascript/wszystko-jasne/))
 * John Resig, [Secrets of the JavaScript Ninja](http://ejohn.org/apps/learn/) –
   funkcje w JavaScript (zaawansowane)
+* Aidan Feldman, [Advanced JavaScript](http://advanced-js.github.io/deck/)
 
 Dokumentacja:
 
