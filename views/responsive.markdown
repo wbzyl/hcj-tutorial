@@ -91,6 +91,15 @@ Zaczynamy od XHTML prostego szablonu:
 * {%= link_to "xhtml-template.html", "doc/responsive/xhtml-template.html" %}
   ({%= link_to "źródło", "responsive/xhtml-template.html" %})
 
+Szerokości elementów na stronie są takie (*main.css*):
+
+    :::css
+    #wrapper { width: 960px;    margin: 0 auto; }
+    #header  { width: 940px; }
+    #sidebar { width: 220px; }
+    #content { width: 700px; }
+    #footer  { width: 940px; }
+
 Ta strona na „małych urządzeniach” jest nieczytelna
 ponieważ strona ta jest *auto resized*.
 
