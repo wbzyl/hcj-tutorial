@@ -265,8 +265,7 @@ W naszym przykładzie kontekst, to najbardziej zewnętrzny *div*:
 
     :::css
     #wrapper {
-      margin-right: auto;
-      margin-left: auto;
+      margin: 0 auto;
       width: 960px;
     }
 
@@ -274,8 +273,7 @@ zmieniamy wymiar poziomy:
 
     :::css
     #wrapper {
-      margin-right: auto;
-      margin-left: auto;
+      margin: 0 auto;
       width: 96%;
     }
 
