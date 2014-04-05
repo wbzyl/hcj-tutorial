@@ -153,22 +153,22 @@ iPad?
 
     :::css
     @media screen and (max-width: 768px) {
-        #wrapper, #header, #footer, #navigation {
-            width: 768px;
-            margin: 0px;
-        }
-        #navigation {
-            text-align: center;
-        }
-        #navigation ul li a {
-            line-height: 40px;
-            font-size: 30px;
-        }
-        #content, #sidebar {
-            padding-right: 10px;
-            padding-left: 10px;
-            width: 728px;
-        }
+      #wrapper, #header, #footer, #navigation {
+        width: 768px;
+        margin: 0px;
+      }
+      #navigation {
+        text-align: center;
+      }
+      #navigation ul li a {
+        line-height: 40px;
+        font-size: 30px;
+      }
+      #content, #sidebar {
+        padding-right: 10px;
+        padding-left: 10px;
+        width: 728px;
+      }
     }
 
 Zamieniona kolejność elementów *sidebar* i *footer*.
@@ -195,77 +195,76 @@ W naszym przykładzie kontekst, to najbardziej zewnętrzny *div*:
 
     :::css
     #wrapper {
-        margin-right: auto;
-        margin-left: auto;
-        width: 960px;
+      margin-right: auto; margin-left: auto;
+      width: 960px;
     }
 
 zmieniamy:
 
     :::css
     #wrapper {
-        margin-right: auto;
-        margin-left: auto;
-        width: 96%; /* albo 100%, albo 90%, albo na cokolwiek sensownego */
+      margin-right: auto;
+      margin-left: auto;
+      width: 96%; /* albo 100%, albo 90%, albo na cokolwiek sensownego */
     }
 
 Przeliczenia ze wzoru Marcotta:
 
     :::css
     #header {
-        /* margin-right: 10px; */
-        /* margin-left: 10px; */
-        margin-right: 1.0416667%; /* 10 ÷ 960 */
-        margin-left: 1.0416667%; /* 10 ÷ 960 */
-        /* width: 940px; */
-        width: 97.9166667%; /* 940 ÷ 960 */;
+      /* margin-right: 10px; */
+      /* margin-left: 10px; */
+      margin-right: 1.0416667%; /* 10 ÷ 960 */
+      margin-left: 1.0416667%; /* 10 ÷ 960 */
+      /* width: 940px; */
+      width: 97.9166667%; /* 940 ÷ 960 */;
     }
     #navigation {
-        /* margin-left: 10px; */
-        margin-left: 1.0416667%; /* 10 ÷ 960 */
-        /* padding-right: 10px; */
-        /* padding-left: 10px; */
-        padding-right: 1.0416667%; /* 10 ÷ 960 */
-        padding-left: 1.0416667%; /* 10 ÷ 960 */
-        width: 97.9166667%; /* 940 ÷ 960 */;
+      /* margin-left: 10px; */
+      margin-left: 1.0416667%; /* 10 ÷ 960 */
+      /* padding-right: 10px; */
+      /* padding-left: 10px; */
+      padding-right: 1.0416667%; /* 10 ÷ 960 */
+      padding-left: 1.0416667%; /* 10 ÷ 960 */
+      width: 97.9166667%; /* 940 ÷ 960 */;
     }
     #navigation ul li {
-        display: inline-block;
-        margin-right: 2.6595745%; /* 25 ÷ 940 */
+      display: inline-block;
+      margin-right: 2.6595745%; /* 25 ÷ 940 */
     }
     #navigation ul li a {
-        /* margin-right: 25px; */
-        /* przeniesione do reguły powyżej */
-        /* margin-right: 2.6595745%; /\* 25 ÷ 940 *\/ */
+      /* margin-right: 25px; */
+      /* przeniesione do reguły powyżej */
+      /* margin-right: 2.6595745%; /\* 25 ÷ 940 *\/ */
     }
     #content {
-        /* margin-right: 10px; */
-        margin-right: 1.0416667%; /* 10 ÷ 960 */
-        /* width: 700px; */
-        width: 72.9166667%; /* 700 ÷ 960 */
+      /* margin-right: 10px; */
+      margin-right: 1.0416667%; /* 10 ÷ 960 */
+      /* width: 700px; */
+      width: 72.9166667%; /* 700 ÷ 960 */
     }
     #sidebar {
-        /* margin-left: 10px; */
-        margin-left: 1.0416667%; /* 10 ÷ 960 */
-        /* width: 220px; */
-        width: 22.9166667%; /* 200 ÷ 960 */
+      /* margin-left: 10px; */
+      margin-left: 1.0416667%; /* 10 ÷ 960 */
+      /* width: 220px; */
+      width: 22.9166667%; /* 200 ÷ 960 */
     }
     #footer {
-        /* margin-right: 10px; */
-        margin-right: 1.0416667%; /* 10 ÷ 960 */
-        margin-left: 1.0416667%; /* 10 ÷ 960 */
-        /* width: 940px; */
-        width: 97.9166667%; /* 940 ÷ 960 */;
+      /* margin-right: 10px; */
+      margin-right: 1.0416667%; /* 10 ÷ 960 */
+      margin-left: 1.0416667%; /* 10 ÷ 960 */
+      /* width: 940px; */
+      width: 97.9166667%; /* 940 ÷ 960 */;
     }
 
 Przy przejściu na szerokość mniejszą od 768px korzystamy z media query:
 
     :::css
     @media screen and (max-width: 768px) {
-        #header, #content, #sidebar, #footer {
-            width: 100%;
-            margin: 0px;
-        }
+      #header, #content, #sidebar, #footer {
+        width: 100%;
+        margin: 0px;
+      }
     }
 
 Reszta:
@@ -280,15 +279,15 @@ CSS:
 
     :::css
     img {
-        max-width: 100%;
+      max-width: 100%;
     }
 
     @media screen and (max-width: 768px) {
-        #sidebar img {
-            max-width: 50%;
-            float: left;
-            display: block;
-        }
+      #sidebar img {
+        max-width: 50%;
+        float: left;
+        display: block;
+      }
     }
 
 
