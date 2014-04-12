@@ -50,16 +50,16 @@ Learn by doing:
 
 Debugging:
 
-* Paul Irish,
+* Paul Irish.
   [Become a Javascript Console Power-User](http://www.youtube.com/watch?v=4mf_yNLlgic)
-* Paul Irish,
+* Paul Irish.
   [Google Chrome Developer Tools: 12 Tricks to Develop Quicker](http://www.youtube.com/watch?v=nOEw9iiopwI)
 
 Artykuły:
 
-* Y. Katz,
+* Yehuda Katz.
  [Understanding JavaScript Function Invocation and “this”](http://yehudakatz.com/2011/08/11/understanding-javascript-function-invocation-and-this/)
-* Addy Osmani,
+* Addy Osmani.
  [Patterns For Large-Scale JavaScript Application Architecture](http://addyosmani.com/largescalejavascript/)
 * Peter Olson.
  [How to write a simple interpreter in JavaScript](http://www.codeproject.com/Articles/345888/How-to-write-a-simple-interpreter-in-JavaScript)
