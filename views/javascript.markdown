@@ -16,6 +16,7 @@
     alias node="env NODE_NO_READLINE=1 rlwrap node"
 
 Podstawy:
+
 * Marijn Haverbeke, [Eloquent JavaScript](http://eloquentjavascript.net/) –
   a modern introduction to programming
   ([polskie tłumaczenie](http://www.bt4.pl/kursy/javascript/wszystko-jasne/))
