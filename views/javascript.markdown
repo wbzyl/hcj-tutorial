@@ -10,16 +10,25 @@
  <p class="author">— <a href="http://www.codinghorror.com/blog/">Sir Jeff Atwood</a></p>
 </blockquote>
 
-Podstawy:
+[Node.js](http://nodejs.org/):
 
+    :::bash
+    alias node="env NODE_NO_READLINE=1 rlwrap node"
+
+Podstawy:
 * Marijn Haverbeke, [Eloquent JavaScript](http://eloquentjavascript.net/) –
   a modern introduction to programming
   ([polskie tłumaczenie](http://www.bt4.pl/kursy/javascript/wszystko-jasne/))
-* Debugging Javascript – *console.log*, *breakpoints*
-* {%= link_to "Test Suite example", "testing/index.html" %}
+* Debugging JavaScript – *console.log*, *breakpoints*
+* [A re-introduction to JavaScript](https://developer.mozilla.org/en/A_re-introduction_to_JavaScript)
+* Testowanie kodu JavaScript – {%= link_to "test suite example", "testing/index.html" %}
 * John Resig, [Secrets of the JavaScript Ninja](http://ejohn.org/apps/learn/) –
   funkcje w JavaScript (zaawansowane)
 * Aidan Feldman, [Advanced JavaScript](http://advanced-js.github.io/deck/)
+
+WAT?
+
+* [A lightning talk by Gary Bernhardt from CodeMash 2012](https://www.destroyallsoftware.com/talks/wat)
 
 Dokumentacja:
 
@@ -28,7 +37,6 @@ Dokumentacja:
 
 Samouczki online:
 
-* [A re-introduction to JavaScript](https://developer.mozilla.org/en/A_re-introduction_to_JavaScript)
 * Cody Lindley, [DOM Enlightenment](http://domenlightenment.com/)
 * [JavaScript Garden](http://bonsaiden.github.com/JavaScript-Garden/) –
   a collection of documentation about the most quirky parts of the
