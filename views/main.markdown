@@ -41,12 +41,14 @@ sectioning content elements and friends (*article*, *section*, *figure*, *nav*, 
 1. {%= link_to "Local & session storage", "/storage" %}
 1. {%= link_to "Przesyłanie wiadomości między domenami", "/cross-domain-messaging" %}
 
+<!--
 
 ## Laboratoria
 
 *  {%= link_to "HTML zadania", "/zadania-html" %}
 *  {%= link_to "Chrome DevTools", "/chrome-devtools" %}
 
+-->
 
 <blockquote>
  {%= image_tag "/images/andy_lester.jpg", :alt => "[Andy Lester]" %}
