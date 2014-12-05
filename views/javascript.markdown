@@ -26,6 +26,7 @@ Podstawy:
 * John Resig, [Secrets of the JavaScript Ninja](http://ejohn.org/apps/learn/) –
   funkcje w JavaScript (zaawansowane)
 * Aidan Feldman, [Advanced JavaScript](http://advanced-js.github.io/deck/)
+* Nicholas C. Zakas. [Understanding ECMAScript 6](https://leanpub.com/understandinges6/read/)
 
 WAT?
 
