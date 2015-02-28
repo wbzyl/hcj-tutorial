@@ -8,27 +8,31 @@
  <p class="author">Agatha Christie</p>
 </blockquote>
 
-Odtworzenie pierwszej strony WWW:
-
-* [World Wide Web](http://www.w3.org/History/19921103-hypertext/hypertext/WWW/TheProject.html?)
-* [The Evolution of Web](http://www.evolutionoftheweb.com/)
-
 Zaczynamy:
 
-* Wasze strony
+* Odtworzenie pierwszej strony WWW – [World Wide Web](http://www.w3.org/History/19921103-hypertext/hypertext/WWW/TheProject.html?)
+* [Live DOM Viewer](http://software.hixie.ch/utilities/js/live-dom-viewer/)
+* [HTML5 Outliner](http://gsnedders.html5.org/outliner/);
+[rozszerzenie dla Chrome](https://chrome.google.com/webstore/detail/html5-outliner/afoibpobokebhgfnknfndkgemglggomo)
+* [HTML5 Boilerplate](https://html5boilerplate.com/);
+zob. też [shortest valid HTML5 document](https://gist.github.com/cmalven/1885287)
+
+Trochę historii:
+
 * Marcin Wichary, Ernest Delgado, Alex Russell.
   [HTML5 presentation](http://slides.html5rocks.com/)
-* [HTML5 Outliner](http://gsnedders.html5.org/outliner/);
-  [rozszerzenie dla Chrome](https://chrome.google.com/webstore/detail/html5-outliner/afoibpobokebhgfnknfndkgemglggomo)
+* [The Evolution of Web](http://www.evolutionoftheweb.com/)
+
+Różne rzeczy:
+
+* Wasze strony
 * [Responsive web pages](http://responsivewebdesign.com/robot/) & [magiczne layouty z Isotope](http://isotope.metafizzy.co/)
 * [CheckMyColours](http://www.checkmycolours.com/) –
   a tool for checking foreground and background color combinations of
   all DOM elements and determining if they *provide sufficient contrast
   when viewed by someone having color deficits*
 * [Zen Garden](http://www.csszengarden.com/)
-* [HTML5 Live DOM Viewer](http://livedom.validator.nu/)
 * [HTML5 Elements and Attributes](http://simon.html5.org/html5-elements)
-* [HTML 5 Demos and Examples](http://html5demos.com/)
 * [TheCodePlayer](http://thecodeplayer.com/)
 
 
@@ -43,6 +47,7 @@ Zaczynamy:
 * [HTML5 Readiness](http://html5readiness.com/)
 * [HTML5 Please](http://html5please.us)
 * [What is a Polyfill?](http://remysharp.com/2010/10/08/what-is-a-polyfill/)
+* [HTML 5 Demos and Examples](http://html5demos.com/)
 
 Zaczynamy:
 
