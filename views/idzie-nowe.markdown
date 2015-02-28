@@ -44,7 +44,6 @@ Różne rzeczy:
 * [Web Design – HTML5 & CSS3 Checklist](http://www.findmebyip.com/litmus/)
 * [When can I use…](http://caniuse.com/)
 * [HTML5 Readiness](http://html5readiness.com/)
-* [HTML5 Please](http://html5please.us)
 * [What is a Polyfill?](http://remysharp.com/2010/10/08/what-is-a-polyfill/)
 * [HTML 5 Demos and Examples](http://html5demos.com/)
 
