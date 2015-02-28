@@ -78,7 +78,7 @@ sectioning content elements and friends (*article*, *section*, *figure*, *nav*, 
 
 ### Użyteczne rzeczy
 
-* [HTML5 ★ Boilerplate](http://html5boilerplate.com/) – a rock-solid default for HTML5 awesom
+* [HTML5 ★ Boilerplate](http://html5boilerplate.com/) – the web’s most popular front-end template
 * [HTML5Rocks](http://www.html5rocks.com/) – the HTML5 Playground, Studio, and Presentation slides;
   zob. też [Resources](http://www.html5rocks.com/resources.html5)
 * [HTML5Doctor](http://html5doctor.com/) – przykładowy artykuł
