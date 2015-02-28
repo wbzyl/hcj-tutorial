@@ -51,9 +51,8 @@ Zaczynamy:
 
 * Simon Pieters. [HTML5 Elements and Attributes](http://simon.html5.org/html5-elements):
   - [Shape Catcher](http://shapecatcher.com/) – unicode character recognition
-  - [Mothereffing CSS escapes](http://mothereffingcssescapes.com/) –
+  - [Mothereffing CSS escapes](https://mothereff.in/) –
   how to escape any character in CSS
-  - [Mothereffing unquoted attribute value validator](http://mothereffingunquotedattributes.com/)
 
 ## Jak to dawniej robiono
 
