@@ -31,7 +31,6 @@ Różne rzeczy:
   a tool for checking foreground and background color combinations of
   all DOM elements and determining if they *provide sufficient contrast
   when viewed by someone having color deficits*
-* [Zen Garden](http://www.csszengarden.com/)
 * [HTML5 Elements and Attributes](http://simon.html5.org/html5-elements)
 * [TheCodePlayer](http://thecodeplayer.com/)
 
@@ -65,8 +64,6 @@ Zaczynamy:
 * [Colourco](http://colourco.de/) –
   an online designer tool, which allows you to easily and intuitively combine colours
 * [Color Scheme Designer](http://colorschemedesigner.com/)
-* [Check My Colours - Analyse the color contrast of your web
-  pages](http://www.checkmycolours.com/)
 * [Ultimate CSS Gradient Generator](http://www.colorzilla.com/gradient-editor/)
 
 
@@ -76,7 +73,7 @@ Różności:
 
 Inne:
 
-* [css Zen Garden: The Beauty in CSS Design](http://www.csszengarden.com/) —
+* [CSS Zen Garden: The Beauty in CSS Design](http://www.csszengarden.com/) —
   A demonstration of what can be accomplished visually through
   CSS-based design
 
