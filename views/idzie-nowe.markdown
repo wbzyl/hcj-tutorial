@@ -10,7 +10,7 @@
 
 Zaczynamy:
 
-* Odtworzenie pierwszej strony WWW – [World Wide Web](http://www.w3.org/History/19921103-hypertext/hypertext/WWW/TheProject.html?)
+* Odtworzenie pierwszej strony [World Wide Web](http://www.w3.org/History/19921103-hypertext/hypertext/WWW/TheProject.html?)
 * [Live DOM Viewer](http://software.hixie.ch/utilities/js/live-dom-viewer/)
 * [HTML5 Outliner](http://gsnedders.html5.org/outliner/);
 [rozszerzenie dla Chrome](https://chrome.google.com/webstore/detail/html5-outliner/afoibpobokebhgfnknfndkgemglggomo)
@@ -40,7 +40,6 @@ Różne rzeczy:
 
 * [The HTML5 test](http://html5test.com/) –
   how well does your browser support HTML5?
-* [HTML5 Live DOM Viewer](http://software.hixie.ch/utilities/js/live-dom-viewer/) by Hixie
 * [What can it do? What browser am I using, how modern is my web browser…](http://www.findmebyip.com/)
 * [Web Design – HTML5 & CSS3 Checklist](http://www.findmebyip.com/litmus/)
 * [When can I use…](http://caniuse.com/)
