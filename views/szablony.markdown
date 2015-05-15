@@ -21,13 +21,19 @@ Kompletny i poprawny szablon dokumentu HTML5:
     <head>
       <meta charset=utf-8>
       <title>Szablon strony HTML5</title>
-      <script src="http://code.jquery.com/jquery.min.js"></script>
+      <!-- Compiled and minified CSS -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.96.1/css/materialize.min.css">
+      <link rel="stylesheet" href="css/local.css">
       <style>
         body { background: #E2DF9A; }
       </style>
+
+      <!-- Compiled and minified JavaScript -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.96.1/js/materialize.min.js"></script>
     </head>
     <body>
       <p>ąćęłńóśźż ĄĆĘŁŃÓŚŹŻ</p>
+      <script src="js/local.js"></script>
     </body>
     </html>
 
