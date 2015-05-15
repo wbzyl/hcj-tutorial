@@ -1,15 +1,6 @@
 #### {% title "Szablony" %}
 
-<blockquote>
- {%= image_tag "/images/jeff_keedy_1995.jpg", :alt => "[Jeff Keedy]" %}
- <p>
-  Styl z gatunku „to się mi podoba” znaczy „jestem idiotą”.
- </p>
- <p class="author">— Jeff Keedy</p>
-</blockquote>
-
 Czyli kilka szablonów, oraz link do [walidatora HTML5](http://validator.whatwg.org/).
-
 
 ## Szablon HTML5
 
@@ -39,6 +30,14 @@ Kompletny i poprawny szablon dokumentu HTML5:
       <script src="js/local.js"></script>
     </body>
     </html>
+
+<blockquote>
+{%= image_tag "/images/jeff_keedy_1995.jpg", :alt => "[Jeff Keedy]" %}
+<p>
+Styl z gatunku „to się mi podoba” znaczy „jestem idiotą”.
+</p>
+<p class="author">— Jeff Keedy</p>
+</blockquote>
 
 Więcej przykładów –
 [HTML5 Doctor](http://html5doctor.com/html-5-boilerplates/).
