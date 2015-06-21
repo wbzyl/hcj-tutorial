@@ -27,6 +27,7 @@ Podstawy:
   funkcje w JavaScript (zaawansowane)
 * Aidan Feldman, [Advanced JavaScript](http://advanced-js.github.io/deck/)
 * Nicholas C. Zakas. [Understanding ECMAScript 6](https://leanpub.com/understandinges6/read/)
+* [ES6 Katas](http://es6katas.org) – just learn a bit of ES6 daily, take one kata a day and fix it away
 
 WAT?
 
