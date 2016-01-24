@@ -17,10 +17,11 @@
 1. {%= link_to "Szablony – HTML5, tabela, blog", "/szablony" %}
 1. {%= link_to "Audio & wideo", "/audio-video" %}
 
-Użyteczny schemat blokowy:
+Info:
 
-* [Easily Confused HTML5 Element Flowchart Enlightenment!](http://html5doctor.com/wp-content/uploads/HTML5Doctor-sectioning-flowchart.pdf) –
+* Użyteczny schemat blokowy: [Easily Confused HTML5 Element Flowchart Enlightenment!](http://html5doctor.com/wp-content/uploads/HTML5Doctor-sectioning-flowchart.pdf) –
 sectioning content elements and friends (*article*, *section*, *figure*, *nav*, *aside*, *div*, …)
+* [Responsive design](http://responsivewebdesign.com/robot).
 
 
 ## CSS 3
