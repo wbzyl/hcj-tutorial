@@ -118,8 +118,3 @@ sectioning content elements and friends (*article*, *section*, *figure*, *nav*, 
 * [Contrast rebellion](http://contrastrebellion.com/) –
   low-contrast fonts and unreadable texts? To hell with them!
 * [Why Your Links Should Never Say “Click Here”](http://uxmovement.com/content/why-your-links-should-never-say-click-here/)
-
-
-## TODO
-
-1. {%= link_to "TODO", "/todo" %}
