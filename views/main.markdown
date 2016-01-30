@@ -98,7 +98,7 @@ sectioning content elements and friends (*article*, *section*, *figure*, *nav*, 
 
 ## Różne rzeczy:
 
-* [Learn & Master jQuery](http://www.whoishostingthis.com/resources/jquery)
+* [Learn & Master jQuery](http://wiht.link/jquery_guide)
 * Shay Howe,
   - [A Beginners Guide to HTML & CSS](http://learn.shayhowe.com/html-css/terminology-syntax-intro/)
   - [Learn Advanced HTML & CSS with one useful guide](http://learn.shayhowe.com/advanced-html-css/)
