@@ -39,18 +39,6 @@ sectioning content elements and friends (*article*, *section*, *figure*, *nav*, 
 1. {%= link_to "Local & session storage", "/storage" %}
 1. {%= link_to "Przesyłanie wiadomości między domenami", "/cross-domain-messaging" %}
 
-<!--
-
-1. {%= link_to "Raz, dwa, trzy, jQuery…", "/jquery" %}
-1. {%= link_to "Korzystamy z wtyczek", "/plugins" %}
-1. {%= link_to "CoffeScript", "/coffescript" %}
-
-## Laboratoria
-
-*  {%= link_to "HTML zadania", "/zadania-html" %}
-*  {%= link_to "Chrome DevTools", "/chrome-devtools" %}
-
--->
 
 <blockquote>
  {%= image_tag "/images/andy_lester.jpg", :alt => "[Andy Lester]" %}
