@@ -36,13 +36,14 @@ sectioning content elements and friends (*article*, *section*, *figure*, *nav*, 
 ## Javascript + jQuery
 
 1. {%= link_to "Zaczynamy", "/javascript" %}
-1. {%= link_to "Raz, dwa, trzy, jQuery…", "/jquery" %}
-1. {%= link_to "Korzystamy z wtyczek", "/plugins" %}
-1. {%= link_to "CoffeScript", "/coffescript" %}
 1. {%= link_to "Local & session storage", "/storage" %}
 1. {%= link_to "Przesyłanie wiadomości między domenami", "/cross-domain-messaging" %}
 
 <!--
+
+1. {%= link_to "Raz, dwa, trzy, jQuery…", "/jquery" %}
+1. {%= link_to "Korzystamy z wtyczek", "/plugins" %}
+1. {%= link_to "CoffeScript", "/coffescript" %}
 
 ## Laboratoria
 
@@ -109,6 +110,7 @@ sectioning content elements and friends (*article*, *section*, *figure*, *nav*, 
 
 ## Różne rzeczy:
 
+* [Learn & Master jQuery](http://www.whoishostingthis.com/resources/jquery)
 * Shay Howe,
   - [A Beginners Guide to HTML & CSS](http://learn.shayhowe.com/html-css/terminology-syntax-intro/)
   - [Learn Advanced HTML & CSS with one useful guide](http://learn.shayhowe.com/advanced-html-css/)
