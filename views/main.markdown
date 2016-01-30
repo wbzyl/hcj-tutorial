@@ -33,7 +33,7 @@ sectioning content elements and friends (*article*, *section*, *figure*, *nav*, 
 1. {%= link_to "Regions & Exclusions", "/css-regions-and-exclusions" %}
 
 
-## Javascript + jQuery
+## Javascript
 
 1. {%= link_to "Zaczynamy", "/javascript" %}
 1. {%= link_to "Local & session storage", "/storage" %}
