@@ -13,6 +13,9 @@ Trochę historii:
 * Odtworzenie pierwszej strony
   [World Wide Web](http://www.w3.org/History/19921103-hypertext/hypertext/WWW/TheProject.html?)
 * [The Evolution of Web](http://www.evolutionoftheweb.com/)
+* Jak to dawniej robiono?
+  [The Ugly Showcase of Military, Intelligence And Defense
+  Websites](http://www.smashingmagazine.com/2010/06/23/showcase-of-ugly-military-intelligence-and-defense-websites/)
 
 Zaczynamy:
 
@@ -52,10 +55,6 @@ Zaczynamy:
   - [Mothereffing CSS escapes](https://mothereff.in/) –
   how to escape any character in CSS
 
-## Jak to dawniej robiono
-
-* [The Ugly Showcase of Military, Intelligence And Defense
-  Websites](http://www.smashingmagazine.com/2010/06/23/showcase-of-ugly-military-intelligence-and-defense-websites/)
 
 ## CSS 3 ☃☃☃
 
