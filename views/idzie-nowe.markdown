@@ -88,7 +88,3 @@ Inne:
   wall
 * [Isotope](http://isotope.metafizzy.co/) –
   An exquisite jQuery plugin for magical layouts
-* [ContentFlow](http://www.jacksasylum.eu/ContentFlow/) —
-  ContentFlow is a flexible Coverflow/ImageFlow like flow written
-  in javascript, which can handle any kind of content. It supports all
-  new and old major and not so major browsers
