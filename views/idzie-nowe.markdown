@@ -76,7 +76,7 @@ Inne:
   CSS-based design
 
 
-## Javascript & jQuery ✰✰✰
+## jQuery ✰✰✰
 
 * [jQuery Masonry](http://masonry.desandro.com/) —
   Masonry is a layout plugin for jQuery. Think of it as the flip side of
