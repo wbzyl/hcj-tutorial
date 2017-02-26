@@ -22,7 +22,7 @@
 <body>
 
 <header>
-  <h1>HTML5, CSS3, JavaScript <span>{%= link_to "WB@HCJ", "/" %}</span></h1>
+  <h1>HTML5, CSS3, ES6 <span>{%= link_to "WB@HCJ", "/" %}</span></h1>
 </header>
 
 <div id="wrapper">
