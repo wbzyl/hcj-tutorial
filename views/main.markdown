@@ -1,5 +1,3 @@
-# HTML5, CSS3 & ES6
-
 <blockquote>
  {%= image_tag "/images/conan_doyle.jpg", :alt => "[Sir Arthur Conan Doyle]" %}
  <p>
