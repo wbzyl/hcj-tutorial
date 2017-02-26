@@ -1,4 +1,4 @@
-# HTML5, CSS3 oraz jQuery
+# HTML5, CSS3 oraz ES6
 
 <blockquote>
  {%= image_tag "/images/conan_doyle.jpg", :alt => "[Sir Arthur Conan Doyle]" %}
@@ -33,7 +33,7 @@ sectioning content elements and friends (*article*, *section*, *figure*, *nav*, 
 1. {%= link_to "Regions & Exclusions", "/css-regions-and-exclusions" %}
 
 
-## Javascript
+## Javascript (ES6)
 
 1. {%= link_to "Zaczynamy", "/javascript" %}
 1. {%= link_to "Local & session storage", "/storage" %}
