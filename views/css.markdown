@@ -6,8 +6,8 @@
 
 Podstawy:
 
-* [Compose to a Vertical Rhythm](http://24ways.org/2006/compose-to-a-vertical-rhythm)
-* [Pull Quotes with HTML5 and CSS](http://miekd.com/articles/pull-quotes-with-html5-and-css/)
+* [A Complete Reading List For CSS](http://thenewcode.com/919/A-Complete-Reading-List-For-CSS) –
+  total time (core material): 60 hours
 
 Triki:
 
@@ -15,14 +15,12 @@ Triki:
 * [Incremental leading](http://www.markboulton.co.uk/journal/comments/incremental-leading)
 * [The Shapes of CSS](http://css-tricks.com/examples/ShapesOfCSS/)
 
-Uźyteczna wtyczka jQuery:
-
-* [Brosho 'Design in the Browser' jQuery Plugin](http://usejquery.com/posts/brosho-design-in-the-browser-jquery-plugin)
-
 Przykłady:
 
 * [Famous Logos in CSS](http://www.ecsspert.com/adobe.php) – No images. No JS. Just CSS
 * [Star Ratings With Very Little CSS](http://css-tricks.com/star-ratings/)
+* [Compose to a Vertical Rhythm](http://24ways.org/2006/compose-to-a-vertical-rhythm)
+* [Pull Quotes with HTML5 and CSS](http://miekd.com/articles/pull-quotes-with-html5-and-css/)
 
 Różne rzeczy:
 
